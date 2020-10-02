@@ -1,0 +1,13 @@
+<root>
+	<Properties>
+		<modelID>
+			<Type>		UINT8			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>		0				</Default>
+		</modelID>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

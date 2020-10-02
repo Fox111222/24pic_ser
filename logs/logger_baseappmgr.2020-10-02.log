@@ -1,0 +1,206 @@
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 583] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 584] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 584] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 584] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 588] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:55011 )
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 588] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:55011, SOMAXCONN=5.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 589] - server-configs:
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 589] - 	internalAddr : 192.168.2.246:55011
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:05 589] - 	componentID : 510002
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:07 093] - ---- baseappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D26E36B8FED41A1CE0268DAB711251DC. Config: Debug X86. Built: 19:01:55 Aug  4 2020. AppID: 510002. UID: 10245. PID: 14680 ----
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:07 093] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:07 093] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:07 093] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:07 386] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:33:07 386] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 686] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 757] - Components::findComponents: found logger, addr:192.168.2.246:55010
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 757] - Components::addComponent: reset orderLog, uid=10245!
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 757] - Components::addComponent[logger], uid=10245, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 758] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 862] - Components::findComponents: found dbmgr, addr:192.168.2.246:55012
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 863] - Components::addComponent: reset orderLog, uid=10245!
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 863] - Components::addComponent[dbmgr], uid=10245, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:14 863] - Components::findComponents: found dbmgr, addr:192.168.2.246:55012
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:16 875] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:16 931] - Components::findComponents: found cellappmgr, addr:192.168.2.246:55013
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:16 931] - Components::addComponent[cellappmgr], uid=10245, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:16 932] - Components::findComponents: found cellappmgr, addr:192.168.2.246:55013
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:17 959] - ServerApp::onRegisterNewApp: uid:10245, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55016, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:55033/0/0/0.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:17 959] - Components::addComponent[loginapp], uid=10245, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:18 974] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:18 984] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:18 994] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:19 195] - ServerApp::onRegisterNewApp: uid:10245, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55013, extaddr:nonsupport, extport:0,  from 192.168.2.246:55037/0/0/0.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:20 134] - ServerApp::onRegisterNewApp: uid:10245, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55015, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:55039/0/0/0.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:20 134] - Components::addComponent[baseapp], uid=10245, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:21 437] - ServerApp::onRegisterNewApp: uid:10245, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55014, extaddr:nonsupport, extport:0,  from 192.168.2.246:55045/0/0/0.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:21 437] - Components::addComponent[cellapp], uid=10245, componentID=820012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:26 143] - Baseappmgr::onBaseappInitProgress: cid=720012, progress=1.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:33:26 143] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:34:14 299] - Baseappmgr::registerPendingAccountToBaseapp:vxDC. allocBaseapp=720012, numEntities=1.
+    INFO baseappmgr-1 10245 510002  [2020-10-02 16:34:18 986] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55013/0/0/0 timeout!
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:34:24 640] - Baseappmgr::registerPendingAccountToBaseapp:hdVI. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:35:03 322] - Baseappmgr::registerPendingAccountToBaseapp:wQ2W. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:35:53 498] - Baseappmgr::registerPendingAccountToBaseapp:O8KW. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 10245 510002  [2020-10-02 16:36:36 679] - Baseappmgr::registerPendingAccountToBaseapp:pKD7. allocBaseapp=720012, numEntities=3.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 279] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 280] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 280] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 280] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 286] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:55349 )
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 286] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:55349, SOMAXCONN=5.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 286] - server-configs:
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 286] - 	internalAddr : 192.168.2.246:55349
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 286] - 	componentID : 510002
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 650] - Components::findLogger: found logger, addr:192.168.2.246:55346
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 650] - Components::addComponent: reset orderLog, uid=11081!
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 651] - Components::addComponent[logger], uid=11081, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 655] - ---- baseappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D26E36B8FED41A1CE0268DAB711251DC. Config: Debug X86. Built: 19:01:55 Aug  4 2020. AppID: 510002. UID: 11081. PID: 15612 ----
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 656] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 656] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:21 656] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:22 031] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 11081 510002  [2020-10-02 16:37:22 031] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:29 237] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:29 327] - Components::findComponents: found dbmgr, addr:192.168.2.246:55348
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:29 327] - Components::addComponent: reset orderLog, uid=11081!
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:29 327] - Components::addComponent[dbmgr], uid=11081, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:29 331] - Components::findComponents: found dbmgr, addr:192.168.2.246:55348
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:31 337] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:31 371] - Components::findComponents: found cellappmgr, addr:192.168.2.246:55350
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:31 371] - Components::addComponent[cellappmgr], uid=11081, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:31 372] - Components::findComponents: found cellappmgr, addr:192.168.2.246:55350
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:33 381] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:33 397] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:33 416] - Components::process(): Found all the components!
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:34 727] - ServerApp::onRegisterNewApp: uid:11081, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55353, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:55372/0/0/0.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:34 727] - Components::addComponent[loginapp], uid=11081, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:35 058] - ServerApp::onRegisterNewApp: uid:11081, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55350, extaddr:nonsupport, extport:0,  from 192.168.2.246:55374/0/0/0.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:35 625] - ServerApp::onRegisterNewApp: uid:11081, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55351, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:55376/0/0/0.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:35 626] - Components::addComponent[baseapp], uid=11081, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:36 002] - ServerApp::onRegisterNewApp: uid:11081, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:55352, extaddr:nonsupport, extport:0,  from 192.168.2.246:55381/0/0/0.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:36 002] - Components::addComponent[cellapp], uid=11081, componentID=820012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:41 124] - Baseappmgr::onBaseappInitProgress: cid=720012, progress=1.
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:37:41 124] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 11081 510002  [2020-10-02 16:38:33 398] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55350/0/0/0 timeout!
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 068] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 069] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 070] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 070] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 077] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:56559 )
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 077] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:56559, SOMAXCONN=5.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 078] - server-configs:
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 078] - 	internalAddr : 192.168.2.246:56559
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:56 078] - 	componentID : 510002
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:57 583] - ---- baseappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D26E36B8FED41A1CE0268DAB711251DC. Config: Debug X86. Built: 19:01:55 Aug  4 2020. AppID: 510002. UID: 20009. PID: 15956 ----
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:57 583] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:57 583] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:57 583] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:22:58 021] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:22:58 021] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 265] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 317] - Components::findComponents: found logger, addr:192.168.2.246:56555
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 317] - Components::addComponent: reset orderLog, uid=20009!
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 318] - Components::addComponent[logger], uid=20009, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 319] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 422] - Components::findComponents: found dbmgr, addr:192.168.2.246:56556
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 422] - Components::addComponent: reset orderLog, uid=20009!
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 422] - Components::addComponent[dbmgr], uid=20009, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:05 428] - Components::findComponents: found dbmgr, addr:192.168.2.246:56556
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:07 445] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:07 461] - Components::findComponents: found cellappmgr, addr:192.168.2.246:56560
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:07 461] - Components::addComponent[cellappmgr], uid=20009, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:07 492] - Components::findComponents: found cellappmgr, addr:192.168.2.246:56560
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:08 492] - ServerApp::onRegisterNewApp: uid:20009, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:56557, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:56579/0/0/0.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:08 492] - Components::addComponent[loginapp], uid=20009, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:09 512] - ServerApp::onRegisterNewApp: uid:20009, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:56560, extaddr:nonsupport, extport:0,  from 192.168.2.246:56581/0/0/0.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:09 512] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:09 525] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:09 544] - Components::process(): Found all the components!
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:10 642] - ServerApp::onRegisterNewApp: uid:20009, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:56558, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:56585/0/0/0.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:10 642] - Components::addComponent[baseapp], uid=20009, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:11 807] - ServerApp::onRegisterNewApp: uid:20009, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:56561, extaddr:nonsupport, extport:0,  from 192.168.2.246:56590/0/0/0.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:11 807] - Components::addComponent[cellapp], uid=20009, componentID=820012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:16 840] - Baseappmgr::onBaseappInitProgress: cid=720012, progress=1.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:23:16 840] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:23:18 430] - Baseappmgr::registerPendingAccountToBaseapp:fhxB. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:23:27 132] - Baseappmgr::registerPendingAccountToBaseapp:1gNZ. allocBaseapp=720012, numEntities=3.
+    INFO baseappmgr-1 20009 510002  [2020-10-02 17:24:09 512] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:56581/0/0/0 timeout!
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:24:40 570] - Baseappmgr::registerPendingAccountToBaseapp:gRG2. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:24:50 809] - Baseappmgr::registerPendingAccountToBaseapp:iZba. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:59:05 067] - Baseappmgr::registerPendingAccountToBaseapp:5FsG. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 17:59:15 110] - Baseappmgr::registerPendingAccountToBaseapp:zwJ7. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:00:27 949] - Baseappmgr::registerPendingAccountToBaseapp:brLA. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:00:37 428] - Baseappmgr::registerPendingAccountToBaseapp:kMKw. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:02:01 186] - Baseappmgr::registerPendingAccountToBaseapp:K7gA. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:02:10 248] - Baseappmgr::registerPendingAccountToBaseapp:sJjU. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:03:07 465] - Baseappmgr::registerPendingAccountToBaseapp:RDXr. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:03:17 647] - Baseappmgr::registerPendingAccountToBaseapp:i3pT. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:05:49 464] - Baseappmgr::registerPendingAccountToBaseapp:x8A5. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:05:58 588] - Baseappmgr::registerPendingAccountToBaseapp:l1Ed. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:20:45 796] - Baseappmgr::registerPendingAccountToBaseapp:7p5c. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:20:55 815] - Baseappmgr::registerPendingAccountToBaseapp:emud. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:52:18 661] - Baseappmgr::registerPendingAccountToBaseapp:aHg7. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 18:52:28 083] - Baseappmgr::registerPendingAccountToBaseapp:yeMg. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:23:05 764] - Baseappmgr::registerPendingAccountToBaseapp:HwFT. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:23:16 003] - Baseappmgr::registerPendingAccountToBaseapp:R5vW. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:24:19 662] - Baseappmgr::registerPendingAccountToBaseapp:cq4z. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:24:28 565] - Baseappmgr::registerPendingAccountToBaseapp:M5mR. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:26:06 503] - Baseappmgr::registerPendingAccountToBaseapp:ZwJv. allocBaseapp=720012, numEntities=2.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:26:17 206] - Baseappmgr::registerPendingAccountToBaseapp:Bd5x. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:28:07 860] - Baseappmgr::registerPendingAccountToBaseapp:TqF4. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:28:17 841] - Baseappmgr::registerPendingAccountToBaseapp:C3RO. allocBaseapp=720012, numEntities=3.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:35:15 756] - Baseappmgr::registerPendingAccountToBaseapp:4YXd. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 20009 510002  [2020-10-02 19:35:28 676] - Baseappmgr::registerPendingAccountToBaseapp:ngTu. allocBaseapp=720012, numEntities=3.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 624] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 624] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 625] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 625] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 628] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:58630 )
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 629] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:58630, SOMAXCONN=5.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 629] - server-configs:
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 629] - 	internalAddr : 192.168.2.246:58630
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:06 629] - 	componentID : 510002
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:08 141] - ---- baseappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D26E36B8FED41A1CE0268DAB711251DC. Config: Debug X86. Built: 19:01:55 Aug  4 2020. AppID: 510002. UID: 16080. PID: 1012 ----
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:08 142] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:08 143] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:08 144] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:08 422] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 16080 510002  [2020-10-02 19:50:08 422] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 646] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 701] - Components::findComponents: found logger, addr:192.168.2.246:58628
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 701] - Components::addComponent: reset orderLog, uid=16080!
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 701] - Components::addComponent[logger], uid=16080, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 702] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 805] - Components::findComponents: found dbmgr, addr:192.168.2.246:58629
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 805] - Components::addComponent: reset orderLog, uid=16080!
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 805] - Components::addComponent[dbmgr], uid=16080, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:15 811] - Components::findComponents: found dbmgr, addr:192.168.2.246:58629
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:17 825] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:17 866] - Components::findComponents: found cellappmgr, addr:192.168.2.246:58631
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:17 866] - Components::addComponent[cellappmgr], uid=16080, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:17 868] - Components::findComponents: found cellappmgr, addr:192.168.2.246:58631
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:18 870] - ServerApp::onRegisterNewApp: uid:16080, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:58634, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:58651/0/0/0.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:18 870] - Components::addComponent[loginapp], uid=16080, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:19 925] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:19 944] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:19 965] - Components::process(): Found all the components!
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:20 023] - ServerApp::onRegisterNewApp: uid:16080, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:58631, extaddr:nonsupport, extport:0,  from 192.168.2.246:58655/0/0/0.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:20 979] - ServerApp::onRegisterNewApp: uid:16080, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:58633, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:58657/0/0/0.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:20 979] - Components::addComponent[baseapp], uid=16080, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:22 269] - ServerApp::onRegisterNewApp: uid:16080, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:58632, extaddr:nonsupport, extport:0,  from 192.168.2.246:58662/0/0/0.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:22 269] - Components::addComponent[cellapp], uid=16080, componentID=820012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:27 379] - Baseappmgr::onBaseappInitProgress: cid=720012, progress=1.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:50:27 379] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 16080 510002  [2020-10-02 19:50:29 866] - Baseappmgr::registerPendingAccountToBaseapp:BMPb. allocBaseapp=720012, numEntities=1.
+   DEBUG baseappmgr-1 16080 510002  [2020-10-02 19:50:39 144] - Baseappmgr::registerPendingAccountToBaseapp:GNnr. allocBaseapp=720012, numEntities=3.
+    INFO baseappmgr-1 16080 510002  [2020-10-02 19:51:19 945] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:58631/0/0/0 timeout!
