@@ -73,7 +73,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 			room.onLeave(self.id)
 	def isWin(self):
 		room = self.getCurrRoom()
-		return this.id==room.getMaxEntityID()
+		return self.id==room.getMaxEntityID()
 
 	def onDestroy(self):
 		"""

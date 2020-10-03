@@ -375,27 +375,19 @@ class Room(KBEngine.Entity):
 			if win:
 				result = "win"
 			DEBUG_MSG("entity id=%i is %s" % (entity.id, result))
-
-			if entity.HP > 0:
-				self.curEid = 0
-
-			if entity.throwCount > 0:
-				entity.hitRate = round(entity.hitCount/entity.throwCount, 3)
-			else:
-				entity.hitRate = 0.0
-
+			entity.hitRate = 0.0
 			entity.totalTime = self.totalTime
 			entity.score = int(0)
 			entity.client.onGameOver(
-					win, entity.hitRate, entity.totalTime, entity.totalHarm, entity.score)
+					win, entity.hitRate, entity.totalTime, 0, entity.score)
 
 		self.resetGameState()
 	def getMaxEntityID(self):
-		kee=0
+		a=0
 		ID=0
 		for entity in self.avatars.values():
-			if(keep<len(entity.holds)):
-				keep=len(entity.holds)
+			if(a<len(entity.holds)):
+				a=len(entity.holds)
 				ID=entity.id
 		return ID
 
