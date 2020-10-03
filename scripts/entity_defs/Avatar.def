@@ -40,49 +40,16 @@
 			<Flags>		CELL_PUBLIC			</Flags>
 			<Default>		0				</Default>
 		</dbid>
-
-		<HP>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		100				</Default>
-		</HP>
-
-		<hitCount>
-			<Type>		INT32				</Type>
-			<Flags>	  CELL_PUBLIC_AND_OWN	</Flags>
-			<Default>		0				</Default>
-		</hitCount>
-
-		<throwCount>
-			<Type>		INT32				</Type>
-			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
-			<Default>		0				</Default>
-		</throwCount>
-
-		<totalHarm>
-			<Type>		INT32				</Type>
-			<Flags>	  CELL_PUBLIC_AND_OWN	</Flags>
-			<Default>		0				</Default>
-		</totalHarm>
-
 		<totalTime>
 			<Type>		INT32				</Type>
 			<Flags>	  CELL_PUBLIC_AND_OWN	</Flags>
 			<Default>		0				</Default>
 		</totalTime>
-
 		<score>
 			<Type>		INT32				</Type>
 			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
 			<Default>		0				</Default>
 		</score>
-
-		<hitRate>
-			<Type>		FLOAT				</Type>
-			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
-			<Default>		0				</Default>
-		</hitRate>
-
 		<sessionId>
 			<Type>		STRING				</Type>
 			<Flags>	 	BASE				</Flags>
@@ -109,31 +76,6 @@
 			<Arg>		ENTITY_ID	</Arg>
 			<Arg>		INT32	</Arg>
 		</onupdateGamestates>
-
-		<onStartWalk>
-			<Arg>		INT32	</Arg>
-		</onStartWalk>
-
-		<onStopWalk>
-			<Arg>		VECTOR3			</Arg>
-		</onStopWalk>
-
-		<onLeftJump>
-		</onLeftJump>
-
-		<onRightJump>
-		</onRightJump>
-
-		<onPickUpItem>
-				<Arg>		ENTITY_ID		</Arg>
-				<Arg>		VECTOR3			</Arg>
-		</onPickUpItem>
-
-		<onThrowItem>
-				<Arg>		ENTITY_ID		</Arg>
-				<Arg>		VECTOR3			</Arg>
-		</onThrowItem>
-
 		<onNewTurn>
 				<Arg>		ENTITY_ID		</Arg>
 				<Arg>		INT32		    </Arg>
@@ -141,18 +83,7 @@
 				<Arg>		INT32		</Arg>
 				<Arg>		INT32		</Arg>
 				<Arg>		INT32		</Arg>
-		</onNewTurn>
-
-		<onRecoverItem>
-			<Arg>		ENTITY_ID	</Arg>
-		</onRecoverItem>
-
-		<onRecvDamage>
-			<Arg>		ENTITY_ID	</Arg>
-			<Arg>		INT32		</Arg>
-			<Arg>		INT32		</Arg>
-		</onRecvDamage>
-		
+		</onNewTurn>		
 		<onGameOver>
 			<Arg>		BOOL	</Arg>
 			<Arg>		FLOAT	</Arg>
@@ -160,18 +91,9 @@
 			<Arg>		INT32		</Arg>
 			<Arg>		INT32		</Arg>
 		</onGameOver>
-
-		<onResetItem>
-			<Arg>		ENTITY_ID		</Arg>
-			<Arg>		VECTOR3			</Arg>
-		</onResetItem>
-
 		<onContinueGame>
 			<Arg>		ENTITY_ID		</Arg>
 		</onContinueGame>
-
-		<onJump>
-		</onJump>
 		<playerReadyStateChange>
 			<Exposed/>
 			<Arg>		ENTITY_ID		</Arg>
@@ -196,10 +118,6 @@
 	</BaseMethods>
 
 	<CellMethods>
-		<startWalk>
-			<Exposed/>
-			<Arg>		INT32	</Arg>
-		</startWalk>
 		<game_holds_push>
 			<Arg>		MJ_LIST		</Arg>			
 		</game_holds_push>
@@ -207,73 +125,16 @@
 		</updateStaus>
 		<onClientDeath>
 		</onClientDeath>
-		<onClientEnabled>
-		</onClientEnabled>
-		<stopWalk>
-			<Exposed/>
-			<Arg>		VECTOR3		</Arg>
-		</stopWalk>
-		<uploaditempos>
-			<Exposed/>
-			<Arg>		ENTITY_ID	</Arg>
-			<Arg>		VECTOR3		</Arg>
-		</uploaditempos>
 		<onsureact>
 			<Exposed/>
 		</onsureact>
-		<rightJump>
-			<Exposed/>
-		</rightJump>
-
-		<leftJump>
-			<Exposed/>
-		</leftJump>
-
-		<pickUpItem>
-			<Exposed/>
-			<Arg>		ENTITY_ID		</Arg>
-			<Arg>		VECTOR3		</Arg>
-		</pickUpItem>
-
 		<reqChangeReadyState>
 			<Exposed/>
 			<Arg>		BOOL		</Arg>
 		</reqChangeReadyState>
-
-		<throwItem>
-			<Exposed/>
-			<Arg>		ENTITY_ID	</Arg>
-			<Arg>		VECTOR3		</Arg>
-		</throwItem>
-
 		<newTurn>
 			<Exposed/>
 		</newTurn>
-
-		<jump>
-			<Exposed/>
-		</jump>
-
-		<recoverItem>
-			<Exposed/>
-			<Arg>		ENTITY_ID	</Arg>
-		</recoverItem>
-
-		<recvDamage>
-			<Exposed/>
-			<Arg>		ENTITY_ID	</Arg>
-		</recvDamage>
-
-		<resetItem>
-			<Exposed/>
-			<Arg>		ENTITY_ID	</Arg>
-		</resetItem>
-
-		<addItem>
-			<Exposed/>
-			<Arg>		INT32	</Arg>
-		</addItem>
-
 		<continueGame>
 			<Exposed/>
 		</continueGame>

@@ -7,5 +7,4 @@
 	<Avatar hasClient="true"></Avatar>
 	<Halls/>
 	<Room ></Room>
-	<Item hasClient="true"></Item>
 </root>

@@ -20,14 +20,14 @@ class Avatar(KBEngine.Proxy):
 		self.cellData["modelID" ] = 0
 		self.cellData["accountName"] = self.__ACCOUNT_NAME__
 		self.cellData["position"] =  None
-		self.cellData["HP"] = GameConfigs.PLAYER_HP
-		self.cellData["harmCount"] = 0
-		self.cellData["throwCount"] = 0
-		self.cellData["totalHarm"] = 0
-		self.cellData["hitCount"] = 0
+		#self.cellData["HP"] = GameConfigs.PLAYER_HP
+		#self.cellData["harmCount"] = 0
+		#self.cellData["throwCount"] = 0
+		#self.cellData["totalHarm"] = 0
+		#self.cellData["hitCount"] = 0
 		self.cellData["totalTime"] = 0
 		self.cellData["score"] = 0
-		self.cellData["hitRate"] = 0.0
+		#self.cellData["hitRate"] = 0.0
 		self.cellData["avatarName"] = ""
 
 		self._destroyTimer=0

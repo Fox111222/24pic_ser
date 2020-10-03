@@ -637,3 +637,502 @@
   INFO root [2020-10-02 19:51:26,660] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:52887/0/0/0 timeout!
   INFO root [2020-10-02 19:51:37,041] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:52813/0/0/0 timeout!
   INFO root [2020-10-02 19:51:37,043] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:52814/0/0/0 timeout!
+  INFO root [2020-10-03 07:19:42,706] - 
+  INFO root [2020-10-03 07:19:42,706] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-03 07:19:42,706] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-03 07:19:42,706] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-03 07:19:42,706] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-03 07:19:42,722] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20099 )
+  INFO root [2020-10-03 07:19:42,722] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20099, SOMAXCONN=5.
+  INFO root [2020-10-03 07:19:42,722] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50259 )
+  INFO root [2020-10-03 07:19:42,722] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50259, SOMAXCONN=5.
+  INFO root [2020-10-03 07:19:42,722] - server-configs:
+  INFO root [2020-10-03 07:19:42,722] - 	internalAddr : 192.168.2.246:50259
+  INFO root [2020-10-03 07:19:42,722] - 	componentID : 110002
+  INFO root [2020-10-03 07:19:42,769] - ---- machine Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 7B49EE8C76ECF57DF98510B822346637. Config: Debug X86. Built: 19:01:26 Aug  4 2020. AppID: 110002. UID: 20118. PID: 7264 ----
+  INFO root [2020-10-03 07:19:42,769] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-03 07:19:42,769] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-03 07:19:42,769] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-03 07:19:42,894] - EndPoint::getInterfaces: found eth0 192.168.2.246
+  INFO root [2020-10-03 07:19:42,894] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.2.246.
+  INFO root [2020-10-03 07:19:42,894] - Machine::findBroadcastInterface: Confirmed 192.168.2.246 (eth0) as default broadcast route interface.
+  INFO root [2020-10-03 07:19:42,894] - Machine::initNetwork: bind broadcast successfully! addr:192.168.2.246:20086
+  INFO root [2020-10-03 07:19:43,034] - ---- machine is running ----
+  INFO root [2020-10-03 07:19:43,034] - Components::process(): Found all the components!
+  INFO root [2020-10-03 07:19:45,878] - Machine::onBroadcastInterface: added newUID 20118.
+  INFO root [2020-10-03 07:19:45,878] - Machine::onBroadcastInterface[192.168.2.246:61641/0/0/0]: uid:20118, username:, componentType:logger, componentID:210002, globalorderid=-1, grouporderid=-1, pid:10128, intaddr:192.168.2.246, intport:50261, extaddr:192.168.2.246, extport:50260.
+  INFO root [2020-10-03 07:19:45,878] - Components::addComponent: reset orderLog, uid=20118!
+  INFO root [2020-10-03 07:19:45,878] - Components::addComponent[logger], uid=20118, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:19:45,971] - Machine::onBroadcastInterface: logger update, pid=10128, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:19:45,971] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.10 seconds
+ DEBUG root [2020-10-03 07:19:49,080] - Machine::onBroadcastInterface: logger update, pid=10128, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:19:49,080] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.04 seconds
+ DEBUG root [2020-10-03 07:19:49,080] - Machine::onBroadcastInterface: logger update, pid=10128, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:19:52,923] - Machine::onBroadcastInterface[192.168.2.246:55510/0/0/0]: uid:20118, username:, componentType:interfaces, componentID:320002, globalorderid=-1, grouporderid=-1, pid:10688, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:19:52,923] - Components::addComponent: reset orderLog, uid=20118!
+  INFO root [2020-10-03 07:19:52,923] - Components::addComponent[interfaces], uid=20118, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:19:53,001] - Machine::onBroadcastInterface: interfaces update, pid=10688, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:19:53,001] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.09 seconds
+ DEBUG root [2020-10-03 07:19:55,969] - Machine::onBroadcastInterface: interfaces update, pid=10688, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:19:55,969] - Machine::onBroadcastInterface: interfaces update, pid=10688, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:19:58,155] - Machine::onFindInterfaceAddr[192.168.2.246:55512/0/0/0]: uid:20118, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20492.
+  INFO root [2020-10-03 07:19:58,155] - Machine::onFindInterfaceAddr[192.168.2.246:55512/0/0/0]: uid:20118, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20492.
+  INFO root [2020-10-03 07:19:59,248] - Machine::onBroadcastInterface[192.168.2.246:55515/0/0/0]: uid:20118, username:, componentType:dbmgr, componentID:42002, globalorderid=-1, grouporderid=-1, pid:2244, intaddr:192.168.2.246, intport:50264, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:19:59,248] - Components::addComponent: reset orderLog, uid=20118!
+  INFO root [2020-10-03 07:19:59,248] - Components::addComponent[dbmgr], uid=20118, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:19:59,326] - Machine::onBroadcastInterface: dbmgr update, pid=2244, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:19:59,326] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.09 seconds
+ DEBUG root [2020-10-03 07:20:02,294] - Machine::onBroadcastInterface: dbmgr update, pid=2244, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:02,294] - Machine::onBroadcastInterface: dbmgr update, pid=2244, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:04,591] - Machine::onFindInterfaceAddr[192.168.2.246:55517/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20696.
+  INFO root [2020-10-03 07:20:04,591] - Machine::onFindInterfaceAddr[192.168.2.246:55517/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20696.
+  INFO root [2020-10-03 07:20:05,028] - Machine::onBroadcastInterface[192.168.2.246:55520/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, globalorderid=-1, grouporderid=-1, pid:4764, intaddr:192.168.2.246, intport:50275, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:05,028] - Components::addComponent[baseappmgr], uid=20118, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:05,106] - Machine::onBroadcastInterface: baseappmgr update, pid=4764, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:20:05,106] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.09 seconds
+ DEBUG root [2020-10-03 07:20:08,074] - Machine::onBroadcastInterface: baseappmgr update, pid=4764, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:08,074] - Machine::onBroadcastInterface: baseappmgr update, pid=4764, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:10,917] - Machine::onFindInterfaceAddr[192.168.2.246:55522/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:10,917] - Machine::onFindInterfaceAddr[192.168.2.246:55522/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:11,355] - Machine::onBroadcastInterface[192.168.2.246:55525/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, globalorderid=-1, grouporderid=-1, pid:1588, intaddr:192.168.2.246, intport:50277, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:11,355] - Components::addComponent[cellappmgr], uid=20118, componentID=610002, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:11,448] - Machine::onBroadcastInterface: cellappmgr update, pid=1588, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:20:11,448] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.10 seconds
+  INFO root [2020-10-03 07:20:12,214] - Machine::onFindInterfaceAddr[192.168.2.246:55526/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20749.
+  INFO root [2020-10-03 07:20:12,214] - Machine::onFindInterfaceAddr[192.168.2.246:55526/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20749.
+  INFO root [2020-10-03 07:20:14,291] - Machine::onFindInterfaceAddr[192.168.2.246:55529/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20715.
+  INFO root [2020-10-03 07:20:14,291] - Machine::onFindInterfaceAddr[192.168.2.246:55529/0/0/0]: uid:20118, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20715.
+ DEBUG root [2020-10-03 07:20:14,510] - Machine::onBroadcastInterface: cellappmgr update, pid=1588, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:14,510] - Machine::onBroadcastInterface: cellappmgr update, pid=1588, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:17,572] - Machine::onFindInterfaceAddr[192.168.2.246:55533/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20482.
+  INFO root [2020-10-03 07:20:17,572] - Machine::onFindInterfaceAddr[192.168.2.246:55533/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20482.
+  INFO root [2020-10-03 07:20:18,228] - Machine::onBroadcastInterface[192.168.2.246:55536/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, globalorderid=-1, grouporderid=-1, pid:10692, intaddr:192.168.2.246, intport:50281, extaddr:192.168.2.246, extport:20015.
+  INFO root [2020-10-03 07:20:18,228] - Components::addComponent[baseapp], uid=20118, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:18,306] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:20:18,306] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.09 seconds
+  INFO root [2020-10-03 07:20:18,650] - Machine::onFindInterfaceAddr[192.168.2.246:55537/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20848.
+  INFO root [2020-10-03 07:20:18,650] - Machine::onFindInterfaceAddr[192.168.2.246:55537/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20848.
+  INFO root [2020-10-03 07:20:20,743] - Machine::onFindInterfaceAddr[192.168.2.246:55540/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20739.
+  INFO root [2020-10-03 07:20:20,743] - Machine::onFindInterfaceAddr[192.168.2.246:55540/0/0/0]: uid:20118, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20739.
+ DEBUG root [2020-10-03 07:20:21,399] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:21,399] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:23,914] - Machine::onFindInterfaceAddr[192.168.2.246:55544/0/0/0]: uid:20118, username:, componentType:cellapp, componentID:820012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20251.
+  INFO root [2020-10-03 07:20:23,914] - Machine::onFindInterfaceAddr[192.168.2.246:55544/0/0/0]: uid:20118, username:, componentType:cellapp, componentID:820012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20251.
+  INFO root [2020-10-03 07:20:25,445] - Machine::onFindInterfaceAddr[192.168.2.246:55547/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20482.
+  INFO root [2020-10-03 07:20:25,445] - Machine::onFindInterfaceAddr[192.168.2.246:55547/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20482.
+  INFO root [2020-10-03 07:20:27,511] - Machine::onFindInterfaceAddr[192.168.2.246:55550/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20115.
+  INFO root [2020-10-03 07:20:27,511] - Machine::onFindInterfaceAddr[192.168.2.246:55550/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20115.
+  INFO root [2020-10-03 07:20:29,589] - Machine::onFindInterfaceAddr[192.168.2.246:55553/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20953.
+  INFO root [2020-10-03 07:20:29,589] - Machine::onFindInterfaceAddr[192.168.2.246:55553/0/0/0]: uid:20118, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20953.
+  INFO root [2020-10-03 07:20:30,464] - Machine::onFindInterfaceAddr[192.168.2.246:55556/0/0/0]: uid:20118, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20709.
+  INFO root [2020-10-03 07:20:30,464] - Machine::onFindInterfaceAddr[192.168.2.246:55556/0/0/0]: uid:20118, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20709.
+  INFO root [2020-10-03 07:20:31,011] - Machine::onBroadcastInterface[192.168.2.246:55559/0/0/0]: uid:20118, username:, componentType:loginapp, componentID:920002, globalorderid=-1, grouporderid=-1, pid:1628, intaddr:192.168.2.246, intport:50287, extaddr:192.168.2.246, extport:20013.
+  INFO root [2020-10-03 07:20:31,011] - Components::addComponent[loginapp], uid=20118, componentID=920002, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:31,088] - Machine::onBroadcastInterface: loginapp update, pid=1628, uid=20118, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:20:31,088] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.09 seconds
+ DEBUG root [2020-10-03 07:20:34,108] - Machine::onBroadcastInterface: loginapp update, pid=1628, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:34,108] - Machine::onBroadcastInterface: loginapp update, pid=1628, uid=20118, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:34,730] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 07:20:34,730] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 07:20:35,385] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 07:20:35,385] - Machine::onBroadcastInterface: baseapp update, pid=10692, uid=20118, globalorderid=3, grouporderid=1!
+  INFO root [2020-10-03 07:20:40,789] - 
+  INFO root [2020-10-03 07:20:40,789] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-03 07:20:40,789] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-03 07:20:40,789] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-03 07:20:40,789] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-03 07:20:40,805] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20099 )
+  INFO root [2020-10-03 07:20:40,805] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20099, SOMAXCONN=5.
+  INFO root [2020-10-03 07:20:40,805] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50292 )
+  INFO root [2020-10-03 07:20:40,805] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50292, SOMAXCONN=5.
+  INFO root [2020-10-03 07:20:40,805] - server-configs:
+  INFO root [2020-10-03 07:20:40,805] - 	internalAddr : 192.168.2.246:50292
+  INFO root [2020-10-03 07:20:40,805] - 	componentID : 110002
+  INFO root [2020-10-03 07:20:40,852] - ---- machine Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 7B49EE8C76ECF57DF98510B822346637. Config: Debug X86. Built: 19:01:26 Aug  4 2020. AppID: 110002. UID: 20317. PID: 3524 ----
+  INFO root [2020-10-03 07:20:40,852] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-03 07:20:40,852] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-03 07:20:40,852] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-03 07:20:40,977] - EndPoint::getInterfaces: found eth0 192.168.2.246
+  INFO root [2020-10-03 07:20:40,977] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.2.246.
+  INFO root [2020-10-03 07:20:40,977] - Machine::findBroadcastInterface: Confirmed 192.168.2.246 (eth0) as default broadcast route interface.
+  INFO root [2020-10-03 07:20:40,977] - Machine::initNetwork: bind broadcast successfully! addr:192.168.2.246:20086
+  INFO root [2020-10-03 07:20:41,211] - ---- machine is running ----
+  INFO root [2020-10-03 07:20:41,211] - Components::process(): Found all the components!
+  INFO root [2020-10-03 07:20:41,336] - Machine::onBroadcastInterface: added newUID 20317.
+  INFO root [2020-10-03 07:20:41,336] - Machine::onBroadcastInterface[192.168.2.246:55568/0/0/0]: uid:20317, username:, componentType:logger, componentID:210002, globalorderid=-1, grouporderid=-1, pid:7852, intaddr:192.168.2.246, intport:50294, extaddr:192.168.2.246, extport:50293.
+  INFO root [2020-10-03 07:20:41,336] - Components::addComponent: reset orderLog, uid=20317!
+  INFO root [2020-10-03 07:20:41,336] - Components::addComponent[logger], uid=20317, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:20:41,336] - Machine::onFindInterfaceAddr[192.168.2.246:55569/0/0/0]: uid:20317, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20503.
+  WARN root [2020-10-03 07:20:41,446] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.12 seconds
+  INFO root [2020-10-03 07:20:41,446] - Machine::onFindInterfaceAddr[192.168.2.246:55570/0/0/0]: uid:20317, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20709.
+ DEBUG root [2020-10-03 07:20:41,446] - Machine::onBroadcastInterface: logger update, pid=7852, uid=20317, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:41,446] - Machine::onFindInterfaceAddr[192.168.2.246:55569/0/0/0]: uid:20317, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20503.
+  INFO root [2020-10-03 07:20:41,446] - Machine::onFindInterfaceAddr[192.168.2.246:55570/0/0/0]: uid:20317, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20709.
+  INFO root [2020-10-03 07:20:41,789] - Machine::onBroadcastInterface[192.168.2.246:55575/0/0/0]: uid:20317, username:, componentType:interfaces, componentID:320002, globalorderid=-1, grouporderid=-1, pid:10420, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:41,789] - Components::addComponent: reset orderLog, uid=20317!
+  INFO root [2020-10-03 07:20:41,789] - Components::addComponent[interfaces], uid=20317, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:41,836] - Machine::onBroadcastInterface: interfaces update, pid=10420, uid=20317, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:20:41,836] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.05 seconds
+  INFO root [2020-10-03 07:20:42,055] - Machine::onBroadcastInterface[192.168.2.246:55576/0/0/0]: uid:20317, username:, componentType:loginapp, componentID:920002, globalorderid=-1, grouporderid=-1, pid:2768, intaddr:192.168.2.246, intport:50300, extaddr:192.168.2.246, extport:20013.
+  INFO root [2020-10-03 07:20:42,055] - Components::addComponent: reset orderLog, uid=20317!
+  INFO root [2020-10-03 07:20:42,055] - Components::addComponent[loginapp], uid=20317, componentID=920002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:20:42,055] - Machine::onBroadcastInterface[192.168.2.246:55577/0/0/0]: uid:20317, username:, componentType:baseapp, componentID:720012, globalorderid=-1, grouporderid=-1, pid:12032, intaddr:192.168.2.246, intport:50297, extaddr:192.168.2.246, extport:20015.
+  INFO root [2020-10-03 07:20:42,055] - Components::addComponent[baseapp], uid=20317, componentID=720012, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:42,055] - Machine::onBroadcastInterface: loginapp update, pid=2768, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:42,055] - Machine::onBroadcastInterface: baseapp update, pid=12032, uid=20317, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:42,930] - Machine::onBroadcastInterface[192.168.2.246:55578/0/0/0]: uid:20317, username:, componentType:baseappmgr, componentID:510002, globalorderid=-1, grouporderid=-1, pid:11560, intaddr:192.168.2.246, intport:50296, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:42,930] - Components::addComponent[baseappmgr], uid=20317, componentID=510002, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:42,930] - Machine::onBroadcastInterface: baseappmgr update, pid=11560, uid=20317, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:43,148] - Machine::onBroadcastInterface[192.168.2.246:55579/0/0/0]: uid:20317, username:, componentType:cellappmgr, componentID:610002, globalorderid=-1, grouporderid=-1, pid:3568, intaddr:192.168.2.246, intport:50298, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:43,148] - Components::addComponent[cellappmgr], uid=20317, componentID=610002, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:43,148] - Machine::onBroadcastInterface: cellappmgr update, pid=3568, uid=20317, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:43,476] - Machine::onBroadcastInterface[192.168.2.246:55580/0/0/0]: uid:20317, username:, componentType:dbmgr, componentID:42002, globalorderid=-1, grouporderid=-1, pid:7276, intaddr:192.168.2.246, intport:50295, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:20:43,476] - Components::addComponent[dbmgr], uid=20317, componentID=42002, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:20:43,476] - Machine::onBroadcastInterface: dbmgr update, pid=7276, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:44,351] - Machine::onBroadcastInterface: logger update, pid=7852, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:44,351] - Machine::onBroadcastInterface: logger update, pid=7852, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:44,889] - Machine::onBroadcastInterface: interfaces update, pid=10420, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:44,889] - Machine::onBroadcastInterface: interfaces update, pid=10420, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:45,113] - Machine::onBroadcastInterface: loginapp update, pid=2768, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:45,113] - Machine::onBroadcastInterface: loginapp update, pid=2768, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:45,229] - Machine::onBroadcastInterface: baseapp update, pid=12032, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:45,229] - Machine::onBroadcastInterface: baseapp update, pid=12032, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,106] - Machine::onBroadcastInterface: baseappmgr update, pid=11560, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,106] - Machine::onBroadcastInterface: baseappmgr update, pid=11560, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,324] - Machine::onBroadcastInterface: cellappmgr update, pid=3568, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,324] - Machine::onBroadcastInterface: cellappmgr update, pid=3568, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,543] - Machine::onBroadcastInterface: dbmgr update, pid=7276, uid=20317, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:20:46,543] - Machine::onBroadcastInterface: dbmgr update, pid=7276, uid=20317, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:20:49,225] - Machine::onFindInterfaceAddr[192.168.2.246:55588/0/0/0]: uid:20317, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20298.
+  INFO root [2020-10-03 07:20:49,234] - Machine::onFindInterfaceAddr[192.168.2.246:55588/0/0/0]: uid:20317, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20298.
+  INFO root [2020-10-03 07:20:49,337] - Machine::onFindInterfaceAddr[192.168.2.246:55591/0/0/0]: uid:20317, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20706.
+  INFO root [2020-10-03 07:20:49,337] - Machine::onFindInterfaceAddr[192.168.2.246:55591/0/0/0]: uid:20317, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20706.
+  INFO root [2020-10-03 07:20:50,101] - Machine::onFindInterfaceAddr[192.168.2.246:55594/0/0/0]: uid:20317, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:50,101] - Machine::onFindInterfaceAddr[192.168.2.246:55594/0/0/0]: uid:20317, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:50,210] - Machine::onFindInterfaceAddr[192.168.2.246:55597/0/0/0]: uid:20317, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:50,210] - Machine::onFindInterfaceAddr[192.168.2.246:55597/0/0/0]: uid:20317, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20462.
+  INFO root [2020-10-03 07:20:50,319] - Machine::onFindInterfaceAddr[192.168.2.246:55600/0/0/0]: uid:20317, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20076.
+  INFO root [2020-10-03 07:20:50,319] - Machine::onFindInterfaceAddr[192.168.2.246:55600/0/0/0]: uid:20317, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20076.
+  INFO root [2020-10-03 07:20:50,428] - Machine::onFindInterfaceAddr[192.168.2.246:55603/0/0/0]: uid:20317, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20076.
+  INFO root [2020-10-03 07:20:50,428] - Machine::onFindInterfaceAddr[192.168.2.246:55603/0/0/0]: uid:20317, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20076.
+  INFO root [2020-10-03 07:20:50,647] - Machine::onFindInterfaceAddr[192.168.2.246:55606/0/0/0]: uid:20317, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20095.
+  INFO root [2020-10-03 07:20:50,647] - Machine::onFindInterfaceAddr[192.168.2.246:55606/0/0/0]: uid:20317, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20095.
+  INFO root [2020-10-03 07:26:46,197] - 
+  INFO root [2020-10-03 07:26:46,197] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-03 07:26:46,197] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-03 07:26:46,197] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-03 07:26:46,197] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-03 07:26:46,213] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20099 )
+  INFO root [2020-10-03 07:26:46,213] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20099, SOMAXCONN=5.
+  INFO root [2020-10-03 07:26:46,213] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50339 )
+  INFO root [2020-10-03 07:26:46,213] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50339, SOMAXCONN=5.
+  INFO root [2020-10-03 07:26:46,213] - server-configs:
+  INFO root [2020-10-03 07:26:46,213] - 	internalAddr : 192.168.2.246:50339
+  INFO root [2020-10-03 07:26:46,213] - 	componentID : 110002
+  INFO root [2020-10-03 07:26:46,260] - ---- machine Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 7B49EE8C76ECF57DF98510B822346637. Config: Debug X86. Built: 19:01:26 Aug  4 2020. AppID: 110002. UID: 21509. PID: 6344 ----
+  INFO root [2020-10-03 07:26:46,260] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-03 07:26:46,260] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-03 07:26:46,260] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-03 07:26:46,385] - EndPoint::getInterfaces: found eth0 192.168.2.246
+  INFO root [2020-10-03 07:26:46,385] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.2.246.
+  INFO root [2020-10-03 07:26:46,385] - Machine::findBroadcastInterface: Confirmed 192.168.2.246 (eth0) as default broadcast route interface.
+  INFO root [2020-10-03 07:26:46,385] - Machine::initNetwork: bind broadcast successfully! addr:192.168.2.246:20086
+  INFO root [2020-10-03 07:26:46,572] - ---- machine is running ----
+  INFO root [2020-10-03 07:26:46,572] - Components::process(): Found all the components!
+  INFO root [2020-10-03 07:26:46,682] - Machine::onBroadcastInterface: added newUID 21509.
+  INFO root [2020-10-03 07:26:46,682] - Machine::onBroadcastInterface[192.168.2.246:59886/0/0/0]: uid:21509, username:, componentType:logger, componentID:210002, globalorderid=-1, grouporderid=-1, pid:3636, intaddr:192.168.2.246, intport:50341, extaddr:192.168.2.246, extport:50340.
+  INFO root [2020-10-03 07:26:46,682] - Components::addComponent: reset orderLog, uid=21509!
+  INFO root [2020-10-03 07:26:46,682] - Components::addComponent[logger], uid=21509, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:26:46,682] - Machine::onFindInterfaceAddr[192.168.2.246:59885/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20941.
+  WARN root [2020-10-03 07:26:46,791] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.12 seconds
+ DEBUG root [2020-10-03 07:26:46,791] - Machine::onBroadcastInterface: logger update, pid=3636, uid=21509, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:26:46,791] - Machine::onFindInterfaceAddr[192.168.2.246:59887/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20454.
+  INFO root [2020-10-03 07:26:46,791] - Machine::onFindInterfaceAddr[192.168.2.246:59888/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20656.
+  INFO root [2020-10-03 07:26:46,916] - Machine::onFindInterfaceAddr[192.168.2.246:59887/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20454.
+  INFO root [2020-10-03 07:26:46,916] - Machine::onFindInterfaceAddr[192.168.2.246:59888/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20656.
+  INFO root [2020-10-03 07:26:47,244] - Machine::onBroadcastInterface[192.168.2.246:59894/0/0/0]: uid:21509, username:, componentType:interfaces, componentID:320002, globalorderid=-1, grouporderid=-1, pid:8696, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:26:47,244] - Components::addComponent: reset orderLog, uid=21509!
+  INFO root [2020-10-03 07:26:47,244] - Components::addComponent[interfaces], uid=21509, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:26:47,306] - Machine::onBroadcastInterface: interfaces update, pid=8696, uid=21509, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 07:26:47,306] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.06 seconds
+  INFO root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface[192.168.2.246:59895/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, globalorderid=-1, grouporderid=-1, pid:1928, intaddr:192.168.2.246, intport:50347, extaddr:192.168.2.246, extport:20015.
+  INFO root [2020-10-03 07:26:47,525] - Components::addComponent: reset orderLog, uid=21509!
+  INFO root [2020-10-03 07:26:47,525] - Components::addComponent[baseapp], uid=21509, componentID=720012, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface[192.168.2.246:59896/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, globalorderid=-1, grouporderid=-1, pid:10060, intaddr:192.168.2.246, intport:50346, extaddr:192.168.2.246, extport:20013.
+  INFO root [2020-10-03 07:26:47,525] - Components::addComponent[loginapp], uid=21509, componentID=920002, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface[192.168.2.246:59897/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, globalorderid=-1, grouporderid=-1, pid:10528, intaddr:192.168.2.246, intport:50345, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:26:47,525] - Components::addComponent[cellapp], uid=21509, componentID=820012, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface[192.168.2.246:59898/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, globalorderid=-1, grouporderid=-1, pid:11372, intaddr:192.168.2.246, intport:50344, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:26:47,525] - Components::addComponent[baseappmgr], uid=21509, componentID=510002, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:47,525] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:47,541] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:47,541] - Machine::onBroadcastInterface: baseappmgr update, pid=11372, uid=21509, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:26:48,306] - Machine::onBroadcastInterface[192.168.2.246:59899/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, globalorderid=-1, grouporderid=-1, pid:12708, intaddr:192.168.2.246, intport:50343, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:26:48,306] - Components::addComponent[cellappmgr], uid=21509, componentID=610002, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:26:48,306] - Machine::onBroadcastInterface: cellappmgr update, pid=12708, uid=21509, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:26:48,853] - Machine::onBroadcastInterface[192.168.2.246:59900/0/0/0]: uid:21509, username:, componentType:dbmgr, componentID:42002, globalorderid=-1, grouporderid=-1, pid:4580, intaddr:192.168.2.246, intport:50342, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 07:26:48,853] - Components::addComponent[dbmgr], uid=21509, componentID=42002, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 07:26:48,853] - Machine::onBroadcastInterface: dbmgr update, pid=4580, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:49,853] - Machine::onBroadcastInterface: logger update, pid=3636, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:49,853] - Machine::onBroadcastInterface: logger update, pid=3636, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,400] - Machine::onBroadcastInterface: interfaces update, pid=8696, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,400] - Machine::onBroadcastInterface: interfaces update, pid=8696, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,618] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,618] - Machine::onBroadcastInterface: baseappmgr update, pid=11372, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,618] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:50,618] - Machine::onBroadcastInterface: baseappmgr update, pid=11372, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,056] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,056] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,165] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,165] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,494] - Machine::onBroadcastInterface: cellappmgr update, pid=12708, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,494] - Machine::onBroadcastInterface: cellappmgr update, pid=12708, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,946] - Machine::onBroadcastInterface: dbmgr update, pid=4580, uid=21509, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 07:26:51,946] - Machine::onBroadcastInterface: dbmgr update, pid=4580, uid=21509, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 07:26:54,696] - Machine::onFindInterfaceAddr[192.168.2.246:59909/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20219.
+  INFO root [2020-10-03 07:26:54,696] - Machine::onFindInterfaceAddr[192.168.2.246:59910/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20474.
+  INFO root [2020-10-03 07:26:54,696] - Machine::onFindInterfaceAddr[192.168.2.246:59909/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20219.
+  INFO root [2020-10-03 07:26:54,696] - Machine::onFindInterfaceAddr[192.168.2.246:59910/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20474.
+  INFO root [2020-10-03 07:26:54,696] - Machine::onFindInterfaceAddr[192.168.2.246:59913/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20474.
+  INFO root [2020-10-03 07:26:54,821] - Machine::onFindInterfaceAddr[192.168.2.246:59913/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20474.
+  INFO root [2020-10-03 07:26:55,148] - Machine::onFindInterfaceAddr[192.168.2.246:59918/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20803.
+  INFO root [2020-10-03 07:26:55,148] - Machine::onFindInterfaceAddr[192.168.2.246:59918/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20803.
+  INFO root [2020-10-03 07:26:55,258] - Machine::onFindInterfaceAddr[192.168.2.246:59921/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20107.
+  INFO root [2020-10-03 07:26:55,258] - Machine::onFindInterfaceAddr[192.168.2.246:59921/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20107.
+  INFO root [2020-10-03 07:26:55,586] - Machine::onFindInterfaceAddr[192.168.2.246:59924/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20361.
+  INFO root [2020-10-03 07:26:55,586] - Machine::onFindInterfaceAddr[192.168.2.246:59924/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20361.
+  INFO root [2020-10-03 07:26:55,695] - Machine::onFindInterfaceAddr[192.168.2.246:59927/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20361.
+  INFO root [2020-10-03 07:26:55,695] - Machine::onFindInterfaceAddr[192.168.2.246:59927/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20361.
+  INFO root [2020-10-03 07:26:56,024] - Machine::onFindInterfaceAddr[192.168.2.246:59930/0/0/0]: uid:21509, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20739.
+  INFO root [2020-10-03 07:26:56,024] - Machine::onFindInterfaceAddr[192.168.2.246:59930/0/0/0]: uid:21509, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20739.
+  INFO root [2020-10-03 07:26:56,789] - Machine::onFindInterfaceAddr[192.168.2.246:59933/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20289.
+  INFO root [2020-10-03 07:26:56,789] - Machine::onFindInterfaceAddr[192.168.2.246:59933/0/0/0]: uid:21509, username:, componentType:loginapp, componentID:920002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20289.
+  INFO root [2020-10-03 07:26:56,898] - Machine::onFindInterfaceAddr[192.168.2.246:59936/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20750.
+  INFO root [2020-10-03 07:26:56,898] - Machine::onFindInterfaceAddr[192.168.2.246:59936/0/0/0]: uid:21509, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20750.
+  INFO root [2020-10-03 07:26:57,226] - Machine::onFindInterfaceAddr[192.168.2.246:59939/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20821.
+  INFO root [2020-10-03 07:26:57,226] - Machine::onFindInterfaceAddr[192.168.2.246:59939/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20821.
+  INFO root [2020-10-03 07:26:57,336] - Machine::onFindInterfaceAddr[192.168.2.246:59942/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20177.
+  INFO root [2020-10-03 07:26:57,336] - Machine::onFindInterfaceAddr[192.168.2.246:59942/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20177.
+  INFO root [2020-10-03 07:26:57,773] - Machine::onFindInterfaceAddr[192.168.2.246:59945/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20555.
+  INFO root [2020-10-03 07:26:57,773] - Machine::onFindInterfaceAddr[192.168.2.246:59945/0/0/0]: uid:21509, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20555.
+  INFO root [2020-10-03 07:26:59,304] - Machine::onFindInterfaceAddr[192.168.2.246:59948/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20659.
+  INFO root [2020-10-03 07:26:59,304] - Machine::onFindInterfaceAddr[192.168.2.246:59948/0/0/0]: uid:21509, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20659.
+  INFO root [2020-10-03 07:26:59,414] - Machine::onFindInterfaceAddr[192.168.2.246:59951/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20963.
+  INFO root [2020-10-03 07:26:59,414] - Machine::onFindInterfaceAddr[192.168.2.246:59951/0/0/0]: uid:21509, username:, componentType:cellapp, componentID:820012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20963.
+ DEBUG root [2020-10-03 07:27:04,555] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=1, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:04,555] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=1, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:04,965] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:04,966] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,181] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=1, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,182] - Machine::onBroadcastInterface: loginapp update, pid=10060, uid=21509, globalorderid=1, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,296] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,296] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,624] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,624] - Machine::onBroadcastInterface: cellapp update, pid=10528, uid=21509, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,952] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 07:27:05,952] - Machine::onBroadcastInterface: baseapp update, pid=1928, uid=21509, globalorderid=4, grouporderid=1!
+  INFO root [2020-10-03 07:27:46,661] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59884/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:46,762] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59885/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:46,762] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59886/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:47,266] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59894/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:47,568] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59895/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:47,568] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59896/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:47,569] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59897/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:47,570] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59898/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:48,376] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59899/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:48,880] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59900/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:49,886] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59901/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:50,491] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59902/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:50,692] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59903/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:50,693] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59904/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:51,097] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59905/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:51,198] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59906/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:51,501] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59907/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:52,006] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59908/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:54,727] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59909/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:54,727] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59910/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:55,230] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59918/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:55,331] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59921/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:55,633] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59924/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:55,734] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59927/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:56,036] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59930/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:56,841] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59933/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:56,942] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59936/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:57,245] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59939/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:57,345] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59942/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:57,849] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59945/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:59,362] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59948/0/0/0 timeout!
+  INFO root [2020-10-03 07:27:59,463] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59951/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:04,604] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59954/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:05,007] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59955/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:05,208] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59956/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:05,309] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59957/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:05,711] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59958/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:06,014] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59959/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:16,894] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59887/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:16,894] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59888/0/0/0 timeout!
+  INFO root [2020-10-03 07:28:24,751] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:59913/0/0/0 timeout!
+  WARN root [2020-10-03 08:25:04,515] - D:\kbengine-1.2.7\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.06 seconds
+  INFO root [2020-10-03 08:25:59,508] - 
+  INFO root [2020-10-03 08:25:59,508] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-03 08:25:59,509] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-03 08:25:59,509] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-03 08:25:59,509] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-03 08:25:59,513] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20099 )
+  INFO root [2020-10-03 08:25:59,514] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20099, SOMAXCONN=5.
+  INFO root [2020-10-03 08:25:59,516] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50819 )
+  INFO root [2020-10-03 08:25:59,516] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50819, SOMAXCONN=5.
+  INFO root [2020-10-03 08:25:59,516] - server-configs:
+  INFO root [2020-10-03 08:25:59,516] - 	internalAddr : 192.168.2.246:50819
+  INFO root [2020-10-03 08:25:59,517] - 	componentID : 110002
+  INFO root [2020-10-03 08:25:59,569] - ---- machine Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 7B49EE8C76ECF57DF98510B822346637. Config: Debug X86. Built: 19:01:26 Aug  4 2020. AppID: 110002. UID: 343. PID: 15172 ----
+  INFO root [2020-10-03 08:25:59,570] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-03 08:25:59,570] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-03 08:25:59,570] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-03 08:25:59,671] - EndPoint::getInterfaces: found eth0 192.168.2.246
+  INFO root [2020-10-03 08:25:59,672] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 192.168.2.246.
+  INFO root [2020-10-03 08:25:59,672] - Machine::findBroadcastInterface: Confirmed 192.168.2.246 (eth0) as default broadcast route interface.
+  INFO root [2020-10-03 08:25:59,672] - Machine::initNetwork: bind broadcast successfully! addr:192.168.2.246:20086
+  INFO root [2020-10-03 08:25:59,827] - ---- machine is running ----
+  INFO root [2020-10-03 08:25:59,827] - Components::process(): Found all the components!
+  INFO root [2020-10-03 08:25:59,930] - Machine::onBroadcastInterface: added newUID 343.
+  INFO root [2020-10-03 08:25:59,931] - Machine::onBroadcastInterface[192.168.2.246:53267/0/0/0]: uid:343, username:, componentType:logger, componentID:210002, globalorderid=-1, grouporderid=-1, pid:8580, intaddr:192.168.2.246, intport:50821, extaddr:192.168.2.246, extport:50820.
+  INFO root [2020-10-03 08:25:59,933] - Components::addComponent: reset orderLog, uid=343!
+  INFO root [2020-10-03 08:25:59,933] - Components::addComponent[logger], uid=343, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 08:25:59,940] - Machine::onFindInterfaceAddr[192.168.2.246:53266/0/0/0]: uid:343, username:, componentType:dbmgr, componentID:42002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20541.
+  WARN root [2020-10-03 08:26:00,157] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.22 seconds
+ DEBUG root [2020-10-03 08:26:00,158] - Machine::onBroadcastInterface: logger update, pid=8580, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:00,158] - Machine::onFindInterfaceAddr[192.168.2.246:53268/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20897.
+  INFO root [2020-10-03 08:26:00,159] - Machine::onFindInterfaceAddr[192.168.2.246:53269/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20001.
+  INFO root [2020-10-03 08:26:00,160] - Machine::onFindInterfaceAddr[192.168.2.246:53270/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20511.
+  INFO root [2020-10-03 08:26:00,262] - Machine::onFindInterfaceAddr[192.168.2.246:53268/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20897.
+  INFO root [2020-10-03 08:26:00,263] - Machine::onFindInterfaceAddr[192.168.2.246:53269/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20001.
+  INFO root [2020-10-03 08:26:00,264] - Machine::onFindInterfaceAddr[192.168.2.246:53270/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20511.
+  INFO root [2020-10-03 08:26:00,266] - Machine::onFindInterfaceAddr[192.168.2.246:53275/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20001.
+  INFO root [2020-10-03 08:26:00,272] - Machine::onFindInterfaceAddr[192.168.2.246:53276/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20612.
+  INFO root [2020-10-03 08:26:00,273] - Machine::onFindInterfaceAddr[192.168.2.246:53275/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:logger, finderaddr:192.168.2.246, finderRecvPort:20001.
+  INFO root [2020-10-03 08:26:00,276] - Machine::onFindInterfaceAddr[192.168.2.246:53276/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:logger, finderaddr:192.168.2.246, finderRecvPort:20612.
+  INFO root [2020-10-03 08:26:01,136] - Machine::onBroadcastInterface[192.168.2.246:53284/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, globalorderid=-1, grouporderid=-1, pid:15088, intaddr:192.168.2.246, intport:50826, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 08:26:01,137] - Components::addComponent: reset orderLog, uid=343!
+  INFO root [2020-10-03 08:26:01,137] - Components::addComponent[cellappmgr], uid=343, componentID=610002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 08:26:01,138] - Machine::onBroadcastInterface[192.168.2.246:53285/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, globalorderid=-1, grouporderid=-1, pid:15304, intaddr:192.168.2.246, intport:50825, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 08:26:01,138] - Components::addComponent[baseappmgr], uid=343, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 08:26:01,233] - Machine::onBroadcastInterface: cellappmgr update, pid=15088, uid=343, globalorderid=-1, grouporderid=-1!
+  WARN root [2020-10-03 08:26:01,233] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.10 seconds
+ DEBUG root [2020-10-03 08:26:01,240] - Machine::onBroadcastInterface: baseappmgr update, pid=15304, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:01,546] - Machine::onBroadcastInterface[192.168.2.246:53286/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, globalorderid=-1, grouporderid=-1, pid:10748, intaddr:192.168.2.246, intport:50827, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 08:26:01,546] - Components::addComponent[cellapp], uid=343, componentID=820012, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2020-10-03 08:26:01,546] - Machine::onBroadcastInterface[192.168.2.246:53287/0/0/0]: uid:343, username:, componentType:interfaces, componentID:320002, globalorderid=-1, grouporderid=-1, pid:15256, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 08:26:01,546] - Components::addComponent[interfaces], uid=343, componentID=320002, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 08:26:01,550] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:01,552] - Machine::onBroadcastInterface: interfaces update, pid=15256, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:01,755] - Machine::onBroadcastInterface[192.168.2.246:53288/0/0/0]: uid:343, username:, componentType:dbmgr, componentID:42002, globalorderid=-1, grouporderid=-1, pid:15120, intaddr:192.168.2.246, intport:50822, extaddr:nonsupport, extport:0.
+  INFO root [2020-10-03 08:26:01,755] - Components::addComponent[dbmgr], uid=343, componentID=42002, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 08:26:01,758] - Machine::onBroadcastInterface: dbmgr update, pid=15120, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:01,860] - Machine::onBroadcastInterface[192.168.2.246:53289/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, globalorderid=-1, grouporderid=-1, pid:2432, intaddr:192.168.2.246, intport:50823, extaddr:192.168.2.246, extport:20015.
+  INFO root [2020-10-03 08:26:01,860] - Components::addComponent[baseapp], uid=343, componentID=720012, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 08:26:01,862] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:03,072] - Machine::onBroadcastInterface: logger update, pid=8580, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:03,072] - Machine::onBroadcastInterface: logger update, pid=8580, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,185] - Machine::onBroadcastInterface: cellappmgr update, pid=15088, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,191] - Machine::onBroadcastInterface: baseappmgr update, pid=15304, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,196] - Machine::onBroadcastInterface: cellappmgr update, pid=15088, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,199] - Machine::onBroadcastInterface: baseappmgr update, pid=15304, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,605] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,607] - Machine::onBroadcastInterface: interfaces update, pid=15256, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,610] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,613] - Machine::onBroadcastInterface: interfaces update, pid=15256, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,818] - Machine::onBroadcastInterface: dbmgr update, pid=15120, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,818] - Machine::onBroadcastInterface: dbmgr update, pid=15120, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,924] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:04,925] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:06,839] - Machine::onBroadcastInterface[192.168.2.246:55721/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, globalorderid=-1, grouporderid=-1, pid:12132, intaddr:192.168.2.246, intport:50824, extaddr:192.168.2.246, extport:20013.
+  INFO root [2020-10-03 08:26:06,840] - Components::addComponent[loginapp], uid=343, componentID=920002, globalorderid=7, grouporderid=1, totalcount=1
+ DEBUG root [2020-10-03 08:26:06,846] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:08,157] - Machine::onFindInterfaceAddr[192.168.2.246:55722/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20867.
+  INFO root [2020-10-03 08:26:08,166] - Machine::onFindInterfaceAddr[192.168.2.246:55722/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20867.
+  INFO root [2020-10-03 08:26:08,269] - Machine::onFindInterfaceAddr[192.168.2.246:55725/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20122.
+  INFO root [2020-10-03 08:26:08,272] - Machine::onFindInterfaceAddr[192.168.2.246:55725/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20122.
+  INFO root [2020-10-03 08:26:08,575] - Machine::onFindInterfaceAddr[192.168.2.246:55728/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20245.
+  INFO root [2020-10-03 08:26:08,576] - Machine::onFindInterfaceAddr[192.168.2.246:55728/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20245.
+  INFO root [2020-10-03 08:26:08,979] - Machine::onFindInterfaceAddr[192.168.2.246:55731/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20316.
+  INFO root [2020-10-03 08:26:08,981] - Machine::onFindInterfaceAddr[192.168.2.246:55731/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20316.
+ DEBUG root [2020-10-03 08:26:09,891] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2020-10-03 08:26:09,891] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=-1, grouporderid=-1!
+  INFO root [2020-10-03 08:26:10,194] - Machine::onFindInterfaceAddr[192.168.2.246:55735/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20500.
+  INFO root [2020-10-03 08:26:10,197] - Machine::onFindInterfaceAddr[192.168.2.246:55735/0/0/0]: uid:343, username:, componentType:cellappmgr, componentID:610002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20500.
+  INFO root [2020-10-03 08:26:10,300] - Machine::onFindInterfaceAddr[192.168.2.246:55738/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20859.
+  INFO root [2020-10-03 08:26:10,309] - Machine::onFindInterfaceAddr[192.168.2.246:55738/0/0/0]: uid:343, username:, componentType:baseappmgr, componentID:510002, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20859.
+  INFO root [2020-10-03 08:26:10,612] - Machine::onFindInterfaceAddr[192.168.2.246:55741/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20878.
+  INFO root [2020-10-03 08:26:10,612] - Machine::onFindInterfaceAddr[192.168.2.246:55741/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20878.
+  INFO root [2020-10-03 08:26:11,017] - Machine::onFindInterfaceAddr[192.168.2.246:55744/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20155.
+  INFO root [2020-10-03 08:26:11,026] - Machine::onFindInterfaceAddr[192.168.2.246:55744/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20155.
+  INFO root [2020-10-03 08:26:12,641] - Machine::onFindInterfaceAddr[192.168.2.246:55747/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20510.
+  INFO root [2020-10-03 08:26:12,643] - Machine::onFindInterfaceAddr[192.168.2.246:55747/0/0/0]: uid:343, username:, componentType:cellapp, componentID:820012, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20510.
+  INFO root [2020-10-03 08:26:13,148] - Machine::onFindInterfaceAddr[192.168.2.246:55750/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20940.
+  INFO root [2020-10-03 08:26:13,155] - Machine::onFindInterfaceAddr[192.168.2.246:55750/0/0/0]: uid:343, username:, componentType:baseapp, componentID:720012, find:cellappmgr, finderaddr:192.168.2.246, finderRecvPort:20940.
+  INFO root [2020-10-03 08:26:13,861] - Machine::onFindInterfaceAddr[192.168.2.246:55753/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20439.
+  INFO root [2020-10-03 08:26:13,864] - Machine::onFindInterfaceAddr[192.168.2.246:55753/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:dbmgr, finderaddr:192.168.2.246, finderRecvPort:20439.
+  INFO root [2020-10-03 08:26:15,880] - Machine::onFindInterfaceAddr[192.168.2.246:55756/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20123.
+  INFO root [2020-10-03 08:26:15,889] - Machine::onFindInterfaceAddr[192.168.2.246:55756/0/0/0]: uid:343, username:, componentType:loginapp, componentID:920002, find:baseappmgr, finderaddr:192.168.2.246, finderRecvPort:20123.
+ DEBUG root [2020-10-03 08:26:20,941] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:20,941] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,348] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,349] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,558] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,559] - Machine::onBroadcastInterface: cellapp update, pid=10748, uid=343, globalorderid=3, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,667] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,669] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,979] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:21,981] - Machine::onBroadcastInterface: baseapp update, pid=2432, uid=343, globalorderid=4, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:22,287] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=5, grouporderid=1!
+ DEBUG root [2020-10-03 08:26:22,287] - Machine::onBroadcastInterface: loginapp update, pid=12132, uid=343, globalorderid=5, grouporderid=1!
+  INFO root [2020-10-03 08:27:00,017] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53266/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:00,219] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53268/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:00,219] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53269/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:00,219] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53270/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:00,320] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53275/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:00,320] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53276/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,227] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53284/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,227] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53285/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,632] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53286/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,634] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53287/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,837] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53288/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:01,938] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53289/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:03,150] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53290/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,258] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53291/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,258] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53292/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,661] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53293/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,662] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53294/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,865] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53295/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:04,966] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53296/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:06,878] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55721/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:08,187] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55722/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:08,288] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55725/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:08,591] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55728/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:08,994] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55731/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:09,901] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55734/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:10,203] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55735/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:10,304] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55738/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:10,706] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55741/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:11,109] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55744/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:12,722] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55747/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:13,225] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55750/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:13,931] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55753/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:15,946] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55756/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:20,982] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55759/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:21,385] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55760/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:21,586] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55761/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:21,687] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55762/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:21,989] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55763/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:22,291] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:55764/0/0/0 timeout!
+  INFO root [2020-10-03 08:27:29,944] - ServerApp::onChannelTimeOut: Channel 192.168.2.246:53267/0/0/0 timeout!

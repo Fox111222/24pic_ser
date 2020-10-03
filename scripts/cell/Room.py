@@ -35,8 +35,8 @@ class Room(KBEngine.Entity):
 		self.totalTime = 0
 		self.readyPlayerCount = 0
 		self.curSecond=30         #不要用客户端主导轮换，服务器控制
-		self.flee=0
-		self.timeout=40          #玩家掉线等待时长
+		#self.flee=0
+		self.timeout=15         #玩家掉线等待时长
 		self.playerMaxCount=2
 
 		DEBUG_MSG('created space[%d] entityID = %i spaceid=%i' % (self.roomKeyC, self.id, self.spaceID))
@@ -51,20 +51,6 @@ class Room(KBEngine.Entity):
 
 		self.outcards={}
 		##############################
-
-	def createItems(self):
-		"""
-		生成房间内的物品
-		"""
-		DEBUG_MSG("createItems生成房间内的物品")
-		for name, prop in GameConfigs.ITEMS["map1"].items():
-			harm = prop['harm']
-			pos = prop['pos']
-			dir = (0.0, 0.0, 0.0)
-			entity = KBEngine.createEntity("Item", self.spaceID, pos, dir, {
-			                               "name": name, "harm": harm})
-			self.items[entity.id] = entity
-			self.itemspositions[entity.id]=pos  #记录起始位置
 
 	def onDestroy(self):
 		"""
@@ -358,9 +344,6 @@ class Room(KBEngine.Entity):
 			self.delTimer(self.newTurnTimer)
 			self.newTurnTimer = 0
 
-	def findItemByID(self, itemID):
-		return self.items[itemID]
-
 	def gameOver(self):
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
@@ -387,7 +370,7 @@ class Room(KBEngine.Entity):
 		self.outcards={}
 		for entity in self.avatars.values():
 			entity.holds=[]
-			win = not entity.isDead()
+			win = not entity.isWin()
 			result = "lose"
 			if win:
 				result = "win"
@@ -407,6 +390,14 @@ class Room(KBEngine.Entity):
 					win, entity.hitRate, entity.totalTime, entity.totalHarm, entity.score)
 
 		self.resetGameState()
+	def getMaxEntityID(self):
+		kee=0
+		ID=0
+		for entity in self.avatars.values():
+			if(keep<len(entity.holds)):
+				keep=len(entity.holds)
+				ID=entity.id
+		return ID
 
 	def resetGameState(self):
 		
@@ -441,52 +432,6 @@ class Room(KBEngine.Entity):
 				return
 		self.startGame()
 	#############
-
-	def uploaditempos(self,itemID,pos):
-		item = self.items[itemID]
-		item.position.x=pos.x
-		item.position.y=pos.y
-		item.position.z=pos.z
-		if item:
-			for entity in self.avatars.values():
-				entity.client.onResetItem(itemID, item.position)
-
-	def resetItem(self, itemID):
-		item = self.items[itemID]
-		pos = self.itemspositions[itemID]   #增加
-		item.position.x=pos[0]
-		item.position.y=pos[1]
-		item.position.z=pos[2]
-		DEBUG_MSG("reset item position(%f, %f, %f)" % (item.position.x, item.position.y, item.position.z))
-		if item:
-			for entity in self.avatars.values():
-				entity.client.onResetItem(itemID, item.position)
-
-	def addItem(self, left):
-		item = GameConfigs.ITEMS["map1"]
-		itemPos = None
-		if left == 0:
-			itemPos = GameConfigs.ITEMS_POS["map1"]["left"]
-		else:
-			itemPos = GameConfigs.ITEMS_POS["map1"]["right"]
-
-		count = 3
-		index = 0
-		for name, prop in GameConfigs.ITEMS["map1"].items():
-			if index >= 3:
-				break
-
-			pos = itemPos[index]
-			index += 1
-			harm = prop['harm']
-			dir = (0.0, 0.0, 0.0)
-			entity = KBEngine.createEntity("Item", self.spaceID, pos, dir, {
-			                               "name": name, "harm": harm})
-			self.items[entity.id] = entity
-			self.itemspositions[entity.id]=pos  #记录起始位置
-
-	def findAvatarByID(self, avatarID):
-		return self.avatars[avatarID]
 
 	def addReadyPlayerCount(self, count, avatar):
 		self.readyPlayerCount += count
