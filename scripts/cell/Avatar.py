@@ -22,6 +22,28 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		"""
 		return True
 	#######################
+	def quick_chat(self,exposed,idx):
+		if exposed != self.id:
+			return
+		DEBUG_MSG("new avatar cell: quick_chat",idx)
+		room = self.getCurrRoom()
+		if room:
+			room.quick_chat(self.id,idx)
+	def emoji(self,exposed,name):
+		if exposed != self.id:
+			return
+		DEBUG_MSG("new avatar cell: emoji",name)
+		room = self.getCurrRoom()
+		if room:
+			room.emoji(self.id,name)
+	def iptChat(self,exposed,strstr):
+		if exposed != self.id:
+			return
+		DEBUG_MSG("new avatar cell: iptChat",strstr)
+		room = self.getCurrRoom()
+		if room:
+			room.iptChat(self.id,strstr)
+	########################
 	def onsureact(self, exposed):
 		DEBUG_MSG("onsureact%i" % (self.id))
 		if exposed != self.id:

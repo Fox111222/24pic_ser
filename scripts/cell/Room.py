@@ -306,7 +306,25 @@ class Room(KBEngine.Entity):
 		if len(self.avatars) == 0:
 			self.destroy()
 
-
+######################################
+	def quick_chat(self,eid,idx):
+		DEBUG_MSG("Room cell: quick_chat",idx)
+		for entity in self.avatars.values():
+			#if eid !=entity.id:
+			entity.client.onquick_chat(eid,idx)     
+		
+	def emoji(self,eid,name):
+		DEBUG_MSG("Room cell: emoji",eid,name)
+		for entity in self.avatars.values():
+			#if eid !=entity.id:
+			entity.client.onemoji(eid,name)     
+		
+	def iptChat(self,eid,strstr):
+		DEBUG_MSG("Room cell: iptChat",eid,strstr)
+		for entity in self.avatars.values():
+			#if eid !=entity.id:
+			entity.client.oniptChat(eid,strstr)     
+#####################################
 	def onLeave(self, entityID):
 		"""
 		defined method.

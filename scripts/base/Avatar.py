@@ -206,7 +206,9 @@ class Avatar(KBEngine.Proxy):
 			DEBUG_MSG(decrypted)
 			self.decryptedData = decrypted
 			self.cellData["accountName"] = decrypted["nickName"]
+			self.cellData["avatarUrl"]=decrypted["avatarUrl"]
 			DEBUG_MSG("self.cellData[accountName] = decrypted[nickName]：%s" % self.cellData["accountName"])
+			DEBUG_MSG("self.cellData[avatarUrl] = decrypted[avatarUrl]：%s" % self.cellData["avatarUrl"])
 			if decrypted['watermark']['appid'] != GameConfigs.APPID:
 				DEBUG_MSG("appid not equal: %s != %s" % (decrypted['watermark']['appid'], GameConfigs.APPID))
 		except Exception as err:

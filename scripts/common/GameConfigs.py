@@ -73,11 +73,11 @@ PLAYER_HP = 100
 DESKTOP_BROWSER = 101
 WECHAT_GAME = 104
 GAME_ROUND_TIME=720
-
+#hecaiyi15889716376@163.com   f1218781
 #小游戏的appid
-APPID = "wxbe1644556ed8afa6"
+APPID = "wxadafa207c65ba16e"
 #小游戏的secret
-APP_SECRET = "96c0e22af25571db5f175ebbb550e672"
+APP_SECRET = "974ab65c77d19b34028844da0af17bc4"
 WEI_XIN_URL = 'https://api.weixin.qq.com/sns/jscode2session'
 
 

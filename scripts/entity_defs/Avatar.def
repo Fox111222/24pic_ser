@@ -29,7 +29,10 @@
 			<Type>		UNICODE			</Type>
 			<Flags>		ALL_CLIENTS			</Flags>
 		</accountName>
-
+		<avatarUrl>
+			<Type>		UNICODE			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</avatarUrl>
 		<avatarName>
 			<Type>		UNICODE			</Type>
 			<Flags>		ALL_CLIENTS			</Flags>
@@ -99,6 +102,21 @@
 			<Arg>		ENTITY_ID		</Arg>
 			<Arg>		BOOL		</Arg>
 		</playerReadyStateChange>
+		<onquick_chat>
+			<Exposed/>
+			<Arg>		ENTITY_ID		</Arg>
+			<Arg>		INT32		</Arg>
+		</onquick_chat>
+		<onemoji>
+			<Exposed/>
+			<Arg>		ENTITY_ID		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</onemoji>
+		<oniptChat>
+			<Exposed/>
+			<Arg>		ENTITY_ID		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</oniptChat>
 	</ClientMethods>
 
 	<BaseMethods>
@@ -135,6 +153,18 @@
 		<newTurn>
 			<Exposed/>
 		</newTurn>
+		<quick_chat>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</quick_chat>
+		<emoji>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</emoji>
+		<iptChat>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</iptChat>
 		<continueGame>
 			<Exposed/>
 		</continueGame>
