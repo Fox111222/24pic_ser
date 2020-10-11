@@ -50,6 +50,8 @@ class Room(KBEngine.Entity):
 		self.clearPublicRoomInfo()
 
 		self.outcards={}
+		self.sendcards=[]
+		self.state = "idle";
 		##############################
 
 	def onDestroy(self):
@@ -125,7 +127,7 @@ class Room(KBEngine.Entity):
 		self.numOfMJ = len(self.game.mahjongs) - self.game.currentIndex;
 		#self.game.button=self.curEid
 		#self.cur_turn = self.game.button
-		self.game.state = "playing";
+		self.state = "playing";
 		seats = self.roomInfo.seats
 		for i in range(len(seats)):
 			#if seats[i].entity.client:
@@ -224,7 +226,7 @@ class Room(KBEngine.Entity):
 				for i in range(len(lis)):
 					self.avatars[eid].holds.append(lis[i])
 		self.outcards={}
-		sendcards=[]
+		self.sendcards=[]
 		for entity in self.avatars.values():
 			if(len(entity.holds)<2):
 				self.gameOver()
@@ -234,18 +236,18 @@ class Room(KBEngine.Entity):
 			self.outcards[entity.id]=[]
 			self.outcards[entity.id].append(card1)
 			self.outcards[entity.id].append(card2)
-			sendcards.append(card1)
-			sendcards.append(card2)
+			self.sendcards.append(card1)
+			self.sendcards.append(card2)
 			entity.holds=entity.holds
 		for entity in self.avatars.values():
-			entity.client.onNewTurn(eeid, GameConfigs.PLAY_TIME_PER_TURN,sendcards[0],sendcards[1],sendcards[2],sendcards[3])
+			entity.client.onNewTurn(eeid, GameConfigs.PLAY_TIME_PER_TURN,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
 			DEBUG_MSG("client_entity %i call newturn()" % (entity.id))
 
 		self.newTurnTimer = self.addTimer(
 				GameConfigs.PLAY_TIME_PER_TURN, 0, TIMER_TYPE_NEXT_PLAYER)
 		############################################
 		self.curSecond=30
-		sendcards=[]
+		#self.sendcards=[]
 		
 	def onsureact(self,eid):
 		entity=self.avatars[eid]
@@ -267,8 +269,19 @@ class Room(KBEngine.Entity):
 		DEBUG_MSG('Room::updateGamestates self.curSecond=[%d] entityID = %i.' %
 		          (self.curSecond, entityID))
 		if entityID in self.avatars:
-			self.avatars[entityID].holds=self.avatars[entityID].holds
-			self.avatars[entityID].client.onNewTurn(12345, self.curSecond,sendcards[0],sendcards[1],sendcards[2],sendcards[3])
+			if self.state=="playing":
+				self.avatars[entityID].client.updategamestuts(1)
+			else:
+				self.avatars[entityID].client.updategamestuts(0)
+		for entity in self.avatars.values():
+			if entityID in self.avatars:
+				self.avatars[entityID].client.onEnterWorld2(entity.id)
+		if(len(self.sendcards)>0):
+			if entityID in self.avatars:
+				self.avatars[entityID].holds=self.avatars[entityID].holds
+				self.avatars[entityID].client.onNewTurn(12345, self.curSecond,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
+		if(self.state=="idle"):
+			return
 		for entity in self.avatars.values():
 			if(len(entity.holds)<2):
 				self.gameOver()
@@ -333,13 +346,13 @@ class Room(KBEngine.Entity):
 		DEBUG_MSG('Room::onLeave space[%d] entityID = %i.' %
 		          (self.spaceID, entityID))
 
-		if entityID in self.avatars:
-			del self.avatars[entityID]
+		#if entityID in self.avatars:
+			#del self.avatars[entityID]
 		#if len(self.avatars) == 1 and self.timeout >=0 and self.flee==0:
-		if len(self.avatars) == 1:
+		if len(self.avatars) == 2:
 			for entity in self.avatars.values():
 				entity.client.onotherNetcut(entityID)     #通知客户端有人掉线
-				self.killNewTurnTimer()
+				#self.killNewTurnTimer()
 		if len(self.avatars) == 0:
 			self.destroy()
 
@@ -363,9 +376,13 @@ class Room(KBEngine.Entity):
 			self.newTurnTimer = 0
 
 	def gameOver(self):
+		self.state="idle"
+		self.sendcards=[]
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
 			seat.ready= False
+		for entityID in self.avatars.keys():
+			self.avatars[entityID].client.updategamestuts(0)
 			"""
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
@@ -414,7 +431,7 @@ class Room(KBEngine.Entity):
 		self.curEid = 12345
 		self.totalTime = 0
 		self.readyPlayerCount = 0
-		self.curSecond=15         #不要用客户端主导轮换，服务器控制
+		#self.curSecond=15         #不要用客户端主导轮换，服务器控制
 		self.timeout=15          #玩家掉线等待时长
 		if self.newTurnTimer > 0:
 			self.delTimer(self.newTurnTimer)
@@ -444,7 +461,7 @@ class Room(KBEngine.Entity):
 	#############
 
 	def addReadyPlayerCount(self, count, avatar):
-		self.readyPlayerCount += count
+		#self.readyPlayerCount += count
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
 			DEBUG_MSG('self.roomInfo.seats[%d] =%d.' % (i,seat.userId))
@@ -452,8 +469,8 @@ class Room(KBEngine.Entity):
 				for entity in self.avatars.values():
 					entity.client.playerReadyStateChange(seat.userId,True)
 		DEBUG_MSG("readyPlayerCount = %i" % (self.readyPlayerCount))
-		if self.readyPlayerCount >= 2:
-			self.addTimer(2, 0, TIMER_TYPE_GAME_START)
+		#if self.readyPlayerCount >= 2:
+			#self.addTimer(2, 0, TIMER_TYPE_GAME_START)
 
 
 

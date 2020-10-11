@@ -73,6 +73,7 @@ class Avatar(KBEngine.Proxy):
 		if(self._destroyTimer>0):
 			self.delTimer(self._destroyTimer)
 			self._destroyTimer=0
+		DEBUG_MSG("Avatar::destroy called: id=%i" % (self.id))
 		self.destroy()
 		
 
@@ -101,6 +102,7 @@ class Avatar(KBEngine.Proxy):
 		if self.isleave==True:
 			if(self._destroyTimer>0):
 				self.delTimer(self._destroyTimer)
+				self._destroyTimer=0
 				self.isleave=False
 				self.updateStaus()
 		#if self.cell is None:
@@ -117,6 +119,7 @@ class Avatar(KBEngine.Proxy):
 		"""
 		INFO_MSG("%s login failed" % (self.__ACCOUNT_NAME__))
 		INFO_MSG(ip, port, password)
+		#self.onClientEnabled()
 		return KBEngine.LOG_ON_ACCEPT
 		
 	def onGetCell(self):
@@ -161,7 +164,7 @@ class Avatar(KBEngine.Proxy):
 		#else:
 		#	self.cell.onClientDeath()
 
-		self._destroyTimer=self.addTimer(15,0,TIMER_TYPE_DESTROY)
+		self._destroyTimer=self.addTimer(17,0,TIMER_TYPE_DESTROY)
 		self.isleave=True
 		self.cell.onClientDeath()
 
@@ -174,6 +177,9 @@ class Avatar(KBEngine.Proxy):
 		if self.cell is None:
 			# 玩家上线了或者重登陆了， 此处告诉大厅，玩家请求登陆到游戏地图中
 			KBEngine.globalData["Halls"].enterRoom(self, self.cellData["position"], self.cellData["direction"], self.roomKey)
+		else:
+			self.updateStaus()
+
 
 	def onDestroyTimer(self):
 		DEBUG_MSG("Avatar::onDestroyTimer: %i" % (self.id))

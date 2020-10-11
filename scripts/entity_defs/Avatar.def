@@ -65,6 +65,12 @@
 	</Properties>
 
 	<ClientMethods>
+		<updategamestuts>
+			<Arg>		UINT8	</Arg>
+		</updategamestuts>
+		<onEnterWorld2>
+			<Arg>		ENTITY_ID	</Arg>
+		</onEnterWorld2>
 		<onDie>
 			<Arg>		ENTITY_ID	</Arg>
 		</onDie>

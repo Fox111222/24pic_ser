@@ -143,6 +143,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 			return
 		#self.position = copy.deepcopy(self.startPosition)
 		self.client.onContinueGame(self.id)
+		self.updateStaus()
 
 		room = self.getCurrRoom()
 		if room:
