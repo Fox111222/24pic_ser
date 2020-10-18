@@ -49,6 +49,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		if exposed != self.id:
 			return
 		room = self.getCurrRoom()
+		self.HP=self.HP+1;       #算成功一次
 		if room:
 			room.onsureact(self.id)
 	def game_holds_push(self,holds):
@@ -132,10 +133,10 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		#self.hitRate = 0.0
 		self.totalTime = 0
 		#self.totalHarm = 0
-		self.score = int(0)
+		#self.score = int(0)
 		#self.hitCount = 0
 		#self.throwCount = 0
-		#self.HP = 100
+		self.HP = 0
 
 	def continueGame(self, exposed):
 		DEBUG_MSG("Avatar %i continueGame" % (self.id))

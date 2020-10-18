@@ -52,7 +52,19 @@
 			<Type>		INT32				</Type>
 			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
 			<Default>		0				</Default>
+			<Persistent>		true		</Persistent>
 		</score>
+		<totals>
+			<Type>		INT32				</Type>
+			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+			<Persistent>		true		</Persistent>
+		</totals>
+		<HP>
+			<Type>		INT32				</Type>
+			<Flags>	 CELL_PUBLIC_AND_OWN	</Flags>
+			<Default>		0				</Default>
+		</HP>
 		<sessionId>
 			<Type>		STRING				</Type>
 			<Flags>	 	BASE				</Flags>
@@ -95,10 +107,10 @@
 		</onNewTurn>		
 		<onGameOver>
 			<Arg>		BOOL	</Arg>
-			<Arg>		FLOAT	</Arg>
+			<Arg>		INT32	</Arg>
 			<Arg>		INT32		</Arg>
 			<Arg>		INT32		</Arg>
-			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>
 		</onGameOver>
 		<onContinueGame>
 			<Arg>		ENTITY_ID		</Arg>

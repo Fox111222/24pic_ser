@@ -26,7 +26,7 @@ class Avatar(KBEngine.Proxy):
 		#self.cellData["totalHarm"] = 0
 		#self.cellData["hitCount"] = 0
 		self.cellData["totalTime"] = 0
-		self.cellData["score"] = 0
+		#self.cellData["score"] = 0
 		#self.cellData["hitRate"] = 0.0
 		self.cellData["avatarName"] = ""
 

@@ -52,6 +52,8 @@ class Room(KBEngine.Entity):
 		self.outcards={}
 		self.sendcards=[]
 		self.state = "idle";
+
+		self.leaveAvatarHP=0
 		##############################
 
 	def onDestroy(self):
@@ -120,6 +122,12 @@ class Room(KBEngine.Entity):
 	################################################
 	def begin(self):
 		print("全部就位---开始处理！");
+		for entity in self.avatars.values():
+			entity.totals=entity.totals+1
+		entitylist=list(self.avatars.values())
+		self.avatar1=entitylist[0]
+		self.avatar2=entitylist[1]
+
 		self.clearPublicRoomInfo()
 		self.game = MJData(self.roomInfo,self.playerMaxCount)
 		self.shuffle(self.game)
@@ -218,7 +226,7 @@ class Room(KBEngine.Entity):
 
 	def newTurn(self, eeid):
 		############################################
-		print("newTurn")
+		print("newTurn",eeid)
 		if(len(self.avatars)<2):
 			return
 		for eid,lis in self.outcards.items():
@@ -241,6 +249,7 @@ class Room(KBEngine.Entity):
 			entity.holds=entity.holds
 		for entity in self.avatars.values():
 			entity.client.onNewTurn(eeid, GameConfigs.PLAY_TIME_PER_TURN,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
+			#entity.client.onNewTurn(12345, GameConfigs.PLAY_TIME_PER_TURN,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
 			DEBUG_MSG("client_entity %i call newturn()" % (entity.id))
 
 		self.newTurnTimer = self.addTimer(
@@ -250,8 +259,9 @@ class Room(KBEngine.Entity):
 		#self.sendcards=[]
 		
 	def onsureact(self,eid):
+		DEBUG_MSG("onsureact id= %i " % (eid))
 		entity=self.avatars[eid]
-		for eid,lis in self.outcards.items():
+		for id,lis in self.outcards.items():
 			if(len(lis)>0):
 				for i in range(len(lis)):
 					entity.holds.append(lis[i])
@@ -259,6 +269,10 @@ class Room(KBEngine.Entity):
 		entity.holds=entity.holds
 		self.curEid=eid
 		self.killNewTurnTimer()
+		for entity in self.avatars.values():  
+			if(len(entity.holds)<2):
+				self.gameOver()
+				return
 		self.newTurn(self.curEid)
 		self.curEid=0
 
@@ -279,7 +293,7 @@ class Room(KBEngine.Entity):
 		if(len(self.sendcards)>0):
 			if entityID in self.avatars:
 				self.avatars[entityID].holds=self.avatars[entityID].holds
-				self.avatars[entityID].client.onNewTurn(12345, self.curSecond,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
+				self.avatars[entityID].client.onNewTurn(entityID, self.curSecond,self.sendcards[0],self.sendcards[1],self.sendcards[2],self.sendcards[3])
 		if(self.state=="idle"):
 			return
 		for entity in self.avatars.values():
@@ -306,6 +320,7 @@ class Room(KBEngine.Entity):
 		DEBUG_MSG('Room::onLeaverealy space[%d] entityID = %i.' %
 		          (self.spaceID, entityID))
 		if entityID in self.avatars:
+			self.leaveAvatarHP=self.avatars[entityID].HP
 			del self.avatars[entityID]
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
@@ -400,23 +415,42 @@ class Room(KBEngine.Entity):
 			self.newTurnTimer = 0
 		self.settleAccount()
 
+
 	#游戏算分
 	def settleAccount(self):
 		self.outcards={}
+		keepmax=0
+		Maxentity_id=-1
 		for entity in self.avatars.values():
+			if len(entity.holds)>keepmax:
+				keepmax=len(entity.holds)
+				Maxentity_id=entity.id
+		for entity in self.avatars.values():
+			if entity.id==self.avatar1.id:
+				other=self.avatar2
+			elif entity.id==self.avatar2.id:
+				other=self.avatar1
 			entity.holds=[]
-			win = not entity.isWin()
+			win = entity.id==Maxentity_id
 			result = "lose"
 			if win:
 				result = "win"
+				entity.score = entity.score+1
 			DEBUG_MSG("entity id=%i is %s" % (entity.id, result))
 			entity.hitRate = 0.0
 			entity.totalTime = self.totalTime
-			entity.score = int(0)
+			lv=1.0
+			if entity.totals<entity.score:
+				entity.totals=entity.score
+			if (entity.totals)>0:
+				lv=entity.score/(entity.totals)
 			entity.client.onGameOver(
-					win, entity.hitRate, entity.totalTime, 0, entity.score)
+					win, entity.HP, entity.totalTime, other.HP, lv)  #输赢/抢答成功次数/总时间/对方抢答成功次数/分数
 
 		self.resetGameState()
+		entitylist=None
+		self.avatar1=None
+		self.avatar2=None
 	def getMaxEntityID(self):
 		a=0
 		ID=0
@@ -534,7 +568,7 @@ class roomInfo:
 			s.userId = 0
 			s.entity = None
 		s.ready = False
-		s.score = int(0)
+		#s.score = int(0)
 		s.seatIndex = index
 
 	def clearDataByEntityID(self,entityID,isOut = True):
@@ -550,6 +584,6 @@ class seat_roomInfo:
 	def __init__(self,seatIndex):
 		self.userId = 0
 		self.entity = None
-		self.score = int(0)
+		#self.score = int(0)
 		self.ready = False
 		self.seatIndex = seatIndex
