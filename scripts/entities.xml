@@ -7,4 +7,5 @@
 	<Avatar hasClient="true"></Avatar>
 	<Halls/>
 	<Room ></Room>
+	<PrivateRoom ></PrivateRoom>
 </root>

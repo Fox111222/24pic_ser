@@ -23,6 +23,9 @@ class Halls(KBEngine.Entity):
 		self.rooms = {}
 		self.lastNewRoomKey = 0
 
+		self.Privaterooms = {}
+		self.PrivatelastNewRoomKey = 0
+
 		
 	def findRoom(self, roomKey, notFoundCreate = False):
 		"""
@@ -58,7 +61,96 @@ class Halls(KBEngine.Entity):
 
 		return roomDatas
 		
+##########################################
+	def createPrivateRoom(self, entityCall, position, direction):
+			#生成一个64位的唯一id,作为房间的id
+			self.PrivatelastNewRoomKey = KBEngine.genUUID64()
+			
+			# 将房间base实体创建在任意baseapp上
+			# 此处的字典参数中可以对实体进行提前def属性赋值
+			KBEngine.createEntityAnywhere("PrivateRoom", \
+									{
+									"roomKey" : self.PrivatelastNewRoomKey,	\
+									}, \
+									Functor.Functor(self.onPrivateRoomCreatedCB, self.PrivatelastNewRoomKey))
+			
+			roomDatas = {"roomEntityCall" : None, "PlayerCount": 0, "enterRoomReqs" : [], "roomKey" : self.PrivatelastNewRoomKey,"userindex":{100:100}}
+			self.Privaterooms[self.PrivatelastNewRoomKey] = roomDatas
+			roomDatas["enterRoomReqs"].append((entityCall, position, direction))
 
+	def onPrivateRoomCreatedCB(self, roomKey, roomEntityCall):
+		"""
+		一个space创建好后的回调
+		"""
+		DEBUG_MSG("Halls::onPrivateRoomCreatedCB: space %i, entityID=%i." % (roomKey, roomEntityCall.id))
+	def onPrivateRoomGetCell(self, roomEntityCall, roomKey):
+		"""
+		defined method.
+		Room的cell创建好了
+		"""
+		DEBUG_MSG("Halls::onPrivateRoomGetCell: roomKey= %i." % (roomKey))
+		self.Privaterooms[roomKey]["roomEntityCall"] = roomEntityCall
+
+		# space已经创建好了， 现在可以将之前请求进入的玩家全部丢到cell地图中
+		for infos in self.Privaterooms[roomKey]["enterRoomReqs"]:
+			entityCall = infos[0]
+			entityCall.roomKey = roomKey
+			#entityCall.roomKeyc = str(roomKey)
+			entityCall.createCell(roomEntityCall.cell)
+			
+		self.Privaterooms[roomKey]["enterRoomReqs"] = []
+	def joinPrivateRoom(self,entityCall,roomkey,position, direction):
+		DEBUG_MSG("Halls::joinPrivateRoom: roomKey= %i" % (roomkey))
+		roomDatas = self.Privaterooms.get(roomkey)
+		if not roomDatas:
+			entityCall.client.onjoinPrivateRoom(0)
+			return
+		elif roomDatas is not None and roomDatas["PlayerCount"] < GameConfigs.ROOM_MAX_PLAYER:
+			roomDatas["PlayerCount"] += 1
+			roomEntityCall = roomDatas["roomEntityCall"]
+			if roomEntityCall is not None:
+				DEBUG_MSG(" Halls:enterRoom: existed room=%i entityID=%i" % (roomDatas["roomKey"], entityCall.id))
+				entityCall.roomKey = roomEntityCall.roomKey
+				roomEntityCall.enterRoom(entityCall, position, direction)
+			else:
+				DEBUG_MSG("Halls::enterRoom: space %i creating..., enter entityID=%i" % (roomDatas["roomKey"], entityCall.id))
+				roomDatas["enterRoomReqs"].append((entityCall, position, direction))
+		else:
+			entityCall.client.onjoinPrivateRoom(0)
+			return
+	def leavePrivateRoom(self, avatarID, roomKey):
+		"""
+		defined method.
+		某个玩家请求登出服务器并退出这个space
+		"""
+		#self.usedindex[avatarID]=-1
+		roomDatas = self.Privaterooms.get(roomKey)
+		if not roomDatas:
+			DEBUG_MSG("Halls::leaveRoom: no roomDatas")
+			return
+		DEBUG_MSG("Halls::leaveRoom: entityID=%i roomKey=%i" % (avatarID, roomKey))
+		if avatarID in roomDatas["userindex"]:
+			del roomDatas["userindex"][avatarID]
+		if type(roomDatas) is dict:
+			roomEntityCall = roomDatas["roomEntityCall"]
+			roomDatas["PlayerCount"] -= 1
+			if roomEntityCall:
+				roomEntityCall.leaveRoom(avatarID)
+		else:
+			# 由于玩家即使是掉线都会缓存至少一局游戏， 因此应该不存在退出房间期间地图正常创建中
+			if roomDatas == FIND_ROOM_CREATING:
+				raise Exception("FIND_ROOM_CREATING")
+		DEBUG_MSG("Halls::leaveRoom PlayerCount=%i." % (roomDatas["PlayerCount"]))
+	def onPrivateRoomLoseCell(self, roomKey):
+		"""
+		defined method.
+		Room的cell销毁了
+		"""
+		DEBUG_MSG("Halls::onPrivateRoomLoseCell: space %i." % (roomKey))
+		del self.Privaterooms[roomKey]
+
+			
+#########################################
 	def enterRoom(self, entityCall, position, direction, roomKey):
 		"""
 		defined method.

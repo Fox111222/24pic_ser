@@ -1,0 +1,231 @@
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 185] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 186] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 187] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 187] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 192] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20015 )
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 193] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20015, SOMAXCONN=128.
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 197] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51282 )
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 197] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51282, SOMAXCONN=128.
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 198] - server-configs:
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 198] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 198] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 198] - 	internalAddr : 192.168.2.246:51282
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 198] - 	externalAddr : 192.168.2.246:20015
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:38 199] - 	componentID : 720012
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:39 877] - ---- baseapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84173EFF21DE506F3117154D4C51407C. Config: Debug X86. Built: 19:02:14 Aug  4 2020. AppID: 720012. UID: 1937. PID: 6476 ----
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:39 877] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:39 879] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:39 880] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 016] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 017] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 017] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 022] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 023] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 023] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 024] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 080] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:40 120] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:40 121] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 186] - loaded script:Avatar(1).
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 257] - loaded script:Halls(2).
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 259] - loaded script:Room(3).
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 261] - loaded script:PrivateRoom(4).
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:40 261] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:40 262] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:40 498] - ---- baseapp is running ----
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:40 498] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 1937 720012  [2020-10-24 23:00:46 674] - EntityApp::checkTickPeriod: tick took 18712% (18.71 seconds)!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 699] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 707] - Components::findComponents: found logger, addr:192.168.2.246:51278
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 708] - Components::addComponent: reset orderLog, uid=1937!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 708] - Components::addComponent[logger], uid=1937, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 709] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 821] - Components::findComponents: found logger, addr:192.168.2.246:51278
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 826] - Components::findComponents: found dbmgr, addr:192.168.2.246:51279
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 826] - Components::addComponent: reset orderLog, uid=1937!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 827] - Components::addComponent[dbmgr], uid=1937, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:47 827] - Components::findComponents: found dbmgr, addr:192.168.2.246:51279
+ WARNING    baseapp-1 1937 720012  [2020-10-24 23:00:48 827] - EntityApp::checkTickPeriod: tick took 3521% (3.52 seconds)!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:49 832] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:49 872] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51280
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:49 872] - Components::addComponent[baseappmgr], uid=1937, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:49 876] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51280
+ WARNING    baseapp-1 1937 720012  [2020-10-24 23:00:50 877] - EntityApp::checkTickPeriod: tick took 3266% (3.27 seconds)!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:51 888] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:51 900] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51281
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:51 900] - Components::addComponent[cellappmgr], uid=1937, componentID=610002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:51 901] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51281
+ WARNING    baseapp-1 1937 720012  [2020-10-24 23:00:52 901] - EntityApp::checkTickPeriod: tick took 3136% (3.14 seconds)!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 988] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 1937 720012  [2020-10-24 23:00:53 991] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 993] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 995] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51283, extaddr:nonsupport, extport:0,  from 192.168.2.246:51311/0/0/0.
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 995] - Components::addComponent[cellapp], uid=1937, componentID=820012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 996] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51283, extaddr:nonsupport, extport:0,  from 192.168.2.246:51311/0/0/0.
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 996] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:53 998] - Components::process(): Found all the components!
+    INFO    baseapp-1 1937 720012  [2020-10-24 23:00:57 002] - EntityApp::onDbmgrInitCompleted: entityID alloc(10001-20001), startGlobalOrder=5, startGroupOrder=1, digest=500990D213C82C18D6582D53FA18AEE1.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:00:57 002] - IDClient::onAddRange: number of ids increased from 10001 to 20001.
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:00:57 341] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20856, errorno=10048
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:00:58 565] - onInit::isReload:0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:00:58 566] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.56 seconds
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:00:58 566] - EntityApp::checkTickPeriod: tick took 4748% (4.75 seconds)!
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:00:58 664] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:00:58 665] - onBaseAppReady: isBootstrap=True, appID=720012, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 1937 720012  [2020-10-24 23:00:58 669] - EntityApp::createEntity: new Halls 10001
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:00:58 687] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:04:57 241] - PendingLoginMgr::add: 3332, size=1.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:04:57 246] - Channel::handshake: websocket(192.168.2.246:51342/0/0/0) successfully!
+    INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 251] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:51342/0/0/0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:04:57 251] - Baseapp::onHello: client is not encrypted, addr=192.168.2.246:51342/0/0/0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 255] - Baseapp::loginBaseapp: new user[3332], channel[192.168.2.246:51342/0/0/0].
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:04:57 281] - PendingLoginMgr::remove: 3332, size=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 281] - EntityApp::createEntity: new Avatar 10002
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 281] - Avatar[10002] entities enable. EntityCall:Client id:10002, utype:1, component=client[0], addr: 192.168.2.246:51342.,self.roomKey=0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 281] - Baseapp::onQueryAccountCBFromDbmgr: user=3332, uuid=6887202955054219264, entityID=10002, flags=0, deadline=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:04:57 348] - EntityApp::createEntity: new PrivateRoom 10003
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 348] - Halls::onPrivateRoomCreatedCB: space 6887202955054219265, entityID=10003.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 351] - Room::onGetCell: id=10003 roomKey=6887202955054219265
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 351] - Halls::onPrivateRoomGetCell: roomKey= 6887202955054219265.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 351] - Avatar::createCellEntity: id=10002
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:04:57 351] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 352] - onGlobalData: Room_1
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:04:57 352] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:04:57 354] - Avatar::onGetCell roomKey=: 6887202955054219265
+    INFO    baseapp01 1937 720012  [2020-10-24 23:06:57 763] - Baseapp::onBackupEntityCellData: PrivateRoom(10003), 39 bytes.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:08:37 762] - Baseapp::onBackupEntityCellData: Avatar(10002), 119 bytes.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:10:40 494] - Baseapp::onBackupEntityCellData: Avatar(10002), 1 bytes.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:10:40 494] - Baseapp::onCellWriteToDBCompleted: Avatar(10002).
+    INFO    baseapp01 1937 720012  [2020-10-24 23:11:57 764] - Baseapp::onBackupEntityCellData: Avatar(10002), 1 bytes.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:13:37 759] - Baseapp::onBackupEntityCellData: PrivateRoom(10003), 1 bytes.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:05 482] - PendingLoginMgr::add: 666, size=1.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:05 499] - Channel::handshake: websocket(192.168.2.246:51591/0/0/0) successfully!
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:05 519] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:51591/0/0/0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:14:05 521] - Baseapp::onHello: client is not encrypted, addr=192.168.2.246:51591/0/0/0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:05 559] - Baseapp::loginBaseapp: new user[666], channel[192.168.2.246:51591/0/0/0].
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:05 620] - PendingLoginMgr::remove: 666, size=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:05 621] - EntityApp::createEntity: new Avatar 10004
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:14:05 623] - Avatar[10004] entities enable. EntityCall:Client id:10004, utype:1, component=client[0], addr: 192.168.2.246:51591.,self.roomKey=0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:05 624] - Baseapp::onQueryAccountCBFromDbmgr: user=666, uuid=6887205308696297472, entityID=10004, flags=0, deadline=0.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 882] - Halls::joinPrivateRoom roomkey= 6887202955054219265 
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 882] - Halls::joinPrivateRoom: roomKey= 6887202955054219265
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 882] -  Halls:enterRoom: existed room=6887202955054219265 entityID=10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 882] - Room::enterRoom: avatar10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 882] - Avatar::createCellEntity: id=10004
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:14:05 883] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:14:05 884] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:05 885] - Avatar::onGetCell roomKey=: 6887202955054219265
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:14 168] - Avatar::onClientDeath: 10004.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:14 168] - remark Avatar[10004]  onClientDeath:
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:14:14 171] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10004.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:17 057] - Avatar::onClientDeath: 10002.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:17 057] - remark Avatar[10002]  onClientDeath:
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:14:17 059] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10002.
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:14:17 059] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10004.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 157] - TIMER_TYPE_DESTROY == userArg
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 158] - Avatar::destroySelf: id=10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 158] - Avatar::destroyCellEntity: id=10004
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:14:31 163] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10002.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Baseapp::onBackupEntityCellData: Avatar(10004), 118 bytes.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Avatar::onLoseCell: 10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Avatar::destroySelf: id=10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Halls::findRoom : roomKey=6887202955054219265 notFoundCreate=0
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Halls::leaveRoom: no roomDatas
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:31 206] - Avatar::destroy called: id=10004
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 057] - TIMER_TYPE_DESTROY == userArg
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 057] - Avatar::destroySelf: id=10002
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 057] - Avatar::destroyCellEntity: id=10002
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:34 058] - Baseapp::onBackupEntityCellData: PrivateRoom(10003), 39 bytes.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 058] - Halls::onPrivateRoomLoseCell: space 6887202955054219265.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:34 058] - Avatar::~Avatar(): 10004
+    INFO    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Baseapp::onBackupEntityCellData: Avatar(10002), 119 bytes.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Avatar::onLoseCell: 10002
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Avatar::destroySelf: id=10002
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Halls::findRoom : roomKey=6887202955054219265 notFoundCreate=0
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Halls::leaveRoom: no roomDatas
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Avatar::destroy called: id=10002
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:34 059] - Avatar::~Avatar(): 10002
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:14:34 060] - PrivateRoom::~PrivateRoom(): 10003
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:14:34 060] - onDelGlobalData: Room_1
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:14 726] - PendingLoginMgr::add: 4444, size=1.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:14 730] - Channel::handshake: websocket(192.168.2.246:51706/0/0/0) successfully!
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 736] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:51706/0/0/0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:54:14 736] - Baseapp::onHello: client is not encrypted, addr=192.168.2.246:51706/0/0/0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 739] - Baseapp::loginBaseapp: new user[4444], channel[192.168.2.246:51706/0/0/0].
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:14 767] - PendingLoginMgr::remove: 4444, size=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 768] - EntityApp::createEntity: new Avatar 10005
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 769] - Avatar[10005] entities enable. EntityCall:Client id:10005, utype:1, component=client[0], addr: 192.168.2.246:51706.,self.roomKey=0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 769] - Baseapp::onQueryAccountCBFromDbmgr: user=4444, uuid=6887215655272513536, entityID=10005, flags=0, deadline=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:14 836] - EntityApp::createEntity: new PrivateRoom 10006
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 836] - Halls::onPrivateRoomCreatedCB: space 6887215655272513537, entityID=10006.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 838] - Room::onGetCell: id=10006 roomKey=6887215655272513537
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 838] - Halls::onPrivateRoomGetCell: roomKey= 6887215655272513537.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 838] - Avatar::createCellEntity: id=10005
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:54:14 839] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 840] - onGlobalData: Room_2
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:54:14 840] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:14 840] - Avatar::onGetCell roomKey=: 6887215655272513537
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:58 970] - PendingLoginMgr::add: 6990, size=1.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:58 983] - Channel::handshake: websocket(192.168.2.246:51744/0/0/0) successfully!
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:58 994] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:51744/0/0/0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:54:58 995] - Baseapp::onHello: client is not encrypted, addr=192.168.2.246:51744/0/0/0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:59 023] - Baseapp::loginBaseapp: new user[6990], channel[192.168.2.246:51744/0/0/0].
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:54:59 046] - PendingLoginMgr::remove: 6990, size=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:59 047] - EntityApp::createEntity: new Avatar 10007
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:54:59 048] - Avatar[10007] entities enable. EntityCall:Client id:10007, utype:1, component=client[0], addr: 192.168.2.246:51744.,self.roomKey=0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:54:59 048] - Baseapp::onQueryAccountCBFromDbmgr: user=6990, uuid=6887215848546041856, entityID=10007, flags=0, deadline=0.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 154] - Halls::joinPrivateRoom roomkey= 6887215655272513537 
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 154] - Halls::joinPrivateRoom: roomKey= 6887215655272513537
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 154] -  Halls:enterRoom: existed room=6887215655272513537 entityID=10007
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 155] - Room::enterRoom: avatar10007
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 155] - Avatar::createCellEntity: id=10007
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:54:59 155] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:54:59 157] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:54:59 160] - Avatar::onGetCell roomKey=: 6887215655272513537
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:55:15 089] - Avatar::onClientDeath: 10005.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:15 090] - remark Avatar[10005]  onClientDeath:
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:55:15 094] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10005.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 066] - TIMER_TYPE_DESTROY == userArg
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 066] - Avatar::destroySelf: id=10005
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 066] - Avatar::destroyCellEntity: id=10005
+    INFO    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Baseapp::onBackupEntityCellData: Avatar(10005), 119 bytes.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Avatar::onLoseCell: 10005
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Avatar::destroySelf: id=10005
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Halls::findRoom : roomKey=6887215655272513537 notFoundCreate=0
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Halls::leaveRoom: no roomDatas
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:55:32 085] - Avatar::destroy called: id=10005
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:55:32 086] - Avatar::~Avatar(): 10005
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:56:22 471] - PendingLoginMgr::add: d'd'd'd, size=1.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:56:22 480] - Channel::handshake: websocket(192.168.2.246:51878/0/0/0) successfully!
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:22 489] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:51878/0/0/0
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:56:22 490] - Baseapp::onHello: client is not encrypted, addr=192.168.2.246:51878/0/0/0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:22 508] - Baseapp::loginBaseapp: new user[d'd'd'd], channel[192.168.2.246:51878/0/0/0].
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:56:22 545] - PendingLoginMgr::remove: d'd'd'd, size=0.
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:22 546] - EntityApp::createEntity: new Avatar 10008
+  S_INFO    baseapp01 1937 720012  [2020-10-24 23:56:22 548] - Avatar[10008] entities enable. EntityCall:Client id:10008, utype:1, component=client[0], addr: 192.168.2.246:51878.,self.roomKey=0
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:22 548] - Baseapp::onQueryAccountCBFromDbmgr: user=d'd'd'd, uuid=6887216205028327424, entityID=10008, flags=0, deadline=0.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 679] - Halls::joinPrivateRoom roomkey= 6887215655272513537 
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 679] - Halls::joinPrivateRoom: roomKey= 6887215655272513537
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 679] -  Halls:enterRoom: existed room=6887215655272513537 entityID=10008
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 679] - Room::enterRoom: avatar10008
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 679] - Avatar::createCellEntity: id=10008
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:56:22 679] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_ERR    baseapp01 1937 720012  [2020-10-24 23:56:22 686] - TypeError: ScriptVector3::check(): args is must a sequence.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:22 688] - Avatar::onGetCell roomKey=: 6887215655272513537
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:24 702] - Baseapp::onBackupEntityCellData: PrivateRoom(10006), 39 bytes.
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:56:36 515] - Avatar::onClientDeath: 10007.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:36 516] - remark Avatar[10007]  onClientDeath:
+ WARNING    baseapp01 1937 720012  [2020-10-24 23:56:36 521] - Baseapp::onEntityCall: not found clientEntityCall! entityCallType=6, entityID=10007.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 498] - TIMER_TYPE_DESTROY == userArg
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 498] - Avatar::destroySelf: id=10007
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 498] - Avatar::destroyCellEntity: id=10007
+    INFO    baseapp01 1937 720012  [2020-10-24 23:56:53 516] - Baseapp::onBackupEntityCellData: Avatar(10007), 119 bytes.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 517] - Avatar::onLoseCell: 10007
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 517] - Avatar::destroySelf: id=10007
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 517] - Halls::findRoom : roomKey=6887215655272513537 notFoundCreate=0
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 517] - Halls::leaveRoom: no roomDatas
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:56:53 517] - Avatar::destroy called: id=10007
+   DEBUG    baseapp01 1937 720012  [2020-10-24 23:57:06 599] - Avatar::onClientDeath: 10008.
+   S_DBG    baseapp01 1937 720012  [2020-10-24 23:57:06 599] - remark Avatar[10008]  onClientDeath:

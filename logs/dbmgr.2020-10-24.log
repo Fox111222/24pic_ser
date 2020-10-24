@@ -1,0 +1,80 @@
+  INFO root [2020-10-24 23:00:38,084] - 
+  INFO root [2020-10-24 23:00:38,084] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-24 23:00:38,085] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-24 23:00:38,086] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-24 23:00:38,086] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-24 23:00:38,090] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51279 )
+  INFO root [2020-10-24 23:00:38,090] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51279, SOMAXCONN=5.
+  INFO root [2020-10-24 23:00:38,090] - server-configs:
+  INFO root [2020-10-24 23:00:38,090] - 	internalAddr : 192.168.2.246:51279
+  INFO root [2020-10-24 23:00:38,091] - 	componentID : 42002
+  INFO root [2020-10-24 23:00:39,602] - ---- dbmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 149F584B8A9DE9211BFBD70F243BB430. Config: Debug X86. Built: 19:01:34 Aug  4 2020. AppID: 42002. UID: 1937. PID: 11344 ----
+  INFO root [2020-10-24 23:00:39,604] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-24 23:00:39,605] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-24 23:00:39,606] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-24 23:00:39,745] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2020-10-24 23:00:39,746] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2020-10-24 23:00:39,746] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2020-10-24 23:00:39,748] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2020-10-24 23:00:39,749] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2020-10-24 23:00:39,749] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2020-10-24 23:00:39,750] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2020-10-24 23:00:39,780] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2020-10-24 23:00:39,809] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-10-24 23:00:39,809] - Script::install(): KBExtra is successfully!
+  INFO root [2020-10-24 23:00:39,821] - Dbmgr::initializeEnd: digest(500990D213C82C18D6582D53FA18AEE1)
+S_INFO root [2020-10-24 23:00:39,821] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2020-10-24 23:00:39,821] - TelnetServer server is running on port 32000
+  INFO root [2020-10-24 23:00:39,822] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2020-10-24 23:00:40,006] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+0DBC131CA0007D9B46FE81B2EFC5A2BF7C241D718E3845532BBF04C46F9FDC460B8D229396F3AA7482D66A468C07584956A8DFDB8CA384C67973A0D4A952D785F5868440643BD8A03992420E090A834B553223860ABCA44421582983E9E64A5FFF6CE3F02E112853E7201BD20B8C1C38CDC902E959B65B1848FE50983E694B43
+ DEBUG root [2020-10-24 23:00:40,010] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2020-10-24 23:00:40,062] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2020-10-24 23:00:40,062] - DBUtil::createInterface[0x21af0b0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+  INFO root [2020-10-24 23:00:40,063] - ThreadPool::createThreadPool: creating  threadpool...
+ DEBUG root [2020-10-24 23:00:40,063] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2020-10-24 23:00:40,064] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+  INFO root [2020-10-24 23:00:40,064] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2020-10-24 23:00:40,065] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2020-10-24 23:00:40,065] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2020-10-24 23:00:40,065] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2020-10-24 23:00:40,091] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2020-10-24 23:00:40,092] - DBThread::onStart(): 0x4a312c0!
+ DEBUG root [2020-10-24 23:00:40,099] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2020-10-24 23:00:40,099] - DBThread::onStart(): 0x4a30f90!
+ DEBUG root [2020-10-24 23:00:40,107] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2020-10-24 23:00:40,107] - DBThread::onStart(): 0x4a313d0!
+ DEBUG root [2020-10-24 23:00:40,115] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2020-10-24 23:00:40,116] - DBThread::onStart(): 0x4a30df8!
+ DEBUG root [2020-10-24 23:00:40,122] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2020-10-24 23:00:40,122] - DBThread::onStart(): 0x4a31348!
+  INFO root [2020-10-24 23:00:40,170] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,174] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,176] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,178] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,178] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,178] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,179] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,179] - DBInterfaceMysql::query: successfully!
+  INFO root [2020-10-24 23:00:40,180] - DBInterfaceMysql::query: successfully!
+  WARN root [2020-10-24 23:00:40,205] - D:\kbengine-1.2.7\kbe\src\server\dbmgr\dbmgr.cpp:324: Profile scriptCall took 0.38 seconds
+  INFO root [2020-10-24 23:00:40,459] - ---- dbmgr is running ----
+ DEBUG root [2020-10-24 23:00:40,459] - Components::process(): Request for the process of identity...
+  INFO root [2020-10-24 23:00:46,637] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:interfaces, componentID:320002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2020-10-24 23:00:46,637] - Components::addComponent: reset orderLog, uid=1937!
+  INFO root [2020-10-24 23:00:46,637] - Components::addComponent[interfaces], uid=1937, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-24 23:00:47,641] - Components::findComponents: find logger(1)...
+  INFO root [2020-10-24 23:00:47,693] - Components::findComponents: found logger, addr:192.168.2.246:51278
+  INFO root [2020-10-24 23:00:47,693] - Components::addComponent: reset orderLog, uid=1937!
+  INFO root [2020-10-24 23:00:47,694] - Components::addComponent[logger], uid=1937, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2020-10-24 23:00:47,695] - Forwarding logs to logger[192.168.2.246:51278/0/0/0]...
+ ERROR root [2020-10-24 23:57:22,960] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-10-24 23:57:22,960] - The following logs sent to logger failed:
+  WARN root [2020-10-24 23:57:22,960] - ==> [2020-10-24 23:57:22 965] TCPPacketReceiver::processPendingEvents(192.168.2.246:51278): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-10-24 23:57:22,960] - ==> [2020-10-24 23:57:22 967] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+

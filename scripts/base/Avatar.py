@@ -127,7 +127,10 @@ class Avatar(KBEngine.Proxy):
 		KBEngine method.
 		entity的cell部分实体被创建成功
 		"""
-		DEBUG_MSG('Avatar::onGetCell: %s' % self.cell)
+		#self.roomKeyc=str(self.roomKey)
+		#self.roomKeyc="123456789"
+		DEBUG_MSG('Avatar::onGetCell roomKey=: %i' % self.roomKey)
+		#DEBUG_MSG('Avatar::onGetCell roomKeyc=: %s' % str(int(''.join(str(item) for item in self.roomKeyc))))
 
 	def onLoseCell(self):
 		"""
@@ -170,6 +173,21 @@ class Avatar(KBEngine.Proxy):
 
 	def joinRoom(self):
 		self.enterRoom()
+	def createPrivateRoom(self):
+		if self.cell is None:
+			# 玩家上线了或者重登陆了， 此处告诉大厅，玩家请求登陆到游戏地图中
+			KBEngine.globalData["Halls"].createPrivateRoom(self, self.cellData["position"], self.cellData["direction"])
+		else:
+			self.updateStaus()
+	def joinPrivateRoom(self,roomkey):#参数是数字数组
+		#str1 = ','.join(str(i) for i in roomkey) #转成字符串
+		str1=int(''.join(str(item) for item in roomkey))
+		DEBUG_MSG("Halls::joinPrivateRoom roomkey= %i " % (str1))
+		if self.cell is None:
+			# 玩家上线了或者重登陆了， 此处告诉大厅，玩家请求登陆到游戏地图中
+			KBEngine.globalData["Halls"].joinPrivateRoom(self,str1,self.cellData["position"], self.cellData["direction"])
+		else:
+			self.updateStaus()
 
 	def enterRoom(self):
 		# 如果玩家存在cell， 说明已经在地图中了， 因此不需要再次进入地图

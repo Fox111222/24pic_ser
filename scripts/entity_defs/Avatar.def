@@ -21,9 +21,13 @@
 
 		<roomKey>
 			<Type>		SPACE_KEY			</Type>
-			<Flags>		BASE				</Flags>
+			<Flags>		BASE_AND_CLIENT				</Flags>
 			<Persistent>		true				</Persistent>
 		</roomKey>
+		<roomKeyc>
+			<Type>		MJ_LIST			</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+		</roomKeyc>
 
 		<accountName>
 			<Type>		UNICODE			</Type>
@@ -92,7 +96,9 @@
 		<onotherNetcut>
 			<Arg>		ENTITY_ID	</Arg>
 		</onotherNetcut>
-		
+		<onjoinPrivateRoom>
+			<Arg>		MJ_LIST 	</Arg>
+		</onjoinPrivateRoom>
 		<onupdateGamestates>
 			<Arg>		ENTITY_ID	</Arg>
 			<Arg>		INT32	</Arg>
@@ -145,7 +151,13 @@
 		<joinRoom>
 			<Exposed/>
 		</joinRoom>
-
+		<createPrivateRoom>
+			<Exposed/>
+		</createPrivateRoom>
+		<joinPrivateRoom>
+			<Exposed/>
+			<Arg>		MJ_LIST			</Arg>
+		</joinPrivateRoom>
 		<decodeEncryptedData>
 			<Exposed/>
 			<Arg>	UNICODE 	</Arg>
