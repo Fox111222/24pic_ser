@@ -70,6 +70,13 @@ class Room(KBEngine.Entity):
 		"""
 		if(entityCall.__class__.__name__ != "Avatar"):
 			return
+		entityCall.roomKeyc=[]
+		lis=str(self.roomKeyC)
+		DEBUG_MSG("Room::onEnter: %i" % (self.roomKeyC))
+		DEBUG_MSG("Room::onEnter: %s" % (lis))
+		for x in lis:
+			entityCall.roomKeyc.append(int(x))
+		entityCall.roomKeyc=entityCall.roomKeyc
 		self.avatars[entityCall.id] = entityCall
 		print("Room::onEnter",entityCall.id)
 		#################

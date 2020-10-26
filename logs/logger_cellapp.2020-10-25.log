@@ -1,0 +1,550 @@
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 684] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 685] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 689] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 690] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 701] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51618 )
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 702] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51618, SOMAXCONN=5.
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 702] - server-configs:
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 702] - 	gameUpdateHertz : 30
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 702] - 	defaultViewRadius : 500
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 702] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 703] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 703] - 	internalAddr : 192.168.2.246:51618
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 703] - 	componentID : 820012
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 992] - Components::findLogger: found logger, addr:192.168.2.246:51613
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 992] - Components::addComponent: reset orderLog, uid=11640!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 992] - Components::addComponent[logger], uid=11640, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 997] - ---- cellapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: FB5AA4D149D453FC2A7CB28524DD1B1C. Config: Debug X86. Built: 19:02:49 Aug  4 2020. AppID: 820012. UID: 11640. PID: 7116 ----
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 997] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 998] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:50 998] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 126] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 127] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 127] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 130] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 130] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 130] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 131] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 160] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:51 190] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:51 190] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 226] - loaded script:Avatar(1).
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 228] - loaded script:Room(3).
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 255] - loaded script:PrivateRoom(4).
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:51 255] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:51 483] - ---- cellapp is running ----
+   DEBUG    cellapp-1 11640 820012  [2020-10-25 19:20:51 483] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 11640 820012  [2020-10-25 19:20:57 673] - EntityApp::checkTickPeriod: tick took 18757% (18.76 seconds)!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:58 683] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:58 693] - Components::findComponents: found dbmgr, addr:192.168.2.246:51614
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:58 693] - Components::addComponent: reset orderLog, uid=11640!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:58 693] - Components::addComponent[dbmgr], uid=11640, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:20:58 693] - Components::findComponents: found dbmgr, addr:192.168.2.246:51614
+ WARNING    cellapp-1 11640 820012  [2020-10-25 19:20:59 694] - EntityApp::checkTickPeriod: tick took 3163% (3.16 seconds)!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:00 695] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:00 748] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51616
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:00 748] - Components::addComponent[cellappmgr], uid=11640, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:00 749] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51616
+ WARNING    cellapp-1 11640 820012  [2020-10-25 19:21:01 750] - EntityApp::checkTickPeriod: tick took 3233% (3.23 seconds)!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:02 783] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:02 811] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51615
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:02 811] - Components::addComponent[baseappmgr], uid=11640, componentID=510002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:02 812] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51615
+ WARNING    cellapp-1 11640 820012  [2020-10-25 19:21:03 812] - EntityApp::checkTickPeriod: tick took 3218% (3.22 seconds)!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:04 850] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:04 882] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:04 895] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:04 916] - Components::process(): Found all the components!
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:05 357] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:baseapp, componentID:720012, globalorderID=5, grouporderID=1, intaddr:192.168.2.246, intport:51619, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51614/0/0/0.
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:05 357] - Components::addComponent[baseapp], uid=11640, componentID=720012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 11640 820012  [2020-10-25 19:21:08 371] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-10001), startGlobalOrder=4, startGroupOrder=1, digest=0F3E620F5AA14649435B0C4581B15EC8.
+    INFO    cellapp01 11640 820012  [2020-10-25 19:21:08 371] - IDClient::onAddRange: number of ids increased from 1 to 10001.
+ WARNING    cellapp01 11640 820012  [2020-10-25 19:21:08 705] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20235, errorno=10048
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:09 940] - onInit::isReload:0
+ WARNING    cellapp01 11640 820012  [2020-10-25 19:21:09 940] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.57 seconds
+ WARNING    cellapp01 11640 820012  [2020-10-25 19:21:09 941] - EntityApp::checkTickPeriod: tick took 4821% (4.82 seconds)!
+   DEBUG    cellapp01 11640 820012  [2020-10-25 19:21:09 949] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:10 425] - onGlobalData: Halls
+   DEBUG    cellapp01 11640 820012  [2020-10-25 19:21:13 523] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 11640 820012  [2020-10-25 19:21:13 523] - EntityApp::createEntity: new Room 10003
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 524] - created space[6887516384587612161] entityID = 10003 spaceid=1
+    INFO    cellapp01 11640 820012  [2020-10-25 19:21:13 526] - EntityApp::createEntity: new Avatar 10002
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 527] - Room::onEnter 10002
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 527] - self.roomInfo.seats[0] =10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 527] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 527] - new avatar cell: id=10002 accountName=333  avatarName=pop_player spaceID=1
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:13 527] - Avatar::onGetWitness: 10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:17 677] - cellAvatar::onClientDeath: 10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:17 677] - Room::onLeave space[1] entityID = 10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:34 656] - Avatar::onDestroy: 10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:34 656] - Room::onLeaverealy space[1] entityID = 10002.
+   S_DBG    cellapp01 11640 820012  [2020-10-25 19:21:34 656] - Room::onDestroy: 10003
+    INFO    cellapp01 11640 820012  [2020-10-25 19:21:34 657] - Spaces::destroySpace: 1.
+   DEBUG    cellapp01 11640 820012  [2020-10-25 19:21:34 683] - Room::~Room(): 10003
+   DEBUG    cellapp01 11640 820012  [2020-10-25 19:21:34 683] - Avatar::~Avatar(): 10002
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 663] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 664] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 665] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 665] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 670] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51746 )
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 671] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51746, SOMAXCONN=5.
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 671] - server-configs:
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 671] - 	gameUpdateHertz : 30
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 671] - 	defaultViewRadius : 500
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 671] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 672] - 	entryScriptFile : kbemain
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 672] - 	internalAddr : 192.168.2.246:51746
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 672] - 	componentID : 820012
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 901] - Components::findLogger: found logger, addr:192.168.2.246:51741
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 901] - Components::addComponent: reset orderLog, uid=13025!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 901] - Components::addComponent[logger], uid=13025, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 907] - ---- cellapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: FB5AA4D149D453FC2A7CB28524DD1B1C. Config: Debug X86. Built: 19:02:49 Aug  4 2020. AppID: 820012. UID: 13025. PID: 6268 ----
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 907] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 908] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:54 908] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 037] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 037] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 038] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 041] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 042] - Script::install_py_dlls(): PyInit_select
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 042] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 043] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 082] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:55 121] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:55 121] - Script::install(): KBExtra is successfully!
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 149] - loaded script:Avatar(1).
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 218] - loaded script:Room(3).
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 251] - loaded script:PrivateRoom(4).
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:55 251] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:27:55 513] - ---- cellapp is running ----
+   DEBUG    cellapp-1 13025 820012  [2020-10-25 19:27:55 514] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 13025 820012  [2020-10-25 19:28:01 726] - EntityApp::checkTickPeriod: tick took 18824% (18.82 seconds)!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:02 766] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:02 805] - Components::findComponents: found dbmgr, addr:192.168.2.246:51743
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:02 805] - Components::addComponent: reset orderLog, uid=13025!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:02 805] - Components::addComponent[dbmgr], uid=13025, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:02 806] - Components::findComponents: found dbmgr, addr:192.168.2.246:51743
+ WARNING    cellapp-1 13025 820012  [2020-10-25 19:28:03 807] - EntityApp::checkTickPeriod: tick took 3212% (3.21 seconds)!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:04 814] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:04 859] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51745
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:04 859] - Components::addComponent[cellappmgr], uid=13025, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:04 859] - Components::findComponents: found cellappmgr, addr:192.168.2.246:51745
+ WARNING    cellapp-1 13025 820012  [2020-10-25 19:28:05 860] - EntityApp::checkTickPeriod: tick took 3269% (3.27 seconds)!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:06 866] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:06 882] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51744
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:06 882] - Components::addComponent[baseappmgr], uid=13025, componentID=510002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:06 883] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51744
+ WARNING    cellapp-1 13025 820012  [2020-10-25 19:28:07 884] - EntityApp::checkTickPeriod: tick took 3139% (3.14 seconds)!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 947] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 948] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 949] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51747, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51775/0/0/0.
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 949] - Components::addComponent[baseapp], uid=13025, componentID=720012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 949] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51747, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51775/0/0/0.
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 949] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:08 965] - Components::process(): Found all the components!
+    INFO    cellapp-1 13025 820012  [2020-10-25 19:28:11 954] - EntityApp::onDbmgrInitCompleted: entityID alloc(10001-20001), startGlobalOrder=5, startGroupOrder=1, digest=0F3E620F5AA14649435B0C4581B15EC8.
+    INFO    cellapp01 13025 820012  [2020-10-25 19:28:11 954] - IDClient::onAddRange: number of ids increased from 10001 to 20001.
+ WARNING    cellapp01 13025 820012  [2020-10-25 19:28:12 287] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20438, errorno=10048
+ WARNING    cellapp01 13025 820012  [2020-10-25 19:28:12 638] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20561, errorno=10048
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:13 862] - onInit::isReload:0
+ WARNING    cellapp01 13025 820012  [2020-10-25 19:28:13 862] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.91 seconds
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:13 863] - onGlobalData: Halls
+ WARNING    cellapp01 13025 820012  [2020-10-25 19:28:13 863] - EntityApp::checkTickPeriod: tick took 5806% (5.81 seconds)!
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:28:13 867] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:28:18 427] - Spaces::createNewSpace: new space(Room) 1.
+    INFO    cellapp01 13025 820012  [2020-10-25 19:28:18 427] - EntityApp::createEntity: new Room 3
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 428] - created space[6887518209948712961] entityID = 3 spaceid=1
+    INFO    cellapp01 13025 820012  [2020-10-25 19:28:18 432] - EntityApp::createEntity: new Avatar 2
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - Room::onEnter: 6887518209948712961
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - Room::onEnter: 6887518209948712961
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - Room::onEnter 2
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - self.roomInfo.seats[0] =2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 434] - new avatar cell: id=2 accountName=333  avatarName=pop_player spaceID=1
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:18 435] - Avatar::onGetWitness: 2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:22 194] - cellAvatar::onClientDeath: 2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:22 195] - Room::onLeave space[1] entityID = 2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:39 169] - Avatar::onDestroy: 2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:39 169] - Room::onLeaverealy space[1] entityID = 2.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:28:39 169] - Room::onDestroy: 3
+    INFO    cellapp01 13025 820012  [2020-10-25 19:28:39 170] - Spaces::destroySpace: 1.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:28:39 180] - Room::~Room(): 3
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:28:39 180] - Avatar::~Avatar(): 2
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:29:53 849] - Spaces::createNewSpace: new space(Room) 2.
+    INFO    cellapp01 13025 820012  [2020-10-25 19:29:53 849] - EntityApp::createEntity: new Room 5
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 851] - created space[6887518617970606081] entityID = 5 spaceid=2
+    INFO    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - EntityApp::createEntity: new Avatar 4
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - Room::onEnter: 6887518617970606081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - Room::onEnter: 6887518617970606081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - Room::onEnter 4
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - self.roomInfo.seats[0] =4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 854] - new avatar cell: id=4 accountName=何才义  avatarName=pop_player spaceID=2
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:29:53 855] - Avatar::onGetWitness: 4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:30:03 468] - cellAvatar::onClientDeath: 4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:30:03 468] - Room::onLeave space[2] entityID = 4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:30:20 469] - Avatar::onDestroy: 4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:30:20 469] - Room::onLeaverealy space[2] entityID = 4.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 19:30:20 469] - Room::onDestroy: 5
+    INFO    cellapp01 13025 820012  [2020-10-25 19:30:20 470] - Spaces::destroySpace: 2.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:30:20 479] - Room::~Room(): 5
+   DEBUG    cellapp01 13025 820012  [2020-10-25 19:30:20 479] - Avatar::~Avatar(): 4
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:45:27 208] - Spaces::createNewSpace: new space(Room) 3.
+    INFO    cellapp01 13025 820012  [2020-10-25 20:45:27 214] - EntityApp::createEntity: new Room 7
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 226] - created space[6887538091352326145] entityID = 7 spaceid=3
+    INFO    cellapp01 13025 820012  [2020-10-25 20:45:27 239] - EntityApp::createEntity: new Avatar 6
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 242] - Room::onEnter: 6887538091352326145
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 242] - Room::onEnter: 6887538091352326145
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 243] - Room::onEnter 6
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 243] - self.roomInfo.seats[0] =6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 243] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 243] - new avatar cell: id=6 accountName=222  avatarName=pop_player spaceID=3
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:27 245] - Avatar::onGetWitness: 6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:31 287] - cellAvatar::onClientDeath: 6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:31 287] - Room::onLeave space[3] entityID = 6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:48 256] - Avatar::onDestroy: 6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:48 256] - Room::onLeaverealy space[3] entityID = 6.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:45:48 256] - Room::onDestroy: 7
+    INFO    cellapp01 13025 820012  [2020-10-25 20:45:48 257] - Spaces::destroySpace: 3.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:45:48 267] - Room::~Room(): 7
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:45:48 267] - Avatar::~Avatar(): 6
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:57:50 552] - Spaces::createNewSpace: new space(Room) 4.
+    INFO    cellapp01 13025 820012  [2020-10-25 20:57:50 554] - EntityApp::createEntity: new Room 13
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 556] - created space[6887541282513027073] entityID = 13 spaceid=4
+    INFO    cellapp01 13025 820012  [2020-10-25 20:57:50 565] - EntityApp::createEntity: new Avatar 12
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 567] - Room::onEnter: 6887541282513027073
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 567] - Room::onEnter: 6887541282513027073
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 570] - Room::onEnter 12
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 571] - self.roomInfo.seats[0] =12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 571] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 571] - new avatar cell: id=12 accountName=222  avatarName=pop_player spaceID=4
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:50 571] - Avatar::onGetWitness: 12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:53 404] - cellAvatar::onClientDeath: 12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:57:53 404] - Room::onLeave space[4] entityID = 12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:58:10 382] - Avatar::onDestroy: 12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:58:10 382] - Room::onLeaverealy space[4] entityID = 12.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 20:58:10 383] - Room::onDestroy: 13
+    INFO    cellapp01 13025 820012  [2020-10-25 20:58:10 391] - Spaces::destroySpace: 4.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:58:10 393] - Room::~Room(): 13
+   DEBUG    cellapp01 13025 820012  [2020-10-25 20:58:10 394] - Avatar::~Avatar(): 12
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:04:06 981] - Spaces::createNewSpace: new space(Room) 5.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:04:06 981] - EntityApp::createEntity: new Room 17
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 984] - created space[6887542897420730369] entityID = 17 spaceid=5
+    INFO    cellapp01 13025 820012  [2020-10-25 21:04:06 987] - EntityApp::createEntity: new Avatar 16
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 988] - Room::onEnter: 6887542897420730369
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 988] - Room::onEnter: 6887542897420730369
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 989] - Room::onEnter 16
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 989] - self.roomInfo.seats[0] =16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 989] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 989] - new avatar cell: id=16 accountName=22  avatarName=pop_player spaceID=5
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:06 991] - Avatar::onGetWitness: 16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:09 024] - cellAvatar::onClientDeath: 16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:09 024] - Room::onLeave space[5] entityID = 16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:26 012] - Avatar::onDestroy: 16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:26 012] - Room::onLeaverealy space[5] entityID = 16.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:04:26 012] - Room::onDestroy: 17
+    INFO    cellapp01 13025 820012  [2020-10-25 21:04:26 013] - Spaces::destroySpace: 5.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:04:26 023] - Room::~Room(): 17
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:04:26 039] - Avatar::~Avatar(): 16
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:14:25 893] - Spaces::createNewSpace: new space(Room) 6.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:14:25 894] - EntityApp::createEntity: new Room 19
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 895] - created space[6887545556005486593] entityID = 19 spaceid=6
+    INFO    cellapp01 13025 820012  [2020-10-25 21:14:25 897] - EntityApp::createEntity: new Avatar 18
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 898] - Room::onEnter: 6887545556005486593
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 898] - Room::onEnter: 6887545556005486593
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 898] - Room::onEnter 18
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 898] - self.roomInfo.seats[0] =18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 898] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 899] - new avatar cell: id=18 accountName=何才义  avatarName=pop_player spaceID=6
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:25 900] - Avatar::onGetWitness: 18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:32 330] - cellAvatar::onClientDeath: 18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:32 330] - Room::onLeave space[6] entityID = 18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:49 355] - Avatar::onDestroy: 18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:49 355] - Room::onLeaverealy space[6] entityID = 18.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:14:49 355] - Room::onDestroy: 19
+    INFO    cellapp01 13025 820012  [2020-10-25 21:14:49 359] - Spaces::destroySpace: 6.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:14:49 375] - Room::~Room(): 19
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:14:49 375] - Avatar::~Avatar(): 18
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:25:50 685] - Spaces::createNewSpace: new space(Room) 7.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:25:50 685] - EntityApp::createEntity: new Room 21
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 686] - created space[6887548498058084353] entityID = 21 spaceid=7
+    INFO    cellapp01 13025 820012  [2020-10-25 21:25:50 688] - EntityApp::createEntity: new Avatar 20
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 689] - Room::onEnter: 6887548498058084353
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 689] - Room::onEnter: 6887548498058084353
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 690] - Room::onEnter 20
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 690] - self.roomInfo.seats[0] =20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 690] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 690] - new avatar cell: id=20 accountName=99  avatarName=pop_player spaceID=7
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:50 690] - Avatar::onGetWitness: 20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:52 625] - cellAvatar::onClientDeath: 20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:25:52 625] - Room::onLeave space[7] entityID = 20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:26:09 623] - Avatar::onDestroy: 20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:26:09 623] - Room::onLeaverealy space[7] entityID = 20.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:26:09 623] - Room::onDestroy: 21
+    INFO    cellapp01 13025 820012  [2020-10-25 21:26:09 624] - Spaces::destroySpace: 7.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:26:09 634] - Room::~Room(): 21
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:26:09 634] - Avatar::~Avatar(): 20
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:32:00 566] - Spaces::createNewSpace: new space(Room) 8.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:32:00 567] - EntityApp::createEntity: new Room 23
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 569] - created space[6887550087195983873] entityID = 23 spaceid=8
+    INFO    cellapp01 13025 820012  [2020-10-25 21:32:00 573] - EntityApp::createEntity: new Avatar 22
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 574] - Room::onEnter: 6887550087195983873
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 574] - Room::onEnter: 6887550087195983873
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 577] - Room::onEnter 22
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 578] - self.roomInfo.seats[0] =22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 578] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 578] - new avatar cell: id=22 accountName=何才义  avatarName=pop_player spaceID=8
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:00 579] - Avatar::onGetWitness: 22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:07 019] - cellAvatar::onClientDeath: 22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:07 019] - Room::onLeave space[8] entityID = 22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:24 044] - Avatar::onDestroy: 22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:24 044] - Room::onLeaverealy space[8] entityID = 22.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:32:24 045] - Room::onDestroy: 23
+    INFO    cellapp01 13025 820012  [2020-10-25 21:32:24 046] - Spaces::destroySpace: 8.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:32:24 046] - Room::~Room(): 23
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:32:24 046] - Avatar::~Avatar(): 22
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:41:03 479] - Spaces::createNewSpace: new space(Room) 9.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:41:03 479] - EntityApp::createEntity: new Room 25
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 479] - created space[6887552419363225601] entityID = 25 spaceid=9
+    INFO    cellapp01 13025 820012  [2020-10-25 21:41:03 481] - EntityApp::createEntity: new Avatar 24
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 482] - Room::onEnter: 6887552419363225601
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - Room::onEnter: 6887552419363225601
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - Room::onEnter 24
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - self.roomInfo.seats[0] =24.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - new avatar cell: id=24 accountName=222  avatarName=pop_player spaceID=9
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:03 483] - Avatar::onGetWitness: 24.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:05 196] - cellAvatar::onClientDeath: 24.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:05 196] - Room::onLeave space[9] entityID = 24.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:41:13 367] - EntityApp::createEntity: new Avatar 26
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 367] - Room::onEnter: 6887552419363225601
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 368] - Room::onEnter: 6887552419363225601
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 368] - Room::onEnter 26
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 368] - self.roomInfo.seats[0] =24.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 368] - self.roomInfo.seats[1] =26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 368] - new avatar cell: id=26 accountName=fff  avatarName=pipi_player spaceID=9
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:13 373] - Avatar::onGetWitness: 26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:15 216] - cellAvatar::onClientDeath: 26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:15 216] - Room::onLeave space[9] entityID = 26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:22 181] - Avatar::onDestroy: 24.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:22 181] - Room::onLeaverealy space[9] entityID = 24.
+   S_ERR    cellapp01 13025 820012  [2020-10-25 21:41:22 244] - Traceback (most recent call last):
+  File "D:/kbengine_24pic/kbengine_stone_assets/scripts/cell\Avatar.py", line 110, in onDestroy
+    room.onLeaverealy(self.id)
+   S_ERR    cellapp01 13025 820012  [2020-10-25 21:41:22 254] -   File "D:/kbengine_24pic/kbengine_stone_assets/scripts/cell\Room.py", line 340, in onLeaverealy
+    self.gameOver()
+   S_ERR    cellapp01 13025 820012  [2020-10-25 21:41:22 255] -   File "D:/kbengine_24pic/kbengine_stone_assets/scripts/cell\Room.py", line 423, in gameOver
+    self.settleAccount()
+   S_ERR    cellapp01 13025 820012  [2020-10-25 21:41:22 257] -   File "D:/kbengine_24pic/kbengine_stone_assets/scripts/cell\Room.py", line 436, in settleAccount
+    if entity.id==self.avatar1.id:
+   S_ERR    cellapp01 13025 820012  [2020-10-25 21:41:22 257] - AttributeError: 'Room' object has no attribute 'avatar1'
+ WARNING    cellapp01 13025 820012  [2020-10-25 21:41:22 259] - D:\kbengine-1.2.7\kbe\src\server\cellapp\entity.cpp:216: Profile scriptCall took 0.08 seconds
+ WARNING    cellapp01 13025 820012  [2020-10-25 21:41:22 259] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.08 seconds
+ WARNING    cellapp01 13025 820012  [2020-10-25 21:41:22 259] - EntityApp::checkTickPeriod: tick took 303% (0.30 seconds)!
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:41:22 260] - Avatar::~Avatar(): 24
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:32 214] - Avatar::onDestroy: 26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:32 214] - Room::onLeaverealy space[9] entityID = 26.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:41:32 214] - Room::onDestroy: 25
+    INFO    cellapp01 13025 820012  [2020-10-25 21:41:32 214] - Spaces::destroySpace: 9.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:41:32 225] - Room::~Room(): 25
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:41:32 226] - Avatar::~Avatar(): 26
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:41:37 284] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:43:27 314] - Spaces::createNewSpace: new space(Room) 10.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:43:27 314] - EntityApp::createEntity: new Room 28
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 315] - created space[6887553037838516225] entityID = 28 spaceid=10
+    INFO    cellapp01 13025 820012  [2020-10-25 21:43:27 317] - EntityApp::createEntity: new Avatar 27
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - Room::onEnter: 6887553037838516225
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - Room::onEnter: 6887553037838516225
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - Room::onEnter 27
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - self.roomInfo.seats[0] =27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 318] - new avatar cell: id=27 accountName=何才义  avatarName=pop_player spaceID=10
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:27 319] - Avatar::onGetWitness: 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:32 676] - Avatar 27 continueGame
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:32 681] - Room::updateGamestates self.curSecond=[30] entityID = 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:32 682] - self.roomInfo.seats[0] =27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:32 682] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:32 682] - readyPlayerCount = 0
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:36 079] - cellAvatar::onClientDeath: 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:36 079] - Room::onLeave space[10] entityID = 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:53 079] - Avatar::onDestroy: 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:53 079] - Room::onLeaverealy space[10] entityID = 27.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:43:53 079] - Room::onDestroy: 28
+    INFO    cellapp01 13025 820012  [2020-10-25 21:43:53 080] - Spaces::destroySpace: 10.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:43:53 090] - Room::~Room(): 28
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:43:53 091] - Avatar::~Avatar(): 27
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:44:54 082] - Spaces::createNewSpace: new space(Room) 11.
+    INFO    cellapp01 13025 820012  [2020-10-25 21:44:54 082] - EntityApp::createEntity: new Room 30
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 082] - created space[6887553411500670976] entityID = 30 spaceid=11
+    INFO    cellapp01 13025 820012  [2020-10-25 21:44:54 083] - EntityApp::createEntity: new Avatar 29
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 084] - Room::onEnter: 6887553411500670976
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 084] - Room::onEnter: 6887553411500670976
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 085] - Room::onEnter 29
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 085] - self.roomInfo.seats[0] =29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 085] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 085] - new avatar cell: id=29 accountName=何才义  avatarName=pop_player spaceID=11
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:54 086] - Avatar::onGetWitness: 29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:58 278] - cellAvatar::onClientDeath: 29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:44:58 278] - Room::onLeave space[11] entityID = 29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:45:15 278] - Avatar::onDestroy: 29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:45:15 278] - Room::onLeaverealy space[11] entityID = 29.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 21:45:15 278] - Room::onDestroy: 30
+    INFO    cellapp01 13025 820012  [2020-10-25 21:45:15 304] - Spaces::destroySpace: 11.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:45:15 304] - Room::~Room(): 30
+   DEBUG    cellapp01 13025 820012  [2020-10-25 21:45:15 304] - Avatar::~Avatar(): 29
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:04:31 912] - Spaces::createNewSpace: new space(Room) 12.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:04:31 912] - EntityApp::createEntity: new Room 32
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 912] - created space[6887558466677178369] entityID = 32 spaceid=12
+    INFO    cellapp01 13025 820012  [2020-10-25 22:04:31 914] - EntityApp::createEntity: new Avatar 31
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 914] - Room::onEnter: 6887558466677178369
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 915] - Room::onEnter: 6887558466677178369
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 915] - Room::onEnter 31
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 915] - self.roomInfo.seats[0] =31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 915] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 915] - new avatar cell: id=31 accountName=333  avatarName=pop_player spaceID=12
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:31 916] - Avatar::onGetWitness: 31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:34 001] - cellAvatar::onClientDeath: 31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:34 001] - Room::onLeave space[12] entityID = 31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:50 999] - Avatar::onDestroy: 31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:51 000] - Room::onLeaverealy space[12] entityID = 31.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:51 000] - Room::onDestroy: 32
+    INFO    cellapp01 13025 820012  [2020-10-25 22:04:51 001] - Spaces::destroySpace: 12.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:04:51 011] - Room::~Room(): 32
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:04:51 011] - Avatar::~Avatar(): 31
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:04:55 651] - Spaces::createNewSpace: new space(Room) 13.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:04:55 651] - EntityApp::createEntity: new Room 34
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 651] - created space[6887558569756393473] entityID = 34 spaceid=13
+    INFO    cellapp01 13025 820012  [2020-10-25 22:04:55 653] - EntityApp::createEntity: new Avatar 33
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 654] - Room::onEnter: 6887558569756393473
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 654] - Room::onEnter: 6887558569756393473
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 654] - Room::onEnter 33
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 654] - self.roomInfo.seats[0] =33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 654] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 655] - new avatar cell: id=33 accountName=222  avatarName=pop_player spaceID=13
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:55 656] - Avatar::onGetWitness: 33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:57 378] - cellAvatar::onClientDeath: 33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:04:57 378] - Room::onLeave space[13] entityID = 33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:05:14 366] - Avatar::onDestroy: 33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:05:14 367] - Room::onLeaverealy space[13] entityID = 33.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:05:14 367] - Room::onDestroy: 34
+    INFO    cellapp01 13025 820012  [2020-10-25 22:05:14 370] - Spaces::destroySpace: 13.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:05:14 378] - Room::~Room(): 34
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:05:14 378] - Avatar::~Avatar(): 33
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:09:02 410] - Spaces::createNewSpace: new space(Room) 14.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:09:02 410] - EntityApp::createEntity: new Room 36
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 410] - created space[6887559630613315585] entityID = 36 spaceid=14
+    INFO    cellapp01 13025 820012  [2020-10-25 22:09:02 411] - EntityApp::createEntity: new Avatar 35
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 412] - Room::onEnter: 6887559630613315585
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 412] - Room::onEnter: 6887559630613315585
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 413] - Room::onEnter 35
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 413] - self.roomInfo.seats[0] =35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 413] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 413] - new avatar cell: id=35 accountName=何才义  avatarName=pop_player spaceID=14
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:02 413] - Avatar::onGetWitness: 35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:26 163] - cellAvatar::onClientDeath: 35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:26 163] - Room::onLeave space[14] entityID = 35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:43 164] - Avatar::onDestroy: 35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:43 164] - Room::onLeaverealy space[14] entityID = 35.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:09:43 165] - Room::onDestroy: 36
+    INFO    cellapp01 13025 820012  [2020-10-25 22:09:43 167] - Spaces::destroySpace: 14.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:09:43 175] - Room::~Room(): 36
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:09:43 175] - Avatar::~Avatar(): 35
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:10:45 164] - Spaces::createNewSpace: new space(Room) 15.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:10:45 164] - EntityApp::createEntity: new Room 38
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 164] - created space[6887560072994947073] entityID = 38 spaceid=15
+    INFO    cellapp01 13025 820012  [2020-10-25 22:10:45 166] - EntityApp::createEntity: new Avatar 37
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 170] - Room::onEnter: 6887560072994947073
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 170] - Room::onEnter: 6887560072994947073
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 171] - Room::onEnter 37
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 171] - self.roomInfo.seats[0] =37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 171] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 171] - new avatar cell: id=37 accountName=123  avatarName=pop_player spaceID=15
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:10:45 172] - Avatar::onGetWitness: 37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:12:19 528] - cellAvatar::onClientDeath: 37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:12:19 529] - Room::onLeave space[15] entityID = 37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:12:36 528] - Avatar::onDestroy: 37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:12:36 528] - Room::onLeaverealy space[15] entityID = 37.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:12:36 528] - Room::onDestroy: 38
+    INFO    cellapp01 13025 820012  [2020-10-25 22:12:36 529] - Spaces::destroySpace: 15.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:12:36 540] - Room::~Room(): 38
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:12:36 540] - Avatar::~Avatar(): 37
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:24:24 207] - Spaces::createNewSpace: new space(Room) 16.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:24:24 208] - EntityApp::createEntity: new Room 40
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 208] - created space[6887563590573162497] entityID = 40 spaceid=16
+    INFO    cellapp01 13025 820012  [2020-10-25 22:24:24 213] - EntityApp::createEntity: new Avatar 39
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 214] - Room::onEnter: 6887563590573162497
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 214] - Room::onEnter: 6887563590573162497
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 215] - Room::onEnter 39
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 215] - self.roomInfo.seats[0] =39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 215] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 215] - new avatar cell: id=39 accountName=1256  avatarName=pop_player spaceID=16
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:24:24 215] - Avatar::onGetWitness: 39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:26:43 508] - cellAvatar::onClientDeath: 39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:26:43 508] - Room::onLeave space[16] entityID = 39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:27:00 486] - Avatar::onDestroy: 39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:27:00 486] - Room::onLeaverealy space[16] entityID = 39.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:27:00 486] - Room::onDestroy: 40
+    INFO    cellapp01 13025 820012  [2020-10-25 22:27:00 487] - Spaces::destroySpace: 16.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:27:00 498] - Room::~Room(): 40
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:27:00 498] - Avatar::~Avatar(): 39
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:35:18 350] - Spaces::createNewSpace: new space(Room) 17.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:35:18 350] - EntityApp::createEntity: new Room 42
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 350] - created space[6887566399481774081] entityID = 42 spaceid=17
+    INFO    cellapp01 13025 820012  [2020-10-25 22:35:18 357] - EntityApp::createEntity: new Avatar 41
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - Room::onEnter: 6887566399481774081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - Room::onEnter: 6887566399481774081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - Room::onEnter 41
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - self.roomInfo.seats[0] =41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - self.roomInfo.seats[1] =0.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 359] - new avatar cell: id=41 accountName=29  avatarName=pop_player spaceID=17
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:35:18 360] - Avatar::onGetWitness: 41.
+    INFO    cellapp01 13025 820012  [2020-10-25 22:36:13 274] - EntityApp::createEntity: new Avatar 43
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - Room::onEnter: 6887566399481774081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - Room::onEnter: 6887566399481774081
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - Room::onEnter 43
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - self.roomInfo.seats[0] =41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - self.roomInfo.seats[1] =43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 276] - new avatar cell: id=43 accountName=何才义  avatarName=pipi_player spaceID=17
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:13 278] - Avatar::onGetWitness: 43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 623] - reqChangeReadyState 43
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 623] - 0 41 43
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 623] - 1 43 43
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 626] - 43 True
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 636] - len(self.roomInfo.seats)= 2
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:16 636] - 0 seat.ready==false
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 845] - reqChangeReadyState 41
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 845] - 0 41 41
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 846] - 41 True
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 847] - len(self.roomInfo.seats)= 2
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 850] - 全部就位---开始处理！
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 865] - Avatar::game_holds_push=
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 865] - Room::begin= 0
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 869] - Avatar::game_holds_push=
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 869] - Room::begin= 1
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 870] - 游戏开始！
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 870] - start game curEid=12345
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 873] - Room::killNewTurnTimer: newTurnTimer=0
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 874] - newTurn 12345
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 876] - client_entity 41 call newturn()
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:18 876] - client_entity 43 call newturn()
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:25 697] - new avatar cell: quick_chat
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:25 697] - 0
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:25 700] - Room cell: quick_chat
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:25 701] - 0
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:29 821] - cellAvatar::onClientDeath: 41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:29 822] - Room::onLeave space[17] entityID = 41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:31 947] - cellAvatar::onClientDeath: 43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:31 947] - Room::onLeave space[17] entityID = 43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:46 814] - Avatar::onDestroy: 41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:46 814] - Room::onLeaverealy space[17] entityID = 41.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:46 817] - entity id=43 is win
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:48 948] - Avatar::onDestroy: 43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:48 948] - Room::onLeaverealy space[17] entityID = 43.
+   S_DBG    cellapp01 13025 820012  [2020-10-25 22:36:48 949] - Room::onDestroy: 42
+    INFO    cellapp01 13025 820012  [2020-10-25 22:36:48 951] - Spaces::destroySpace: 17.
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:36:48 959] - Room::~Room(): 42
+   DEBUG    cellapp01 13025 820012  [2020-10-25 22:37:01 820] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!

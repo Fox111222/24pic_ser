@@ -18,17 +18,15 @@
 			<Flags>		ALL_CLIENTS			</Flags>
 			<Default>		0				</Default>
 		</modelID>
-
 		<roomKey>
 			<Type>		SPACE_KEY			</Type>
 			<Flags>		BASE_AND_CLIENT				</Flags>
-			<Persistent>		true				</Persistent>
+			<Default>		0				</Default>
 		</roomKey>
 		<roomKeyc>
 			<Type>		MJ_LIST			</Type>
 			<Flags>		ALL_CLIENTS				</Flags>
 		</roomKeyc>
-
 		<accountName>
 			<Type>		UNICODE			</Type>
 			<Flags>		ALL_CLIENTS			</Flags>

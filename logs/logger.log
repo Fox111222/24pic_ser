@@ -1,43 +1,86 @@
-  INFO [0x000039d0] [2020-10-24 23:00:38,032] - 
-  INFO [0x000039d0] [2020-10-24 23:00:38,032] - -----------------------------------------------------------------------------------------
+  INFO [0x000005ac] [2020-10-25 19:20:50,391] - 
+  INFO [0x000005ac] [2020-10-25 19:20:50,392] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000039d0] [2020-10-24 23:00:38,033] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
-  INFO [0x000039d0] [2020-10-24 23:00:38,033] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
-  INFO [0x000039d0] [2020-10-24 23:00:38,033] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
-  INFO [0x000039d0] [2020-10-24 23:00:38,038] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51277 )
-  INFO [0x000039d0] [2020-10-24 23:00:38,039] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:51277, SOMAXCONN=5.
-  INFO [0x000039d0] [2020-10-24 23:00:38,041] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51278 )
-  INFO [0x000039d0] [2020-10-24 23:00:38,041] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51278, SOMAXCONN=5.
-  INFO [0x000039d0] [2020-10-24 23:00:38,045] - ---- logger Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D560DD404252C069A15652A895AC125C. Config: Debug X86. Built: 19:01:33 Aug  4 2020. AppID: 210002. UID: 1937. PID: 8936 ----
-  INFO [0x000039d0] [2020-10-24 23:00:38,045] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
-  INFO [0x000039d0] [2020-10-24 23:00:38,045] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000039d0] [2020-10-24 23:00:38,046] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
- DEBUG [0x000039d0] [2020-10-24 23:00:38,184] - Script::install_py_dlls(): PyInit_pyexpat
- DEBUG [0x000039d0] [2020-10-24 23:00:38,185] - Script::install_py_dlls(): PyInit__socket
- DEBUG [0x000039d0] [2020-10-24 23:00:38,186] - Script::install_py_dlls(): PyInit__ssl
- DEBUG [0x000039d0] [2020-10-24 23:00:38,190] - Script::install_py_dlls(): PyInit__hashlib
- DEBUG [0x000039d0] [2020-10-24 23:00:38,191] - Script::install_py_dlls(): PyInit_select
- DEBUG [0x000039d0] [2020-10-24 23:00:38,191] - Script::install_py_dlls(): PyInit__ctypes
- DEBUG [0x000039d0] [2020-10-24 23:00:38,192] - Script::install_py_dlls(): PyInit__elementtree
- DEBUG [0x000039d0] [2020-10-24 23:00:38,235] - Script::install_py_dlls(): PyInit_unicodedata
-  INFO [0x000039d0] [2020-10-24 23:00:38,279] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
-  INFO [0x000039d0] [2020-10-24 23:00:38,279] - Script::install(): KBExtra is successfully!
-S_INFO [0x000039d0] [2020-10-24 23:00:38,283] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000039d0] [2020-10-24 23:00:38,283] - TelnetServer server is running on port 34000
-  INFO [0x000039d0] [2020-10-24 23:00:38,285] - ---- logger is running ----
- DEBUG [0x000039d0] [2020-10-24 23:00:38,297] - Components::process(): Request for the process of identity...
-  INFO [0x000039d0] [2020-10-24 23:00:45,583] - Components::process(): Found all the components!
-  INFO [0x000039d0] [2020-10-24 23:00:47,147] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51280, extaddr:nonsupport, extport:0,  from 192.168.2.246:51295/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,147] - Components::addComponent: reset orderLog, uid=1937!
-  INFO [0x000039d0] [2020-10-24 23:00:47,148] - Components::addComponent[baseappmgr], uid=1937, componentID=510002, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000039d0] [2020-10-24 23:00:47,259] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51281, extaddr:nonsupport, extport:0,  from 192.168.2.246:51296/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,260] - Components::addComponent[cellappmgr], uid=1937, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000039d0] [2020-10-24 23:00:47,585] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51283, extaddr:nonsupport, extport:0,  from 192.168.2.246:51297/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,587] - Components::addComponent[cellapp], uid=1937, componentID=820012, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000039d0] [2020-10-24 23:00:47,694] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51284, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:51298/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,695] - Components::addComponent[loginapp], uid=1937, componentID=920002, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000039d0] [2020-10-24 23:00:47,696] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51279, extaddr:nonsupport, extport:0,  from 192.168.2.246:51299/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,696] - Components::addComponent[dbmgr], uid=1937, componentID=42002, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000039d0] [2020-10-24 23:00:47,739] - ServerApp::onRegisterNewApp: uid:1937, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51282, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51300/0/0/0.
-  INFO [0x000039d0] [2020-10-24 23:00:47,739] - Components::addComponent[baseapp], uid=1937, componentID=720012, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:20:50,392] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO [0x000005ac] [2020-10-25 19:20:50,392] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO [0x000005ac] [2020-10-25 19:20:50,392] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO [0x000005ac] [2020-10-25 19:20:50,398] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51612 )
+  INFO [0x000005ac] [2020-10-25 19:20:50,399] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:51612, SOMAXCONN=5.
+  INFO [0x000005ac] [2020-10-25 19:20:50,405] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51613 )
+  INFO [0x000005ac] [2020-10-25 19:20:50,405] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51613, SOMAXCONN=5.
+  INFO [0x000005ac] [2020-10-25 19:20:50,410] - ---- logger Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D560DD404252C069A15652A895AC125C. Config: Debug X86. Built: 19:01:33 Aug  4 2020. AppID: 210002. UID: 11640. PID: 15284 ----
+  INFO [0x000005ac] [2020-10-25 19:20:50,411] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO [0x000005ac] [2020-10-25 19:20:50,411] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x000005ac] [2020-10-25 19:20:50,412] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,548] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,548] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,549] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,552] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,552] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,553] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,554] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,594] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x000005ac] [2020-10-25 19:20:50,643] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO [0x000005ac] [2020-10-25 19:20:50,644] - Script::install(): KBExtra is successfully!
+S_INFO [0x000005ac] [2020-10-25 19:20:50,647] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x000005ac] [2020-10-25 19:20:50,647] - TelnetServer server is running on port 34000
+  INFO [0x000005ac] [2020-10-25 19:20:50,651] - ---- logger is running ----
+ DEBUG [0x000005ac] [2020-10-25 19:20:50,652] - Components::process(): Request for the process of identity...
+  INFO [0x000005ac] [2020-10-25 19:20:56,894] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51619, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51620/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:20:56,894] - Components::addComponent: reset orderLog, uid=11640!
+  INFO [0x000005ac] [2020-10-25 19:20:56,894] - Components::addComponent[baseapp], uid=11640, componentID=720012, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:20:56,895] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51618, extaddr:nonsupport, extport:0,  from 192.168.2.246:51621/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:20:56,895] - Components::addComponent[cellapp], uid=11640, componentID=820012, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:20:56,895] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51617, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:51622/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:20:56,895] - Components::addComponent[loginapp], uid=11640, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:20:57,907] - Components::process(): Found all the components!
+  INFO [0x000005ac] [2020-10-25 19:20:59,716] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51616, extaddr:nonsupport, extport:0,  from 192.168.2.246:51647/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:20:59,717] - Components::addComponent[cellappmgr], uid=11640, componentID=610002, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:20:59,718] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51615, extaddr:nonsupport, extport:0,  from 192.168.2.246:51648/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:20:59,719] - Components::addComponent[baseappmgr], uid=11640, componentID=510002, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x000005ac] [2020-10-25 19:21:00,034] - ServerApp::onRegisterNewApp: uid:11640, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51614, extaddr:nonsupport, extport:0,  from 192.168.2.246:51649/0/0/0.
+  INFO [0x000005ac] [2020-10-25 19:21:00,035] - Components::addComponent[dbmgr], uid=11640, componentID=42002, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:27:54,344] - 
+  INFO [0x00002a5c] [2020-10-25 19:27:54,344] - -----------------------------------------------------------------------------------------
+
+
+  INFO [0x00002a5c] [2020-10-25 19:27:54,345] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO [0x00002a5c] [2020-10-25 19:27:54,345] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO [0x00002a5c] [2020-10-25 19:27:54,345] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO [0x00002a5c] [2020-10-25 19:27:54,349] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51740 )
+  INFO [0x00002a5c] [2020-10-25 19:27:54,349] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:51740, SOMAXCONN=5.
+  INFO [0x00002a5c] [2020-10-25 19:27:54,352] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51741 )
+  INFO [0x00002a5c] [2020-10-25 19:27:54,352] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51741, SOMAXCONN=5.
+  INFO [0x00002a5c] [2020-10-25 19:27:54,355] - ---- logger Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: D560DD404252C069A15652A895AC125C. Config: Debug X86. Built: 19:01:33 Aug  4 2020. AppID: 210002. UID: 13025. PID: 32 ----
+  INFO [0x00002a5c] [2020-10-25 19:27:54,355] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO [0x00002a5c] [2020-10-25 19:27:54,355] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00002a5c] [2020-10-25 19:27:54,356] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,483] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,484] - Script::install_py_dlls(): PyInit__socket
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,484] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,486] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,487] - Script::install_py_dlls(): PyInit_select
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,487] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,487] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,525] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO [0x00002a5c] [2020-10-25 19:27:54,559] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO [0x00002a5c] [2020-10-25 19:27:54,559] - Script::install(): KBExtra is successfully!
+S_INFO [0x00002a5c] [2020-10-25 19:27:54,561] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00002a5c] [2020-10-25 19:27:54,561] - TelnetServer server is running on port 34000
+  INFO [0x00002a5c] [2020-10-25 19:27:54,562] - ---- logger is running ----
+ DEBUG [0x00002a5c] [2020-10-25 19:27:54,562] - Components::process(): Request for the process of identity...
+  INFO [0x00002a5c] [2020-10-25 19:28:00,779] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51746, extaddr:nonsupport, extport:0,  from 192.168.2.246:51749/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:00,779] - Components::addComponent: reset orderLog, uid=13025!
+  INFO [0x00002a5c] [2020-10-25 19:28:00,779] - Components::addComponent[cellapp], uid=13025, componentID=820012, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:28:00,780] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51748, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:51750/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:00,780] - Components::addComponent[loginapp], uid=13025, componentID=920002, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:28:00,780] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51747, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51751/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:00,781] - Components::addComponent[baseapp], uid=13025, componentID=720012, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:28:01,795] - Components::process(): Found all the components!
+  INFO [0x00002a5c] [2020-10-25 19:28:02,390] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51744, extaddr:nonsupport, extport:0,  from 192.168.2.246:51762/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:02,391] - Components::addComponent[baseappmgr], uid=13025, componentID=510002, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:28:03,718] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51745, extaddr:nonsupport, extport:0,  from 192.168.2.246:51763/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:03,718] - Components::addComponent[cellappmgr], uid=13025, componentID=610002, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00002a5c] [2020-10-25 19:28:04,035] - ServerApp::onRegisterNewApp: uid:13025, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51743, extaddr:nonsupport, extport:0,  from 192.168.2.246:51764/0/0/0.
+  INFO [0x00002a5c] [2020-10-25 19:28:04,037] - Components::addComponent[dbmgr], uid=13025, componentID=42002, globalorderid=6, grouporderid=1, totalcount=1
