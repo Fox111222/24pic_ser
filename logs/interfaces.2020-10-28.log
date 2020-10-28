@@ -1,0 +1,67 @@
+  WARN root [2020-10-28 00:00:36,693] - TCPPacketReceiver::processPendingEvents(127.0.0.1:49812): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2020-10-28 00:00:36,701] - Components::removeComponentByChannel: dbmgr : 42002, Normal exit!
+  INFO root [2020-10-28 20:11:08,615] - 
+  INFO root [2020-10-28 20:11:08,616] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-10-28 20:11:08,617] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-10-28 20:11:08,617] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-10-28 20:11:08,617] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-10-28 20:11:08,623] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:30099 )
+  INFO root [2020-10-28 20:11:08,623] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:30099, SOMAXCONN=5.
+  INFO root [2020-10-28 20:11:08,627] - ---- interfaces Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84EE52A025C98281889357BE39C63701. Config: Debug X86. Built: 19:01:31 Aug  4 2020. AppID: 320002. UID: 15930. PID: 8072 ----
+  INFO root [2020-10-28 20:11:08,628] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-10-28 20:11:08,628] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-10-28 20:11:08,628] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-10-28 20:11:08,762] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2020-10-28 20:11:08,763] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2020-10-28 20:11:08,763] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2020-10-28 20:11:08,767] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2020-10-28 20:11:08,768] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2020-10-28 20:11:08,768] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2020-10-28 20:11:08,769] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2020-10-28 20:11:08,807] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2020-10-28 20:11:08,843] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-10-28 20:11:08,844] - Script::install(): KBExtra is successfully!
+ S_DBG root [2020-10-28 20:11:09,649] - ======================= LoginPoller .__init__ =======================
+S_INFO root [2020-10-28 20:11:09,650] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2020-10-28 20:11:09,650] - TelnetServer server is running on port 33000
+  INFO root [2020-10-28 20:11:09,831] - ---- interfaces is running ----
+ DEBUG root [2020-10-28 20:11:09,832] - Components::process(): Request for the process of identity...
+S_INFO root [2020-10-28 20:11:16,004] - register fd 1152
+  INFO root [2020-10-28 20:11:16,011] - ServerApp::onRegisterNewApp: uid:15930, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50314, extaddr:nonsupport, extport:0,  from 127.0.0.1:50316/0/0/0.
+  INFO root [2020-10-28 20:11:16,012] - Components::addComponent: reset orderLog, uid=15930!
+  INFO root [2020-10-28 20:11:16,012] - Components::addComponent[dbmgr], uid=15930, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-10-28 20:11:17,018] - Components::process(): Found all the components!
+ S_DBG root [2020-10-28 20:18:47,047] - onRequestAccountLogin: 124
+ S_DBG root [2020-10-28 20:20:05,883] - onRequestAccountLogin: 222
+ S_DBG root [2020-10-28 20:29:10,667] - onRequestAccountLogin: 239
+ S_DBG root [2020-10-28 20:29:24,548] - onRequestAccountLogin: 888
+ S_DBG root [2020-10-28 20:35:02,322] - onRequestAccountLogin: 1234
+ S_DBG root [2020-10-28 20:35:22,567] - onRequestAccountLogin: 5555
+ S_DBG root [2020-10-28 20:55:06,995] - onRequestAccountLogin: 3333
+ S_DBG root [2020-10-28 20:55:19,479] - onRequestAccountLogin: t't't
+ S_DBG root [2020-10-28 20:56:13,172] - onRequestAccountLogin: 333
+ S_DBG root [2020-10-28 20:56:24,515] - onRequestAccountLogin: 777
+ S_DBG root [2020-10-28 21:08:11,073] - onRequestAccountLogin: 111
+ S_DBG root [2020-10-28 21:08:21,872] - onRequestAccountLogin: r'r
+ S_DBG root [2020-10-28 21:08:43,294] - onRequestAccountLogin: 123
+ S_DBG root [2020-10-28 21:09:22,897] - onRequestAccountLogin: 111
+ S_DBG root [2020-10-28 21:09:35,795] - onRequestAccountLogin: 456
+ S_DBG root [2020-10-28 21:10:17,989] - onRequestAccountLogin: 333
+ S_DBG root [2020-10-28 21:10:27,895] - onRequestAccountLogin: 777
+ S_DBG root [2020-10-28 21:14:18,052] - onRequestAccountLogin: 126
+ S_DBG root [2020-10-28 21:14:31,317] - onRequestAccountLogin: 777
+ S_DBG root [2020-10-28 21:16:32,160] - onRequestAccountLogin: 125
+ S_DBG root [2020-10-28 21:16:45,959] - onRequestAccountLogin: 666
+ S_DBG root [2020-10-28 21:17:43,150] - onRequestAccountLogin: 332
+ S_DBG root [2020-10-28 21:17:55,859] - onRequestAccountLogin: 777
+ S_DBG root [2020-10-28 21:18:31,591] - onRequestAccountLogin: 222
+ S_DBG root [2020-10-28 21:18:44,789] - onRequestAccountLogin: vvv
+ S_DBG root [2020-10-28 21:30:19,167] - onRequestAccountLogin: 333
+ S_DBG root [2020-10-28 21:34:11,298] - onRequestAccountLogin: 332
+ S_DBG root [2020-10-28 21:34:49,102] - onRequestAccountLogin: 236
+ S_DBG root [2020-10-28 21:35:44,141] - onRequestAccountLogin: 369
+ S_DBG root [2020-10-28 21:36:05,671] - onRequestAccountLogin: 666
+  WARN root [2020-10-28 21:38:07,579] - TCPPacketReceiver::processPendingEvents(127.0.0.1:50316): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2020-10-28 21:38:07,595] - Components::removeComponentByChannel: dbmgr : 42002, Normal exit!

@@ -184,7 +184,7 @@ class PrivateRoom(KBEngine.Entity):
 			seatIndex = seatIndex%self.playerMaxCount
 
 		#庄家多摸最后一张
-		self.mopai(game,game.button)
+		#self.mopai(game,game.button)
 		#当前轮设置为庄家
 		game.turn = game.button
 

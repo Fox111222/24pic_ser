@@ -184,7 +184,7 @@ class Room(KBEngine.Entity):
 			seatIndex = seatIndex%self.playerMaxCount
 
 		#庄家多摸最后一张
-		self.mopai(game,game.button)
+		#self.mopai(game,game.button)
 		#当前轮设置为庄家
 		game.turn = game.button
 
@@ -337,7 +337,8 @@ class Room(KBEngine.Entity):
 				seat.entity=None
 				break
 		#if len(self.avatars) == 1 and self.timeout >=0 and self.flee==0:
-		self.gameOver()
+		if(self.state=="playing"):
+			self.gameOver()
 		if len(self.avatars) == 0:
 			self.destroy()
 
