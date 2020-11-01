@@ -265,8 +265,8 @@ class Room(KBEngine.Entity):
 		self.curSecond=30
 		#self.sendcards=[]
 		
-	def onsureact(self,eid):
-		DEBUG_MSG("onsureact id= %i " % (eid))
+	def onsureact(self, eid , strs):
+		DEBUG_MSG("onsureact id= %i %s " % (eid,strs))
 		entity=self.avatars[eid]
 		for id,lis in self.outcards.items():
 			if(len(lis)>0):
@@ -276,7 +276,9 @@ class Room(KBEngine.Entity):
 		entity.holds=entity.holds
 		self.curEid=eid
 		self.killNewTurnTimer()
-		for entity in self.avatars.values():  
+		for entity in self.avatars.values():
+			entity.client.onsyncsureact(eid , strs)
+		for entity in self.avatars.values():
 			if(len(entity.holds)<2):
 				self.gameOver()
 				return

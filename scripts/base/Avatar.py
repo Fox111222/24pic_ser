@@ -111,7 +111,8 @@ class Avatar(KBEngine.Proxy):
 		#	self.cell.onClientEnabled()
 
 	def updateStaus(self):
-		self.cell.updateStaus()
+		if self.cell is not None:
+			self.cell.updateStaus()
 	def onLogOnAttempt(self, ip, port, password):
 		"""
 		KBEngine method.
@@ -169,7 +170,8 @@ class Avatar(KBEngine.Proxy):
 
 		self._destroyTimer=self.addTimer(17,0,TIMER_TYPE_DESTROY)
 		self.isleave=True
-		self.cell.onClientDeath()
+		if self.cell is not None:
+			self.cell.onClientDeath()
 
 	def joinRoom(self):
 		self.enterRoom()

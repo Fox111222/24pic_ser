@@ -44,14 +44,14 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		if room:
 			room.iptChat(self.id,strstr)
 	########################
-	def onsureact(self, exposed):
-		DEBUG_MSG("onsureact%i" % (self.id))
+	def onsureact(self, exposed,strs):
+		DEBUG_MSG("onsureact%i %s" % (self.id,strs))
 		if exposed != self.id:
 			return
 		room = self.getCurrRoom()
 		self.HP=self.HP+1;       #算成功一次
 		if room:
-			room.onsureact(self.id)
+			room.onsureact(self.id,strs)
 	def game_holds_push(self,holds):
 		self.holds = holds
 		if self.client:
@@ -87,6 +87,13 @@ class Avatar(KBEngine.Entity, EntityCommon):
 	def updateStaus(self):
 		room = self.getCurrRoom()
 		if room:
+			##############################
+			self.roomKeyc=[]
+			lis=str(room.roomKeyC)
+			for x in lis:
+				self.roomKeyc.append(int(x))
+			self.roomKeyc=self.roomKeyc
+			##########################
 			#room.onClientEnabled(self)
 			room.updateGamestates(self.id)
 	def onClientDeath(self):
@@ -130,6 +137,7 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		pass
 	def resetGameData(self):
 		self.holds = []
+		self.roomKeyc=[]
 		#self.hitRate = 0.0
 		self.totalTime = 0
 		#self.totalHarm = 0

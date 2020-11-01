@@ -95,7 +95,7 @@
 			<Arg>		ENTITY_ID	</Arg>
 		</onotherNetcut>
 		<onjoinPrivateRoom>
-			<Arg>		MJ_LIST 	</Arg>
+			<Arg>		UINT8 	</Arg>
 		</onjoinPrivateRoom>
 		<onupdateGamestates>
 			<Arg>		ENTITY_ID	</Arg>
@@ -139,6 +139,11 @@
 			<Arg>		ENTITY_ID		</Arg>
 			<Arg>		UNICODE		</Arg>
 		</oniptChat>
+		<onsyncsureact>
+			<Exposed/>
+			<Arg>		ENTITY_ID		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</onsyncsureact>
 	</ClientMethods>
 
 	<BaseMethods>
@@ -173,6 +178,7 @@
 		</onClientDeath>
 		<onsureact>
 			<Exposed/>
+			<Arg>	UNICODE 	</Arg>
 		</onsureact>
 		<reqChangeReadyState>
 			<Exposed/>

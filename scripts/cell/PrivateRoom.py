@@ -54,6 +54,8 @@ class PrivateRoom(KBEngine.Entity):
 		self.state = "idle";
 
 		self.leaveAvatarHP=0
+		#KBEngine.addSpaceGeometryMapping(self.spaceID, None, "changmap") 告诉客户端切换地图
+		DEBUG_MSG("privateRoom:KBEngine.addSpaceGeometryMapping")
 		##############################
 
 	def onDestroy(self):
@@ -266,7 +268,7 @@ class PrivateRoom(KBEngine.Entity):
 		#self.sendcards=[]
 		
 	def onsureact(self,eid):
-		DEBUG_MSG("onsureact id= %i " % (eid))
+		DEBUG_MSG("onsureact id= %i %s " % (eid,strs))
 		entity=self.avatars[eid]
 		for id,lis in self.outcards.items():
 			if(len(lis)>0):
@@ -276,7 +278,9 @@ class PrivateRoom(KBEngine.Entity):
 		entity.holds=entity.holds
 		self.curEid=eid
 		self.killNewTurnTimer()
-		for entity in self.avatars.values():  
+		for entity in self.avatars.values():
+			entity.client.onsyncsureact(eid , strs)
+		for entity in self.avatars.values():
 			if(len(entity.holds)<2):
 				self.gameOver()
 				return

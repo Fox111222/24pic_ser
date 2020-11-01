@@ -77,6 +77,7 @@ class Halls(KBEngine.Entity):
 			roomDatas = {"roomEntityCall" : None, "PlayerCount": 0, "enterRoomReqs" : [], "roomKey" : self.PrivatelastNewRoomKey,"userindex":{100:100}}
 			self.Privaterooms[self.PrivatelastNewRoomKey] = roomDatas
 			roomDatas["enterRoomReqs"].append((entityCall, position, direction))
+			roomDatas["PlayerCount"] += 1
 
 	def onPrivateRoomCreatedCB(self, roomKey, roomEntityCall):
 		"""
@@ -103,7 +104,9 @@ class Halls(KBEngine.Entity):
 		DEBUG_MSG("Halls::joinPrivateRoom: roomKey= %i" % (roomkey))
 		roomDatas = self.Privaterooms.get(roomkey)
 		if not roomDatas:
-			entityCall.client.onjoinPrivateRoom(0)
+			entityCall.client.onjoinPrivateRoom(0)  #没有这个房间
+			entityCall.destroySelf()
+			DEBUG_MSG("Halls::joinPrivateRoom: no roomKey!= %i" % (roomkey))
 			return
 		elif roomDatas is not None and roomDatas["PlayerCount"] < GameConfigs.ROOM_MAX_PLAYER:
 			roomDatas["PlayerCount"] += 1
@@ -116,7 +119,9 @@ class Halls(KBEngine.Entity):
 				DEBUG_MSG("Halls::enterRoom: space %i creating..., enter entityID=%i" % (roomDatas["roomKey"], entityCall.id))
 				roomDatas["enterRoomReqs"].append((entityCall, position, direction))
 		else:
-			entityCall.client.onjoinPrivateRoom(0)
+			entityCall.client.onjoinPrivateRoom(1)   #人数已满
+			entityCall.destroySelf()
+			DEBUG_MSG("Halls::joinPrivateRoom: roomKey is full != %i" % (roomkey))
 			return
 	def leavePrivateRoom(self, avatarID, roomKey):
 		"""
@@ -249,6 +254,7 @@ class Halls(KBEngine.Entity):
 			entityCall = infos[0]
 			entityCall.roomKey = roomKey
 			entityCall.createCell(roomEntityCall.cell)
+			#self.rooms[roomKey]["PlayerCount"]+= 1
 			
 		self.rooms[roomKey]["enterRoomReqs"] = []
 	
