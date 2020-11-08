@@ -105,6 +105,7 @@ class Avatar(KBEngine.Proxy):
 				self._destroyTimer=0
 				self.isleave=False
 				self.updateStaus()
+				DEBUG_MSG("Avatar:updateStaus:(self.isleave=%d)" % (self.isleave))  #加了这句影响很大，之前进不来
 		#if self.cell is None:
 		#	DEBUG_MSG("[%i]cell is None:" % (self.id))
 		#else:
@@ -118,7 +119,7 @@ class Avatar(KBEngine.Proxy):
 		KBEngine method.
 		客户端登陆失败时会回调到这里
 		"""
-		INFO_MSG("%s login failed" % (self.__ACCOUNT_NAME__))
+		INFO_MSG("%s login failed,Relogin here" % (self.__ACCOUNT_NAME__))
 		INFO_MSG(ip, port, password)
 		#self.onClientEnabled()
 		return KBEngine.LOG_ON_ACCEPT

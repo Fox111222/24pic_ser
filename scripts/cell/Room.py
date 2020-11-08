@@ -293,7 +293,7 @@ class Room(KBEngine.Entity):
 		          (self.curSecond, entityID))
 		if entityID in self.avatars:
 			if self.state=="playing":
-				self.avatars[entityID].client.updategamestuts(1)
+				self.avatars[entityID].client.updategamestuts(1)    #客户端start 控件可见
 			else:
 				self.avatars[entityID].client.updategamestuts(0)
 		for entity in self.avatars.values():
