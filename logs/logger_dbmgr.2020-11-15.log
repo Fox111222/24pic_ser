@@ -1,0 +1,380 @@
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 817] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 818] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 818] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 818] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 822] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:49851 )
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 822] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:49851, SOMAXCONN=5.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 822] - server-configs:
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 822] - 	internalAddr : 192.168.2.246:49851
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 822] - 	componentID : 42002
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 869] - Components::findLogger: found logger, addr:192.168.2.246:49849
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 869] - Components::addComponent: reset orderLog, uid=32168!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 869] - Components::addComponent[logger], uid=32168, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 875] - ---- dbmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 149F584B8A9DE9211BFBD70F243BB430. Config: Debug X86. Built: 19:01:34 Aug  4 2020. AppID: 42002. UID: 32168. PID: 11268 ----
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 875] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 875] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:00 876] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 014] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 015] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 015] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 018] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 018] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 018] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 019] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 052] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 088] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 088] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 138] - Dbmgr::initializeEnd: digest(1BA1F642F5F93854B5B11A457056BE7F)
+  S_INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 138] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 138] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 138] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 32168 42002  [2020-11-15 18:49:01 285] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+21D70A255AC4844801AA85001C4F41B7C06471ECF40A57C11D171371805584389DA681F80C56DAE0776221C01A4D9F758ED112F3012B86592980B4F45B478918B3B928C1F6CAACA6E4BE4BEDACEEA8B48A97FA84A208543CCFD25291E0C45F4474A5CDAF1022387D7D43D1088ED29402F196635404BAC5A0D1E19A9AF4FAB362
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 297] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 354] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 354] - DBUtil::createInterface[0xcff1e0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 355] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 355] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 513] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 32168 42002  [2020-11-15 18:49:01 581] - D:\kbengine-1.2.7\kbe\src\server\dbmgr\dbmgr.cpp:324: Profile scriptCall took 0.44 seconds
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 824] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 825] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 355] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 355] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 356] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 356] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 356] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 383] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 383] - DBThread::onStart(): 0x45f0e50!
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 391] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 392] - DBThread::onStart(): 0x45f0108!
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 399] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 400] - DBThread::onStart(): 0x45f0fe8!
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 406] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 406] - DBThread::onStart(): 0x45f0658!
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 412] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:01 413] - DBThread::onStart(): 0x45f05d0!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 532] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 533] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 533] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 535] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 554] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 555] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 555] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:01 565] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:07 970] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:interfaces, componentID:320002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:07 970] - Components::addComponent: reset orderLog, uid=32168!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:07 970] - Components::addComponent[interfaces], uid=32168, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:08 978] - Components::process(): Found all the components!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:19 602] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49863, extaddr:nonsupport, extport:0,  from 192.168.2.246:49867/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:19 602] - Components::addComponent: reset orderLog, uid=32168!
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:19 602] - Components::addComponent[baseappmgr], uid=32168, componentID=510002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:27 109] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49865, extaddr:nonsupport, extport:0,  from 192.168.2.246:49871/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:27 109] - Components::addComponent[cellappmgr], uid=32168, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:39 209] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49869, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:49875/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:39 209] - Components::addComponent[baseapp], uid=32168, componentID=720012, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:42 218] - IDServer::allocRange: 1-10001.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:42 219] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:43 611] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.2.246:49875/0/0/0), keySize=11, valSize=51, isDelete=0
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:49 760] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49873, extaddr:nonsupport, extport:0,  from 192.168.2.246:49880/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:49 760] - Components::addComponent[cellapp], uid=32168, componentID=820012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:52 771] - IDServer::allocRange: 10001-20001.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:52 771] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:55 143] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49878, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:49884/0/0/0.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:49:55 143] - Components::addComponent[loginapp], uid=32168, componentID=920002, globalorderid=5, grouporderid=1, totalcount=1
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:49:58 158] - SyncAppDatasHandler::~SyncAppDatasHandler()
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:07 278] - Dbmgr::onAccountLogin:loginName=12, accountName=12, success=0, componentID=0, entityID=0, dbid=175, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:07 298] - Dbmgr::queryAccount: 12, success=true, flags=0, deadline=0.
+ WARNING      dbmgr-1 32168 42002  [2020-11-15 18:51:07 258] - DBTask::process(): took 0.29 seconds
+sql:(select entityID, ip, port, componentID, serverGroupID from kbe_entitylog where entityDBID=175 and entityType=1 LIMIT 1)
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:51:07 362] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.2.246:49880/0/0/0), keySize=12, valSize=51, isDelete=0
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:23 038] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=0, componentID=0, entityID=0, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:23 138] - Dbmgr::queryAccount: 123, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:45 978] - Dbmgr::writeEntity: Avatar(14).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:45 999] - Dbmgr::onEntityOffline: 14, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:51:45 971] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=14, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:48 438] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=0, componentID=0, entityID=0, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:51:48 478] - Dbmgr::queryAccount: 123, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:52:57 258] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=10, componentID=720012, entityID=5, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:55:21 898] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=10, componentID=720012, entityID=5, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:56:22 519] - Dbmgr::writeEntity: Avatar(175).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:56:22 520] - Dbmgr::onEntityOffline: 175, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:56:22 500] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=175, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:56:43 778] - Dbmgr::onAccountLogin:loginName=1, accountName=1, success=0, componentID=0, entityID=0, dbid=157, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:56:43 818] - Dbmgr::queryAccount: 1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:57:09 059] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=10, componentID=720012, entityID=5, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:57:35 838] - Dbmgr::writeEntity: Avatar(14).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:57:35 858] - Dbmgr::onEntityOffline: 14, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:57:35 830] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=14, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:57:41 158] - Dbmgr::writeEntity: Avatar(157).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 18:57:41 158] - Dbmgr::onEntityOffline: 157, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 18:57:41 145] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=157, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:07:29 219] - Dbmgr::onAccountLogin:loginName=111, accountName=111, success=0, componentID=0, entityID=0, dbid=7, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:07:29 258] - Dbmgr::queryAccount: 111, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:07:47 638] - Dbmgr::onAccountLogin:loginName=777, accountName=777, success=0, componentID=0, entityID=0, dbid=26, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:07:47 719] - Dbmgr::queryAccount: 777, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:03 438] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:03 439] - Dbmgr::onEntityOffline: 26, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:08:03 420] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:08 038] - Dbmgr::onAccountLogin:loginName=777, accountName=777, success=0, componentID=0, entityID=0, dbid=26, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:08 078] - Dbmgr::queryAccount: 777, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:28 998] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:29 018] - Dbmgr::onEntityOffline: 26, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:08:28 986] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:31 718] - Dbmgr::onAccountLogin:loginName=777, accountName=777, success=0, componentID=0, entityID=0, dbid=26, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:08:31 758] - Dbmgr::queryAccount: 777, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:09:12 039] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:09:12 059] - Dbmgr::onEntityOffline: 26, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:09:12 031] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:09:18 518] - Dbmgr::onAccountLogin:loginName=777, accountName=777, success=0, componentID=0, entityID=0, dbid=26, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:09:18 558] - Dbmgr::queryAccount: 777, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:09:46 078] - Dbmgr::onAccountLogin:loginName=777, accountName=777, success=10, componentID=720012, entityID=11, dbid=26, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:10:16 978] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:10:16 998] - Dbmgr::onEntityOffline: 26, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:10:16 973] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:10:22 118] - Dbmgr::writeEntity: Avatar(7).
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:10:22 105] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=7, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:10:22 138] - Dbmgr::onEntityOffline: 7, entityType=1.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:20:52 998] - Dbmgr::onAccountLogin:loginName=123, accountName=123, success=0, componentID=0, entityID=0, dbid=14, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:20:53 038] - Dbmgr::queryAccount: 123, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:23:59 298] - Dbmgr::onAccountLogin:loginName=134, accountName=134, success=0, componentID=0, entityID=0, dbid=174, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:23:59 358] - Dbmgr::queryAccount: 134, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:24:58 298] - Dbmgr::writeEntity: Avatar(14).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:24:58 299] - Dbmgr::onEntityOffline: 14, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:24:58 286] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=14, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:25:00 338] - Dbmgr::writeEntity: Avatar(174).
+   DEBUG      dbmgr-1 32168 42002  [2020-11-15 19:25:00 338] - Dbmgr::onEntityOffline: 174, entityType=1.
+    INFO      dbmgr-1 32168 42002  [2020-11-15 19:25:00 321] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=174, dbid_tasks_size=1, entityid_tasks_size=0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 291] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 292] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 292] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 292] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 295] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50600 )
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 295] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50600, SOMAXCONN=5.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 295] - server-configs:
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 295] - 	internalAddr : 192.168.2.246:50600
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:41 295] - 	componentID : 42002
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:42 801] - ---- dbmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 149F584B8A9DE9211BFBD70F243BB430. Config: Debug X86. Built: 19:01:34 Aug  4 2020. AppID: 42002. UID: 7825. PID: 12712 ----
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:42 802] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:42 802] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:42 803] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 940] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 940] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 941] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 944] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 944] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 944] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 944] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:42 973] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 000] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 000] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 012] - Dbmgr::initializeEnd: digest(1BA1F642F5F93854B5B11A457056BE7F)
+  S_INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 012] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 012] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 012] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 7825 42002  [2020-11-15 19:31:43 163] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+62452779F8B9C2396D01B0F1ADA12DA47F4A2A89122417E25FD198105917378222637DA5260DFD78EDC3E6FA89BD435DC0D4CFA2BF8CC820A87A4EB18BF1C3AEB261D048269BE4C787AE341585DDFEAFE822132727DB65CFE4033EE5B9EE39C00F9E5F83F893796E82FCB93C7DF02C74836E80B3306CA730953F7E33C78FE6DC
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 166] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 224] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 224] - DBUtil::createInterface[0x28ff088]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 224] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 334] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 7825 42002  [2020-11-15 19:31:43 378] - D:\kbengine-1.2.7\kbe\src\server\dbmgr\dbmgr.cpp:324: Profile scriptCall took 0.37 seconds
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 609] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 609] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 255] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 255] - DBThread::onStart(): 0x4f9b558!
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 262] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 263] - DBThread::onStart(): 0x4f9b338!
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 270] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 270] - DBThread::onStart(): 0x4f9bdd8!
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 276] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 276] - DBThread::onStart(): 0x4f9c080!
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 282] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:31:43 282] - DBThread::onStart(): 0x4f9b6f0!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 338] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 340] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 341] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 342] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 342] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 342] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 343] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:43 344] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:49 751] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:interfaces, componentID:320002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:49 751] - Components::addComponent: reset orderLog, uid=7825!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:49 751] - Components::addComponent[interfaces], uid=7825, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:50 754] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:50 784] - Components::findComponents: found logger, addr:192.168.2.246:50607
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:50 784] - Components::addComponent: reset orderLog, uid=7825!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:50 784] - Components::addComponent[logger], uid=7825, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:50 793] - Components::process(): Found all the components!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:53 709] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50601, extaddr:nonsupport, extport:0,  from 192.168.2.246:50650/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:53 709] - Components::addComponent: reset orderLog, uid=7825!
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:53 709] - Components::addComponent[cellappmgr], uid=7825, componentID=610002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:54 528] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50602, extaddr:nonsupport, extport:0,  from 192.168.2.246:50652/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:54 528] - Components::addComponent[baseappmgr], uid=7825, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:55 030] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50608, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:50654/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:55 030] - Components::addComponent[loginapp], uid=7825, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:56 993] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50604, extaddr:nonsupport, extport:0,  from 192.168.2.246:50656/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:56 993] - Components::addComponent[cellapp], uid=7825, componentID=820012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:57 102] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50605, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:50659/0/0/0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:31:57 102] - Components::addComponent[baseapp], uid=7825, componentID=720012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:32:00 112] - IDServer::allocRange: 1-10001.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:32:00 112] - IDServer::allocRange: 10001-20001.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:32:00 112] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:32:01 822] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.2.246:50659/0/0/0), keySize=11, valSize=55, isDelete=0
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:32:02 372] - Dbmgr::onAccountLogin:loginName=1, accountName=1, success=0, componentID=0, entityID=0, dbid=157, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:32:02 412] - Dbmgr::queryAccount: 1, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:32:02 497] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.2.246:50656/0/0/0), keySize=12, valSize=55, isDelete=0
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:32:14 572] - Dbmgr::onAccountLogin:loginName=2, accountName=2, success=0, componentID=0, entityID=0, dbid=124, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:32:14 652] - Dbmgr::queryAccount: 2, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:33:39 551] - Dbmgr::writeEntity: Avatar(157).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:33:39 551] - Dbmgr::onEntityOffline: 157, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:33:39 541] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=157, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:33:41 731] - Dbmgr::writeEntity: Avatar(124).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:33:41 751] - Dbmgr::onEntityOffline: 124, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:33:41 725] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=124, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:35:04 771] - Dbmgr::onAccountLogin:loginName=1, accountName=1, success=0, componentID=0, entityID=0, dbid=157, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:35:04 811] - Dbmgr::queryAccount: 1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:35:16 371] - Dbmgr::onAccountLogin:loginName=2, accountName=2, success=0, componentID=0, entityID=0, dbid=124, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:35:16 591] - Dbmgr::queryAccount: 2, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:35:58 211] - Dbmgr::onAccountLogin:loginName=2, accountName=2, success=10, componentID=720012, entityID=10006, dbid=124, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:36:39 370] - Dbmgr::writeEntity: Avatar(124).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:36:39 391] - Dbmgr::onEntityOffline: 124, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:36:39 358] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=124, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:36:43 730] - Dbmgr::writeEntity: Avatar(157).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 19:36:43 730] - Dbmgr::onEntityOffline: 157, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 19:36:43 721] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=157, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:13:13 439] - Dbmgr::onAccountLogin:loginName=053Dcgll2mHuZ545vEll232ElZ0Dcglm, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=0, componentID=0, entityID=0, dbid=180, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:13:13 559] - Dbmgr::queryAccount: omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:13:17 100] - Dbmgr::onAccountLogin:loginName=091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:13:17 300] - Dbmgr::queryAccount: omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:16:15 639] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:16:15 659] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 20:16:15 627] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:00 078] - Dbmgr::writeEntity: Avatar(180).
+    INFO      dbmgr-1 7825 42002  [2020-11-15 20:17:00 076] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=180, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:00 098] - Dbmgr::onEntityOffline: 180, entityType=1.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:06 378] - Dbmgr::onAccountLogin:loginName=041MDi0w3CemjV2zcP0w34NQdp3MDi0h, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:06 558] - Dbmgr::queryAccount: omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 20:17:06 730] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.2.246:50656/0/0/0), keySize=12, valSize=55, isDelete=0
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:49 998] - Dbmgr::onAccountLogin:loginName=033xJi0w3oimjV2rht2w3ttFhw1xJi0E, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=0, componentID=0, entityID=0, dbid=180, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:17:50 178] - Dbmgr::queryAccount: omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:21:47 456] - Dbmgr::writeEntity: Avatar(180).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:21:47 457] - Dbmgr::onEntityOffline: 180, entityType=1.
+ WARNING      dbmgr-1 7825 42002  [2020-11-15 20:21:47 445] - DBTransaction::commit(): took 0.59 seconds
+    INFO      dbmgr-1 7825 42002  [2020-11-15 20:21:47 445] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=180, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:21:52 676] - Dbmgr::writeEntity: Avatar(1).
+   DEBUG      dbmgr-1 7825 42002  [2020-11-15 20:21:52 677] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 7825 42002  [2020-11-15 20:21:52 660] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 975] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 975] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 975] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 976] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 978] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51715 )
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 979] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51715, SOMAXCONN=5.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 979] - server-configs:
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 979] - 	internalAddr : 192.168.2.246:51715
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:19 979] - 	componentID : 42002
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 489] - ---- dbmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 149F584B8A9DE9211BFBD70F243BB430. Config: Debug X86. Built: 19:01:34 Aug  4 2020. AppID: 42002. UID: 17945. PID: 14856 ----
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 489] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 490] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 490] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 618] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 618] - Script::install_py_dlls(): PyInit__socket
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 618] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 621] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 622] - Script::install_py_dlls(): PyInit_select
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 622] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 622] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 654] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 683] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 683] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 722] - Dbmgr::initializeEnd: digest(1BA1F642F5F93854B5B11A457056BE7F)
+  S_INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 722] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 722] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 723] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 17945 42002  [2020-11-15 20:23:21 911] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+6F250FC21D2E6279BF0FD2B570C214DAE8C4EC5334DC26E94B5C8E0C71311DDEE87135A922265B0E1BD1A63A6C58A15FBE0AD69A3016B8271AD4B1B224ACD7D0FCF9FD0A00FFECE7292A6676F42C6230FF6514AFF761B3235E9D7B978DE2C86F38E3252FD9EA42DEBABEED5F0F8A4605F80E776655F208AC8484E7908E52E23B
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 916] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 959] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 959] - DBUtil::createInterface[0xe5f468]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 959] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:21 960] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 073] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 17945 42002  [2020-11-15 20:23:22 117] - D:\kbengine-1.2.7\kbe\src\server\dbmgr\dbmgr.cpp:324: Profile scriptCall took 0.40 seconds
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 382] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 382] - Components::process(): Request for the process of identity...
+ WARNING      dbmgr-1 17945 42002  [2020-11-15 20:23:22 718] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20536, errorno=10048
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 960] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 960] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 960] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 961] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 961] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 991] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:21 991] - DBThread::onStart(): 0x4dcd510!
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 000] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 001] - DBThread::onStart(): 0x4dcd7b8!
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 009] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 009] - DBThread::onStart(): 0x4dcdea0!
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 016] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 016] - DBThread::onStart(): 0x4dcd840!
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 022] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:22 022] - DBThread::onStart(): 0x4dcd378!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 077] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 081] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 081] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 081] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 085] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 085] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 086] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:22 089] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:28 938] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:interfaces, componentID:320002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:28 938] - Components::addComponent: reset orderLog, uid=17945!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:28 939] - Components::addComponent[interfaces], uid=17945, componentID=320002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:29 944] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:29 960] - Components::findComponents: found logger, addr:192.168.2.246:51713
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:29 961] - Components::addComponent: reset orderLog, uid=17945!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:29 961] - Components::addComponent[logger], uid=17945, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:29 984] - Components::process(): Found all the components!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 233] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:baseappmgr, componentID:510002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51714, extaddr:nonsupport, extport:0,  from 192.168.2.246:51743/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 233] - Components::addComponent: reset orderLog, uid=17945!
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 233] - Components::addComponent[baseappmgr], uid=17945, componentID=510002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 319] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:cellappmgr, componentID:610002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51716, extaddr:nonsupport, extport:0,  from 192.168.2.246:51745/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 319] - Components::addComponent[cellappmgr], uid=17945, componentID=610002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 731] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:loginapp, componentID:920002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51719, extaddr:192.168.2.246, extport:20013,  from 192.168.2.246:51747/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:33 731] - Components::addComponent[loginapp], uid=17945, componentID=920002, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:35 684] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:cellapp, componentID:820012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51718, extaddr:nonsupport, extport:0,  from 192.168.2.246:51750/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:35 684] - Components::addComponent[cellapp], uid=17945, componentID=820012, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:35 975] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:baseapp, componentID:720012, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51717, extaddr:192.168.2.246, extport:20015,  from 192.168.2.246:51753/0/0/0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:35 975] - Components::addComponent[baseapp], uid=17945, componentID=720012, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:38 978] - IDServer::allocRange: 1-10001.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:38 978] - IDServer::allocRange: 10001-20001.
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:38 978] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:41 082] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.2.246:51753/0/0/0), keySize=11, valSize=55, isDelete=0
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:47 183] - Dbmgr::onAccountLogin:loginName=051lKIkl253WY54XPsml2fxtLI1lKIkv, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:23:47 402] - Dbmgr::queryAccount: omRjA4jplmxcJ3n3Mo8ba2rlTub4, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:23:47 534] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.2.246:51750/0/0/0), keySize=12, valSize=55, isDelete=0
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:24:26 082] - Dbmgr::onAccountLogin:loginName=023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=0, componentID=0, entityID=0, dbid=180, flags=0, deadline=0.
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:24:26 262] - Dbmgr::queryAccount: omRjA4jFOaNvOxUvYSHhCEjbN_4U, success=true, flags=0, deadline=0.
+    INFO      dbmgr-1 17945 42002  [2020-11-15 20:25:05 274] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=180, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:25:05 283] - Dbmgr::writeEntity: Avatar(180).
+   DEBUG      dbmgr-1 17945 42002  [2020-11-15 20:25:05 283] - Dbmgr::onEntityOffline: 180, entityType=1.

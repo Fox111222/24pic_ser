@@ -63,21 +63,22 @@ class Halls(KBEngine.Entity):
 		
 ##########################################
 	def createPrivateRoom(self, entityCall, position, direction):
-			#生成一个64位的唯一id,作为房间的id
-			self.PrivatelastNewRoomKey = KBEngine.genUUID64()
+		#DEBUG_MSG("Hall createPrivateRoom" % (self.id))
+		#生成一个64位的唯一id,作为房间的id
+		self.PrivatelastNewRoomKey = KBEngine.genUUID64()
+		DEBUG_MSG("Hall createPrivateRoom generator key %i" % (self.PrivatelastNewRoomKey))	
+		# 将房间base实体创建在任意baseapp上
+		# 此处的字典参数中可以对实体进行提前def属性赋值
+		KBEngine.createEntityAnywhere("PrivateRoom", \
+								{
+								"roomKey" : self.PrivatelastNewRoomKey,	\
+								}, \
+								Functor.Functor(self.onPrivateRoomCreatedCB, self.PrivatelastNewRoomKey))
 			
-			# 将房间base实体创建在任意baseapp上
-			# 此处的字典参数中可以对实体进行提前def属性赋值
-			KBEngine.createEntityAnywhere("PrivateRoom", \
-									{
-									"roomKey" : self.PrivatelastNewRoomKey,	\
-									}, \
-									Functor.Functor(self.onPrivateRoomCreatedCB, self.PrivatelastNewRoomKey))
-			
-			roomDatas = {"roomEntityCall" : None, "PlayerCount": 0, "enterRoomReqs" : [], "roomKey" : self.PrivatelastNewRoomKey,"userindex":{100:100}}
-			self.Privaterooms[self.PrivatelastNewRoomKey] = roomDatas
-			roomDatas["enterRoomReqs"].append((entityCall, position, direction))
-			roomDatas["PlayerCount"] += 1
+		roomDatas = {"roomEntityCall" : None, "PlayerCount": 0, "enterRoomReqs" : [], "roomKey" : self.PrivatelastNewRoomKey,"userindex":{100:100}}
+		self.Privaterooms[self.PrivatelastNewRoomKey] = roomDatas
+		roomDatas["enterRoomReqs"].append((entityCall, position, direction))
+		roomDatas["PlayerCount"] += 1
 
 	def onPrivateRoomCreatedCB(self, roomKey, roomEntityCall):
 		"""
@@ -232,7 +233,7 @@ class Halls(KBEngine.Entity):
 		"""
 		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
 		pass
-		
+
 	def onRoomLoseCell(self, roomKey):
 		"""
 		defined method.

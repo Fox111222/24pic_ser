@@ -1,0 +1,224 @@
+  INFO root [2020-11-15 18:48:53,268] - 
+  INFO root [2020-11-15 18:48:53,268] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 18:48:53,269] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 18:48:53,270] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 18:48:53,270] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 18:48:53,273] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:30099 )
+  INFO root [2020-11-15 18:48:53,274] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:30099, SOMAXCONN=5.
+  INFO root [2020-11-15 18:48:53,277] - ---- interfaces Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84EE52A025C98281889357BE39C63701. Config: Debug X86. Built: 19:01:31 Aug  4 2020. AppID: 320002. UID: 32168. PID: 10692 ----
+  INFO root [2020-11-15 18:48:53,277] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 18:48:53,277] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 18:48:53,278] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-11-15 18:48:53,406] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2020-11-15 18:48:53,406] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2020-11-15 18:48:53,406] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2020-11-15 18:48:53,409] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2020-11-15 18:48:53,409] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2020-11-15 18:48:53,409] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2020-11-15 18:48:53,410] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2020-11-15 18:48:53,441] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2020-11-15 18:48:53,477] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-11-15 18:48:53,477] - Script::install(): KBExtra is successfully!
+ S_DBG root [2020-11-15 18:48:54,585] - ======================= LoginPoller .__init__ =======================
+S_INFO root [2020-11-15 18:48:54,586] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2020-11-15 18:48:54,586] - TelnetServer server is running on port 33000
+  INFO root [2020-11-15 18:48:54,797] - ---- interfaces is running ----
+ DEBUG root [2020-11-15 18:48:54,797] - Components::process(): Request for the process of identity...
+S_INFO root [2020-11-15 18:49:00,966] - register fd 1156
+  WARN root [2020-11-15 18:49:00,973] - D:\kbengine-1.2.7\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.04 seconds
+  INFO root [2020-11-15 18:49:01,139] - ServerApp::onRegisterNewApp: uid:32168, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:49851, extaddr:nonsupport, extport:0,  from 127.0.0.1:49855/0/0/0.
+  INFO root [2020-11-15 18:49:01,140] - Components::addComponent: reset orderLog, uid=32168!
+  INFO root [2020-11-15 18:49:01,140] - Components::addComponent[dbmgr], uid=32168, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 18:49:02,019] - Components::process(): Found all the components!
+ S_DBG root [2020-11-15 18:51:06,534] - onRequestAccountLogin: 12
+ S_DBG root [2020-11-15 18:51:22,918] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 18:51:48,415] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 18:52:57,205] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 18:55:21,854] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 18:56:43,759] - onRequestAccountLogin: 1
+ S_DBG root [2020-11-15 18:57:08,974] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 19:07:29,192] - onRequestAccountLogin: 111
+ S_DBG root [2020-11-15 19:07:47,575] - onRequestAccountLogin: 777
+ S_DBG root [2020-11-15 19:08:07,972] - onRequestAccountLogin: 777
+ S_DBG root [2020-11-15 19:08:31,670] - onRequestAccountLogin: 777
+ S_DBG root [2020-11-15 19:09:18,466] - onRequestAccountLogin: 777
+ S_DBG root [2020-11-15 19:09:46,024] - onRequestAccountLogin: 777
+ S_DBG root [2020-11-15 19:20:52,980] - onRequestAccountLogin: 123
+ S_DBG root [2020-11-15 19:23:59,265] - onRequestAccountLogin: 134
+  WARN root [2020-11-15 19:25:29,860] - TCPPacketReceiver::processPendingEvents(127.0.0.1:49855): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2020-11-15 19:25:29,862] - Components::removeComponentByChannel: dbmgr : 42002, Normal exit!
+  INFO root [2020-11-15 19:31:41,408] - 
+  INFO root [2020-11-15 19:31:41,409] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 19:31:41,410] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 19:31:41,411] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 19:31:41,411] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 19:31:41,416] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:30099 )
+  INFO root [2020-11-15 19:31:41,416] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:30099, SOMAXCONN=5.
+  INFO root [2020-11-15 19:31:41,421] - ---- interfaces Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84EE52A025C98281889357BE39C63701. Config: Debug X86. Built: 19:01:31 Aug  4 2020. AppID: 320002. UID: 7825. PID: 7148 ----
+  INFO root [2020-11-15 19:31:41,421] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 19:31:41,421] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 19:31:41,422] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-11-15 19:31:41,553] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2020-11-15 19:31:41,553] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2020-11-15 19:31:41,554] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2020-11-15 19:31:41,558] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2020-11-15 19:31:41,558] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2020-11-15 19:31:41,559] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2020-11-15 19:31:41,560] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2020-11-15 19:31:41,590] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2020-11-15 19:31:41,618] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-11-15 19:31:41,618] - Script::install(): KBExtra is successfully!
+ S_DBG root [2020-11-15 19:31:41,894] - ======================= LoginPoller .__init__ =======================
+S_INFO root [2020-11-15 19:31:41,894] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2020-11-15 19:31:41,894] - TelnetServer server is running on port 33000
+  INFO root [2020-11-15 19:31:42,087] - ---- interfaces is running ----
+ DEBUG root [2020-11-15 19:31:42,087] - Components::process(): Request for the process of identity...
+S_INFO root [2020-11-15 19:31:48,248] - register fd 1368
+  INFO root [2020-11-15 19:31:48,266] - ServerApp::onRegisterNewApp: uid:7825, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:50600, extaddr:nonsupport, extport:0,  from 127.0.0.1:50610/0/0/0.
+  INFO root [2020-11-15 19:31:48,266] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [2020-11-15 19:31:48,266] - Components::addComponent[dbmgr], uid=7825, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 19:31:49,312] - Components::process(): Found all the components!
+ S_DBG root [2020-11-15 19:32:02,345] - onRequestAccountLogin: 1
+ S_DBG root [2020-11-15 19:32:14,499] - onRequestAccountLogin: 2
+ S_DBG root [2020-11-15 19:35:04,732] - onRequestAccountLogin: 1
+ S_DBG root [2020-11-15 19:35:16,343] - onRequestAccountLogin: 2
+ S_DBG root [2020-11-15 19:35:58,184] - onRequestAccountLogin: 2
+ S_DBG root [2020-11-15 20:13:12,335] - onRequestAccountLogin: 053Dcgll2mHuZ545vEll232ElZ0Dcglm
+S_INFO root [2020-11-15 20:13:12,960] - register fd 1380
+  WARN root [2020-11-15 20:13:12,966] - D:\kbengine-1.2.7\kbe\src\server\tools\interfaces\interfaces.cpp:655: Profile onRequestAccountLogin took 0.64 seconds
+  WARN root [2020-11-15 20:13:12,966] - D:\kbengine-1.2.7\kbe\src\server\tools\interfaces\interfaces.cpp:654: Profile scriptCall took 0.65 seconds
+  WARN root [2020-11-15 20:13:12,966] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.65 seconds
+S_INFO root [2020-11-15 20:13:12,987] - unregister fd 1380
+S_INFO root [2020-11-15 20:13:12,987] - register fd 1380
+S_INFO root [2020-11-15 20:13:12,988] - unregister fd 1380
+S_INFO root [2020-11-15 20:13:12,991] - register fd 1380
+S_INFO root [2020-11-15 20:13:13,024] - unregister fd 1380
+S_INFO root [2020-11-15 20:13:13,025] - register fd 1380
+S_INFO root [2020-11-15 20:13:13,354] - unregister fd 1380
+S_INFO root [2020-11-15 20:13:13,354] - register fd 1380
+S_INFO root [2020-11-15 20:13:13,383] - unregister fd 1380
+ S_DBG root [2020-11-15 20:13:13,389] - tonado visit weixin time： count=1 totalTime=0.447038 
+S_INFO root [2020-11-15 20:13:13,389] - b'{"session_key":"khMTTvyx0as7cZWO1w9xgg==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}'
+ S_DBG root [2020-11-15 20:13:13,389] - {"session_key":"khMTTvyx0as7cZWO1w9xgg==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}
+ S_DBG root [2020-11-15 20:13:13,389] - wx login result, loginname: 053Dcgll2mHuZ545vEll232ElZ0Dcglm
+ S_DBG root [2020-11-15 20:13:16,729] - onRequestAccountLogin: 091mwQ0w3ckUjV2t780w34rQRM0mwQ0G
+S_INFO root [2020-11-15 20:13:16,731] - register fd 1312
+S_INFO root [2020-11-15 20:13:16,754] - unregister fd 1312
+S_INFO root [2020-11-15 20:13:16,754] - register fd 1312
+S_INFO root [2020-11-15 20:13:16,754] - unregister fd 1312
+S_INFO root [2020-11-15 20:13:16,754] - register fd 1312
+S_INFO root [2020-11-15 20:13:16,787] - unregister fd 1312
+S_INFO root [2020-11-15 20:13:16,787] - register fd 1312
+S_INFO root [2020-11-15 20:13:17,021] - unregister fd 1312
+S_INFO root [2020-11-15 20:13:17,021] - register fd 1312
+S_INFO root [2020-11-15 20:13:17,021] - unregister fd 1312
+ S_DBG root [2020-11-15 20:13:17,055] - tonado visit weixin time： count=2 totalTime=4.113653 
+S_INFO root [2020-11-15 20:13:17,055] - b'{"session_key":"bcJ7Yq5+lki8+ZkOvNUo2w==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}'
+ S_DBG root [2020-11-15 20:13:17,056] - {"session_key":"bcJ7Yq5+lki8+ZkOvNUo2w==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}
+ S_DBG root [2020-11-15 20:13:17,056] - wx login result, loginname: 091mwQ0w3ckUjV2t780w34rQRM0mwQ0G
+ S_DBG root [2020-11-15 20:17:05,975] - onRequestAccountLogin: 041MDi0w3CemjV2zcP0w34NQdp3MDi0h
+S_INFO root [2020-11-15 20:17:05,980] - register fd 1380
+S_INFO root [2020-11-15 20:17:06,016] - unregister fd 1380
+S_INFO root [2020-11-15 20:17:06,017] - register fd 1380
+S_INFO root [2020-11-15 20:17:06,017] - unregister fd 1380
+S_INFO root [2020-11-15 20:17:06,017] - register fd 1380
+S_INFO root [2020-11-15 20:17:06,050] - unregister fd 1380
+S_INFO root [2020-11-15 20:17:06,050] - register fd 1380
+S_INFO root [2020-11-15 20:17:06,284] - unregister fd 1380
+S_INFO root [2020-11-15 20:17:06,284] - register fd 1380
+S_INFO root [2020-11-15 20:17:06,286] - unregister fd 1380
+ S_DBG root [2020-11-15 20:17:06,318] - tonado visit weixin time： count=3 totalTime=233.376907 
+S_INFO root [2020-11-15 20:17:06,319] - b'{"session_key":"aQeYsEGcDVcQe8yB75QQ\\/A==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}'
+ S_DBG root [2020-11-15 20:17:06,319] - {"session_key":"aQeYsEGcDVcQe8yB75QQ\/A==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}
+ S_DBG root [2020-11-15 20:17:06,319] - wx login result, loginname: 041MDi0w3CemjV2zcP0w34NQdp3MDi0h
+ S_DBG root [2020-11-15 20:17:49,524] - onRequestAccountLogin: 033xJi0w3oimjV2rht2w3ttFhw1xJi0E
+S_INFO root [2020-11-15 20:17:49,529] - register fd 1384
+S_INFO root [2020-11-15 20:17:49,550] - unregister fd 1384
+S_INFO root [2020-11-15 20:17:49,550] - register fd 1384
+S_INFO root [2020-11-15 20:17:49,550] - unregister fd 1384
+S_INFO root [2020-11-15 20:17:49,551] - register fd 1384
+S_INFO root [2020-11-15 20:17:49,583] - unregister fd 1384
+S_INFO root [2020-11-15 20:17:49,584] - register fd 1384
+S_INFO root [2020-11-15 20:17:49,917] - unregister fd 1384
+S_INFO root [2020-11-15 20:17:49,917] - register fd 1384
+S_INFO root [2020-11-15 20:17:49,917] - unregister fd 1384
+ S_DBG root [2020-11-15 20:17:49,950] - tonado visit weixin time： count=4 totalTime=277.008590 
+S_INFO root [2020-11-15 20:17:49,950] - b'{"session_key":"UZRRb6T0N8WysIrztAfYiw==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}'
+ S_DBG root [2020-11-15 20:17:49,950] - {"session_key":"UZRRb6T0N8WysIrztAfYiw==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}
+ S_DBG root [2020-11-15 20:17:49,950] - wx login result, loginname: 033xJi0w3oimjV2rht2w3ttFhw1xJi0E
+  WARN root [2020-11-15 20:23:15,124] - TCPPacketReceiver::processPendingEvents(127.0.0.1:50610): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2020-11-15 20:23:15,125] - Components::removeComponentByChannel: dbmgr : 42002, Normal exit!
+  INFO root [2020-11-15 20:23:19,970] - 
+  INFO root [2020-11-15 20:23:19,970] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 20:23:19,971] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 20:23:19,971] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 20:23:19,971] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 20:23:19,975] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:30099 )
+  INFO root [2020-11-15 20:23:19,975] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:30099, SOMAXCONN=5.
+  INFO root [2020-11-15 20:23:19,978] - ---- interfaces Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84EE52A025C98281889357BE39C63701. Config: Debug X86. Built: 19:01:31 Aug  4 2020. AppID: 320002. UID: 17945. PID: 14672 ----
+  INFO root [2020-11-15 20:23:19,978] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 20:23:19,978] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 20:23:19,979] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2020-11-15 20:23:20,152] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2020-11-15 20:23:20,154] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2020-11-15 20:23:20,154] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2020-11-15 20:23:20,161] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2020-11-15 20:23:20,162] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2020-11-15 20:23:20,162] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2020-11-15 20:23:20,163] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2020-11-15 20:23:20,221] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2020-11-15 20:23:20,272] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:25) [MSC v.1925 32 bit (Intel)])!
+  INFO root [2020-11-15 20:23:20,273] - Script::install(): KBExtra is successfully!
+ S_DBG root [2020-11-15 20:23:20,605] - ======================= LoginPoller .__init__ =======================
+S_INFO root [2020-11-15 20:23:20,605] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2020-11-15 20:23:20,605] - TelnetServer server is running on port 33000
+  INFO root [2020-11-15 20:23:20,812] - ---- interfaces is running ----
+ DEBUG root [2020-11-15 20:23:20,813] - Components::process(): Request for the process of identity...
+S_INFO root [2020-11-15 20:23:26,997] - register fd 1548
+  WARN root [2020-11-15 20:23:26,997] - D:\kbengine-1.2.7\kbe\src\lib\server\serverapp.cpp:270: Profile callScriptTimers took 0.04 seconds
+  WARN root [2020-11-15 20:23:27,005] - D:\kbengine-1.2.7\kbe\src\lib\network\event_dispatcher.cpp:171: Profile callSystemTimers took 0.05 seconds
+  INFO root [2020-11-15 20:23:27,006] - ServerApp::onRegisterNewApp: uid:17945, username:, componentType:dbmgr, componentID:42002, globalorderID=-1, grouporderID=-1, intaddr:192.168.2.246, intport:51715, extaddr:nonsupport, extport:0,  from 127.0.0.1:51722/0/0/0.
+  INFO root [2020-11-15 20:23:27,006] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [2020-11-15 20:23:27,007] - Components::addComponent[dbmgr], uid=17945, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 20:23:28,072] - Components::process(): Found all the components!
+ S_DBG root [2020-11-15 20:23:46,370] - onRequestAccountLogin: 051lKIkl253WY54XPsml2fxtLI1lKIkv
+S_INFO root [2020-11-15 20:23:46,800] - register fd 1704
+  WARN root [2020-11-15 20:23:46,800] - D:\kbengine-1.2.7\kbe\src\server\tools\interfaces\interfaces.cpp:655: Profile onRequestAccountLogin took 0.43 seconds
+  WARN root [2020-11-15 20:23:46,800] - D:\kbengine-1.2.7\kbe\src\server\tools\interfaces\interfaces.cpp:654: Profile scriptCall took 0.43 seconds
+  WARN root [2020-11-15 20:23:46,800] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 0.43 seconds
+S_INFO root [2020-11-15 20:23:46,838] - unregister fd 1704
+S_INFO root [2020-11-15 20:23:46,838] - register fd 1704
+S_INFO root [2020-11-15 20:23:46,838] - unregister fd 1704
+S_INFO root [2020-11-15 20:23:46,838] - register fd 1704
+S_INFO root [2020-11-15 20:23:46,871] - unregister fd 1704
+S_INFO root [2020-11-15 20:23:46,872] - register fd 1704
+S_INFO root [2020-11-15 20:23:47,105] - unregister fd 1704
+S_INFO root [2020-11-15 20:23:47,105] - register fd 1704
+S_INFO root [2020-11-15 20:23:47,108] - unregister fd 1704
+ S_DBG root [2020-11-15 20:23:47,138] - tonado visit weixin time： count=1 totalTime=0.352803 
+S_INFO root [2020-11-15 20:23:47,139] - b'{"session_key":"ssTdXn6fuzk\\/bSUCPgqdZQ==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}'
+ S_DBG root [2020-11-15 20:23:47,139] - {"session_key":"ssTdXn6fuzk\/bSUCPgqdZQ==","openid":"omRjA4jplmxcJ3n3Mo8ba2rlTub4"}
+ S_DBG root [2020-11-15 20:23:47,139] - wx login result, loginname: 051lKIkl253WY54XPsml2fxtLI1lKIkv
+ S_DBG root [2020-11-15 20:24:25,637] - onRequestAccountLogin: 023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v
+S_INFO root [2020-11-15 20:24:25,638] - register fd 1560
+S_INFO root [2020-11-15 20:24:25,671] - unregister fd 1560
+S_INFO root [2020-11-15 20:24:25,672] - register fd 1560
+S_INFO root [2020-11-15 20:24:25,672] - unregister fd 1560
+S_INFO root [2020-11-15 20:24:25,672] - register fd 1560
+S_INFO root [2020-11-15 20:24:25,705] - unregister fd 1560
+S_INFO root [2020-11-15 20:24:25,705] - register fd 1560
+S_INFO root [2020-11-15 20:24:26,004] - unregister fd 1560
+S_INFO root [2020-11-15 20:24:26,004] - register fd 1560
+S_INFO root [2020-11-15 20:24:26,005] - unregister fd 1560
+ S_DBG root [2020-11-15 20:24:26,039] - tonado visit weixin time： count=2 totalTime=39.253426 
+S_INFO root [2020-11-15 20:24:26,040] - b'{"session_key":"PoOlpGR2WfqPjwdiVBwv\\/w==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}'
+ S_DBG root [2020-11-15 20:24:26,040] - {"session_key":"PoOlpGR2WfqPjwdiVBwv\/w==","openid":"omRjA4jFOaNvOxUvYSHhCEjbN_4U"}
+ S_DBG root [2020-11-15 20:24:26,040] - wx login result, loginname: 023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v
+  WARN root [2020-11-15 20:25:12,819] - TCPPacketReceiver::processPendingEvents(127.0.0.1:51722): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2020-11-15 20:25:12,823] - Components::removeComponentByChannel: dbmgr : 42002, Normal exit!

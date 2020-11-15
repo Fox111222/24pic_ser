@@ -1,0 +1,277 @@
+  INFO root [0x00002e94] [2020-11-15 18:49:34,054] - 
+  INFO root [0x00002e94] [2020-11-15 18:49:34,055] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002e94] [2020-11-15 18:49:34,056] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00002e94] [2020-11-15 18:49:34,056] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00002e94] [2020-11-15 18:49:34,057] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00002e94] [2020-11-15 18:49:34,062] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:49873 )
+  INFO root [0x00002e94] [2020-11-15 18:49:34,063] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:49873, SOMAXCONN=5.
+  INFO root [0x00002e94] [2020-11-15 18:49:34,063] - server-configs:
+  INFO root [0x00002e94] [2020-11-15 18:49:34,063] - 	gameUpdateHertz : 30
+  INFO root [0x00002e94] [2020-11-15 18:49:34,063] - 	defaultViewRadius : 500
+  INFO root [0x00002e94] [2020-11-15 18:49:34,064] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002e94] [2020-11-15 18:49:34,064] - 	entryScriptFile : kbemain
+  INFO root [0x00002e94] [2020-11-15 18:49:34,064] - 	internalAddr : 192.168.2.246:49873
+  INFO root [0x00002e94] [2020-11-15 18:49:34,064] - 	componentID : 820012
+  INFO root [0x00002e94] [2020-11-15 18:49:34,142] - Components::findLogger: found logger, addr:192.168.2.246:49849
+  INFO root [0x00002e94] [2020-11-15 18:49:34,143] - Components::addComponent: reset orderLog, uid=32168!
+  INFO root [0x00002e94] [2020-11-15 18:49:34,143] - Components::addComponent[logger], uid=32168, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002e94] [2020-11-15 18:49:34,150] - ---- cellapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: FB5AA4D149D453FC2A7CB28524DD1B1C. Config: Debug X86. Built: 19:02:49 Aug  4 2020. AppID: 820012. UID: 32168. PID: 10080 ----
+  INFO root [0x00002e94] [2020-11-15 18:49:34,150] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00002e94] [2020-11-15 18:49:34,150] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002e94] [2020-11-15 18:49:34,151] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,313] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,314] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,314] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,318] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,319] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,319] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,320] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,373] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002e94] [2020-11-15 18:49:34,423] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00002e94] [2020-11-15 18:49:34,423] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,510] - loaded script:Avatar(1).
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,534] - loaded script:Room(3).
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,555] - loaded script:PrivateRoom(4).
+  INFO root [0x00002e94] [2020-11-15 18:49:34,556] - TelnetServer server is running on port 50000
+  INFO root [0x00002e94] [2020-11-15 18:49:34,962] - ---- cellapp is running ----
+ DEBUG root [0x00002e94] [2020-11-15 18:49:34,962] - Components::process(): Request for the process of identity...
+  WARN root [0x00002e94] [2020-11-15 18:49:41,201] - Forwarding logs to logger[192.168.2.246:49849/0/0/0]...
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,800] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002e94] [2020-11-15 19:25:29,801] - The following logs sent to logger failed:
+  WARN root [0x00002e94] [2020-11-15 19:25:29,801] - ==> [2020-11-15 19:25:29 800] TCPPacketReceiver::processPendingEvents(192.168.2.246:49849): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,802] - ==> [2020-11-15 19:25:29 801] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00002e94] [2020-11-15 19:25:29,861] - TCPPacketReceiver::processPendingEvents(192.168.2.246:49851): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,862] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002e94] [2020-11-15 19:25:29,865] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002e94] [2020-11-15 19:25:29,866] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00002e94] [2020-11-15 19:25:29,866] - Room::onDestroy: 3
+  INFO root [0x00002e94] [2020-11-15 19:25:29,868] - Spaces::destroySpace: 1.
+  INFO root [0x00002e94] [2020-11-15 19:25:29,868] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,868] - Room::~Room(): 3
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,869] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,869] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,882] - EntityGarbages::~EntityGarbages(): leaked, size=11.
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,882] - 	--> leaked: Avatar(4).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,883] - 	--> leaked: Avatar(10).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,883] - 	--> leaked: Avatar(2).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,883] - 	--> leaked: Avatar(5).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,884] - 	--> leaked: Avatar(6).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,884] - 	--> leaked: Avatar(8).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,884] - 	--> leaked: Avatar(9).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,885] - 	--> leaked: Avatar(11).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,885] - 	--> leaked: Avatar(7).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,885] - 	--> leaked: Avatar(12).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,886] - 	--> leaked: Avatar(13).
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,887] - PyGC::debugTracing(): EntityCall : leaked(22)
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,887] - PyGC::debugTracing(): Vector3 : leaked(33)
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,887] - PyGC::debugTracing(): FixedArray : leaked(22)
+ ERROR root [0x00002e94] [2020-11-15 19:25:29,888] - PyGC::debugTracing(): Entity : leaked(11)
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,888] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,888] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,889] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,889] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,889] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,889] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,890] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,890] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,897] - Avatar::~Avatar(): 4
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,897] - Avatar::~Avatar(): 2
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,898] - Avatar::~Avatar(): 5
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,898] - Avatar::~Avatar(): 6
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 8
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 9
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 10
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 11
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 7
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 13
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,899] - Avatar::~Avatar(): 12
+  INFO root [0x00002e94] [2020-11-15 19:25:29,913] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002e94] [2020-11-15 19:25:29,913] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00002790] [2020-11-15 19:31:41,401] - 
+  INFO root [0x00002790] [2020-11-15 19:31:41,402] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002790] [2020-11-15 19:31:41,403] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00002790] [2020-11-15 19:31:41,403] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00002790] [2020-11-15 19:31:41,403] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00002790] [2020-11-15 19:31:41,409] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50604 )
+  INFO root [0x00002790] [2020-11-15 19:31:41,409] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50604, SOMAXCONN=5.
+  INFO root [0x00002790] [2020-11-15 19:31:41,409] - server-configs:
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	gameUpdateHertz : 30
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	defaultViewRadius : 500
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	entryScriptFile : kbemain
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	internalAddr : 192.168.2.246:50604
+  INFO root [0x00002790] [2020-11-15 19:31:41,410] - 	componentID : 820012
+  INFO root [0x00002790] [2020-11-15 19:31:42,917] - ---- cellapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: FB5AA4D149D453FC2A7CB28524DD1B1C. Config: Debug X86. Built: 19:02:49 Aug  4 2020. AppID: 820012. UID: 7825. PID: 9180 ----
+  INFO root [0x00002790] [2020-11-15 19:31:42,918] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00002790] [2020-11-15 19:31:42,918] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002790] [2020-11-15 19:31:42,919] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,047] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,047] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,048] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,051] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,051] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,051] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,052] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,086] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002790] [2020-11-15 19:31:43,119] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00002790] [2020-11-15 19:31:43,119] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,143] - loaded script:Avatar(1).
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,146] - loaded script:Room(3).
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,148] - loaded script:PrivateRoom(4).
+  INFO root [0x00002790] [2020-11-15 19:31:43,148] - TelnetServer server is running on port 50000
+  INFO root [0x00002790] [2020-11-15 19:31:43,389] - ---- cellapp is running ----
+ DEBUG root [0x00002790] [2020-11-15 19:31:43,390] - Components::process(): Request for the process of identity...
+  WARN root [0x00002790] [2020-11-15 19:31:49,548] - EntityApp::checkTickPeriod: tick took 18660% (18.66 seconds)!
+  INFO root [0x00002790] [2020-11-15 19:31:50,590] - Components::findComponents: find logger(1)...
+  INFO root [0x00002790] [2020-11-15 19:31:50,648] - Components::findComponents: found logger, addr:192.168.2.246:50607
+  INFO root [0x00002790] [2020-11-15 19:31:50,648] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [0x00002790] [2020-11-15 19:31:50,648] - Components::addComponent[logger], uid=7825, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002790] [2020-11-15 19:31:50,650] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00002790] [2020-11-15 19:31:50,773] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  INFO root [0x00002790] [2020-11-15 19:31:50,773] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [0x00002790] [2020-11-15 19:31:50,773] - Components::addComponent[dbmgr], uid=7825, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002790] [2020-11-15 19:31:50,796] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  WARN root [0x00002790] [2020-11-15 19:31:51,796] - EntityApp::checkTickPeriod: tick took 3754% (3.75 seconds)!
+  WARN root [0x00002790] [2020-11-15 19:31:51,798] - Forwarding logs to logger[192.168.2.246:50607/0/0/0]...
+ ERROR root [0x00002790] [2020-11-15 20:23:15,056] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002790] [2020-11-15 20:23:15,063] - The following logs sent to logger failed:
+  WARN root [0x00002790] [2020-11-15 20:23:15,064] - ==> [2020-11-15 20:23:15 053] TCPPacketReceiver::processPendingEvents(192.168.2.246:50607): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002790] [2020-11-15 20:23:15,064] - ==> [2020-11-15 20:23:15 062] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00002790] [2020-11-15 20:23:15,123] - TCPPacketReceiver::processPendingEvents(192.168.2.246:50600): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002790] [2020-11-15 20:23:15,125] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002790] [2020-11-15 20:23:15,130] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002790] [2020-11-15 20:23:15,131] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00002790] [2020-11-15 20:23:15,131] - Room::onDestroy: 10003
+  INFO root [0x00002790] [2020-11-15 20:23:15,132] - Spaces::destroySpace: 1.
+ S_DBG root [0x00002790] [2020-11-15 20:23:15,133] - Room::onDestroy: 10010
+  INFO root [0x00002790] [2020-11-15 20:23:15,134] - Spaces::destroySpace: 2.
+  INFO root [0x00002790] [2020-11-15 20:23:15,135] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,138] - PrivateRoom::~PrivateRoom(): 10010
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,139] - Room::~Room(): 10003
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,141] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,141] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00002790] [2020-11-15 20:23:15,157] - EntityGarbages::~EntityGarbages(): leaked, size=8.
+ ERROR root [0x00002790] [2020-11-15 20:23:15,157] - 	--> leaked: Avatar(10002).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,158] - 	--> leaked: Avatar(10004).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,158] - 	--> leaked: Avatar(10006).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,159] - 	--> leaked: Avatar(10005).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,160] - 	--> leaked: Avatar(10008).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,160] - 	--> leaked: Avatar(10007).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,161] - 	--> leaked: Avatar(10011).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,161] - 	--> leaked: Avatar(10009).
+ ERROR root [0x00002790] [2020-11-15 20:23:15,162] - PyGC::debugTracing(): EntityCall : leaked(16)
+ ERROR root [0x00002790] [2020-11-15 20:23:15,163] - PyGC::debugTracing(): Vector3 : leaked(24)
+ ERROR root [0x00002790] [2020-11-15 20:23:15,164] - PyGC::debugTracing(): FixedArray : leaked(16)
+ ERROR root [0x00002790] [2020-11-15 20:23:15,165] - PyGC::debugTracing(): Entity : leaked(8)
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,168] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,169] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,170] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10004
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10002
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10006
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10005
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10008
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,174] - Avatar::~Avatar(): 10007
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,175] - Avatar::~Avatar(): 10011
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,175] - Avatar::~Avatar(): 10009
+  INFO root [0x00002790] [2020-11-15 20:23:15,188] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002790] [2020-11-15 20:23:15,188] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00003624] [2020-11-15 20:23:20,094] - 
+  INFO root [0x00003624] [2020-11-15 20:23:20,094] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003624] [2020-11-15 20:23:20,104] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00003624] [2020-11-15 20:23:20,105] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00003624] [2020-11-15 20:23:20,105] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00003624] [2020-11-15 20:23:20,111] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51718 )
+  INFO root [0x00003624] [2020-11-15 20:23:20,111] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51718, SOMAXCONN=5.
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - server-configs:
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - 	gameUpdateHertz : 30
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - 	defaultViewRadius : 500
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - 	entryScriptFile : kbemain
+  INFO root [0x00003624] [2020-11-15 20:23:20,112] - 	internalAddr : 192.168.2.246:51718
+  INFO root [0x00003624] [2020-11-15 20:23:20,113] - 	componentID : 820012
+  INFO root [0x00003624] [2020-11-15 20:23:21,618] - ---- cellapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: FB5AA4D149D453FC2A7CB28524DD1B1C. Config: Debug X86. Built: 19:02:49 Aug  4 2020. AppID: 820012. UID: 17945. PID: 16164 ----
+  INFO root [0x00003624] [2020-11-15 20:23:21,618] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00003624] [2020-11-15 20:23:21,619] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003624] [2020-11-15 20:23:21,619] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,768] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,768] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,769] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,771] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,772] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,772] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,773] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,816] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003624] [2020-11-15 20:23:21,857] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00003624] [2020-11-15 20:23:21,857] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,913] - loaded script:Avatar(1).
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,917] - loaded script:Room(3).
+ DEBUG root [0x00003624] [2020-11-15 20:23:21,950] - loaded script:PrivateRoom(4).
+  INFO root [0x00003624] [2020-11-15 20:23:21,951] - TelnetServer server is running on port 50000
+  INFO root [0x00003624] [2020-11-15 20:23:22,215] - ---- cellapp is running ----
+ DEBUG root [0x00003624] [2020-11-15 20:23:22,216] - Components::process(): Request for the process of identity...
+  WARN root [0x00003624] [2020-11-15 20:23:28,393] - EntityApp::checkTickPeriod: tick took 18718% (18.72 seconds)!
+  INFO root [0x00003624] [2020-11-15 20:23:29,407] - Components::findComponents: find logger(1)...
+  INFO root [0x00003624] [2020-11-15 20:23:29,425] - Components::findComponents: found logger, addr:192.168.2.246:51713
+  INFO root [0x00003624] [2020-11-15 20:23:29,425] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [0x00003624] [2020-11-15 20:23:29,425] - Components::addComponent[logger], uid=17945, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003624] [2020-11-15 20:23:29,427] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003624] [2020-11-15 20:23:29,531] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  INFO root [0x00003624] [2020-11-15 20:23:29,531] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [0x00003624] [2020-11-15 20:23:29,531] - Components::addComponent[dbmgr], uid=17945, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003624] [2020-11-15 20:23:29,536] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  WARN root [0x00003624] [2020-11-15 20:23:30,536] - Forwarding logs to logger[192.168.2.246:51713/0/0/0]...
+ ERROR root [0x00003624] [2020-11-15 20:25:12,724] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00003624] [2020-11-15 20:25:12,735] - The following logs sent to logger failed:
+  WARN root [0x00003624] [2020-11-15 20:25:12,736] - ==> [2020-11-15 20:25:12 723] TCPPacketReceiver::processPendingEvents(192.168.2.246:51713): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003624] [2020-11-15 20:25:12,737] - ==> [2020-11-15 20:25:12 726] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00003624] [2020-11-15 20:25:12,820] - TCPPacketReceiver::processPendingEvents(192.168.2.246:51715): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003624] [2020-11-15 20:25:12,823] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00003624] [2020-11-15 20:25:12,850] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003624] [2020-11-15 20:25:12,875] - Shutdowner::onShutdown: shutting down
+ S_DBG root [0x00003624] [2020-11-15 20:25:12,877] - Room::onDestroy: 10003
+ S_DBG root [0x00003624] [2020-11-15 20:25:12,879] - Avatar::onDestroy: 10002.
+  INFO root [0x00003624] [2020-11-15 20:25:12,881] - Spaces::destroySpace: 1.
+  INFO root [0x00003624] [2020-11-15 20:25:12,882] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,885] - PrivateRoom::~PrivateRoom(): 10003
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,887] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,888] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00003624] [2020-11-15 20:25:12,904] - EntityGarbages::~EntityGarbages(): leaked, size=2.
+ ERROR root [0x00003624] [2020-11-15 20:25:12,936] - 	--> leaked: Avatar(10004).
+ ERROR root [0x00003624] [2020-11-15 20:25:12,938] - 	--> leaked: Avatar(10002).
+ ERROR root [0x00003624] [2020-11-15 20:25:12,939] - PyGC::debugTracing(): EntityCall : leaked(4)
+ ERROR root [0x00003624] [2020-11-15 20:25:12,939] - PyGC::debugTracing(): Vector3 : leaked(6)
+ ERROR root [0x00003624] [2020-11-15 20:25:12,940] - PyGC::debugTracing(): FixedArray : leaked(4)
+ ERROR root [0x00003624] [2020-11-15 20:25:12,941] - PyGC::debugTracing(): Entity : leaked(2)
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,942] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,942] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,943] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,943] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,943] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,943] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,943] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,944] - Script::uninstall_py_dlls(): PyInit_unicodedata
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,947] - Avatar::~Avatar(): 10004
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,948] - Avatar::~Avatar(): 10002
+  INFO root [0x00003624] [2020-11-15 20:25:12,958] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003624] [2020-11-15 20:25:12,959] - ThreadPool::destroy(): starting size 2.

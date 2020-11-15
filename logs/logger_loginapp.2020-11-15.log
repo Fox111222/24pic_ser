@@ -1,0 +1,403 @@
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 010] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 010] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 010] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 010] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 015] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20013 )
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 015] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20013, SOMAXCONN=128.
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:49878 )
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:49878, SOMAXCONN=128.
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - server-configs:
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - 	internalAddr : 192.168.2.246:49878
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - 	externalAddr : 192.168.2.246:20013
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 018] - 	componentID : 920002
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 204] - Components::findLogger: found logger, addr:192.168.2.246:49849
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 204] - Components::addComponent: reset orderLog, uid=32168!
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 204] - Components::addComponent[logger], uid=32168, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 212] - ---- loginapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: A87D1428E6DE7B1742DD55BD6E5BAE8C. Config: Debug X86. Built: 19:01:57 Aug  4 2020. AppID: 920002. UID: 32168. PID: 388 ----
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 212] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 213] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 213] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 362] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 362] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 363] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 367] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 368] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 369] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 370] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 430] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 490] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 490] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 510] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 510] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:43 828] - ---- loginapp is running ----
+   DEBUG   loginapp-1 32168 920002  [2020-11-15 18:49:43 829] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:51 076] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:51 085] - Components::findComponents: found dbmgr, addr:192.168.2.246:49851
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:51 085] - Components::addComponent: reset orderLog, uid=32168!
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:51 085] - Components::addComponent[dbmgr], uid=32168, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:51 086] - Components::findComponents: found dbmgr, addr:192.168.2.246:49851
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:53 090] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:53 111] - Components::findComponents: found baseappmgr, addr:192.168.2.246:49863
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:53 111] - Components::addComponent[baseappmgr], uid=32168, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:53 112] - Components::findComponents: found baseappmgr, addr:192.168.2.246:49863
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:55 142] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:55 148] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:55 150] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:55 150] - Components::process(): Found all the components!
+    INFO   loginapp-1 32168 920002  [2020-11-15 18:49:58 158] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=1BA1F642F5F93854B5B11A457056BE7F.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:49:59 369] - HTTPCBHandler::bind: 192.168.2.246:21103
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:49:59 370] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.21 seconds
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:06 523] - Channel::handshake: websocket(192.168.2.246:49917/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:06 532] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:49917/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:51:06 532] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:49917/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:06 535] - onReuqestLogin() loginName=12, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:06 535] - PendingLoginMgr::add: 12, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:06 535] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=12, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:07 279] - onLoginCallbackFromDB() loginName=12, accountName=12, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:07 280] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=12, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:07 280] - PendingLoginMgr::remove: 12, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:22 900] - Channel::handshake: websocket(192.168.2.246:49946/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:22 917] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:49946/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:51:22 917] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:49946/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:22 917] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:22 917] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:22 917] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:23 039] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:23 044] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:23 044] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:48 409] - Channel::handshake: websocket(192.168.2.246:49979/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:48 412] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:49979/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:51:48 413] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:49979/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:48 414] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:48 414] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:51:48 414] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:51:48 440] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:48 442] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:51:48 442] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:52:57 185] - Channel::handshake: websocket(192.168.2.246:50030/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:52:57 204] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50030/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:52:57 204] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50030/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:52:57 205] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:52:57 205] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:52:57 205] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:52:57 259] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:52:57 260] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:52:57 260] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:55:21 837] - Channel::handshake: websocket(192.168.2.246:50095/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:55:21 854] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50095/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:55:21 854] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50095/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:55:21 855] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:55:21 855] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:55:21 855] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:55:21 899] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:55:21 901] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:55:21 901] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:56:43 742] - Channel::handshake: websocket(192.168.2.246:50158/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:56:43 756] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50158/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:56:43 756] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50158/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:56:43 758] - onReuqestLogin() loginName=1, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:56:43 759] - PendingLoginMgr::add: 1, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:56:43 759] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=1, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:56:43 778] - onLoginCallbackFromDB() loginName=1, accountName=1, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:56:43 779] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=1, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:56:43 779] - PendingLoginMgr::remove: 1, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:57:08 913] - Channel::handshake: websocket(192.168.2.246:50195/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 18:57:08 973] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50195/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 18:57:08 973] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50195/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:57:08 973] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:57:08 974] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 18:57:08 974] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 18:57:09 061] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=10
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:57:09 065] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 18:57:09 065] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:29 178] - Channel::handshake: websocket(192.168.2.246:50257/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:07:29 192] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50257/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:07:29 192] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50257/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:07:29 192] - onReuqestLogin() loginName=111, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:29 192] - PendingLoginMgr::add: 111, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:07:29 192] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=111, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:07:29 219] - onLoginCallbackFromDB() loginName=111, accountName=111, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:29 222] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=111, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:29 222] - PendingLoginMgr::remove: 111, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:47 517] - Channel::handshake: websocket(192.168.2.246:50293/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:07:47 573] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50293/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:07:47 573] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50293/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:07:47 575] - onReuqestLogin() loginName=777, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:47 575] - PendingLoginMgr::add: 777, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:07:47 575] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=777, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:07:47 638] - onLoginCallbackFromDB() loginName=777, accountName=777, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:47 640] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=777, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:07:47 640] - PendingLoginMgr::remove: 777, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:07 971] - Channel::handshake: websocket(192.168.2.246:50318/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:08:07 972] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50318/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:08:07 973] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50318/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:08:07 973] - onReuqestLogin() loginName=777, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:07 973] - PendingLoginMgr::add: 777, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:08:07 973] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=777, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:08:08 038] - onLoginCallbackFromDB() loginName=777, accountName=777, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:08 039] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=777, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:08 039] - PendingLoginMgr::remove: 777, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:31 666] - Channel::handshake: websocket(192.168.2.246:50347/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:08:31 668] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50347/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:08:31 668] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50347/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:08:31 668] - onReuqestLogin() loginName=777, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:31 668] - PendingLoginMgr::add: 777, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:08:31 668] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=777, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:08:31 718] - onLoginCallbackFromDB() loginName=777, accountName=777, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:31 719] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=777, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:08:31 719] - PendingLoginMgr::remove: 777, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:18 454] - Channel::handshake: websocket(192.168.2.246:50386/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:09:18 463] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50386/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:09:18 463] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50386/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:09:18 464] - onReuqestLogin() loginName=777, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:18 464] - PendingLoginMgr::add: 777, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:09:18 464] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=777, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:09:18 520] - onLoginCallbackFromDB() loginName=777, accountName=777, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:18 522] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=777, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:18 522] - PendingLoginMgr::remove: 777, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:45 949] - Channel::handshake: websocket(192.168.2.246:50421/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:09:46 012] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50421/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:09:46 012] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50421/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:09:46 022] - onReuqestLogin() loginName=777, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:46 022] - PendingLoginMgr::add: 777, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:09:46 022] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=777, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:09:46 079] - onLoginCallbackFromDB() loginName=777, accountName=777, errorno=10
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:46 082] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=777, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:09:46 082] - PendingLoginMgr::remove: 777, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:20:52 968] - Channel::handshake: websocket(192.168.2.246:50482/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:20:52 977] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50482/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:20:52 978] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50482/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:20:52 979] - onReuqestLogin() loginName=123, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:20:52 979] - PendingLoginMgr::add: 123, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:20:52 979] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=123, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:20:52 998] - onLoginCallbackFromDB() loginName=123, accountName=123, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:20:53 000] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=123, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:20:53 001] - PendingLoginMgr::remove: 123, size=0.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:23:59 246] - Channel::handshake: websocket(192.168.2.246:50531/0/0/0) successfully!
+    INFO   loginapp01 32168 920002  [2020-11-15 19:23:59 262] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50531/0/0/0
+ WARNING   loginapp01 32168 920002  [2020-11-15 19:23:59 262] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50531/0/0/0
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:23:59 263] - onReuqestLogin() loginName=134, clientType=5
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:23:59 263] - PendingLoginMgr::add: 134, size=1.
+    INFO   loginapp01 32168 920002  [2020-11-15 19:23:59 264] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=134, datas={'platform':'101'}.
+  S_INFO   loginapp01 32168 920002  [2020-11-15 19:23:59 298] - onLoginCallbackFromDB() loginName=134, accountName=134, errorno=0
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:23:59 299] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=134, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 32168 920002  [2020-11-15 19:23:59 299] - PendingLoginMgr::remove: 134, size=0.
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 437] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 437] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 437] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 437] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 441] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20013 )
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 441] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20013, SOMAXCONN=128.
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50608 )
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50608, SOMAXCONN=128.
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - server-configs:
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - 	internalAddr : 192.168.2.246:50608
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - 	externalAddr : 192.168.2.246:20013
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:41 446] - 	componentID : 920002
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 049] - ---- loginapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: A87D1428E6DE7B1742DD55BD6E5BAE8C. Config: Debug X86. Built: 19:01:57 Aug  4 2020. AppID: 920002. UID: 7825. PID: 14048 ----
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 049] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 050] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 050] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 181] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 181] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 182] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 185] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 186] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 186] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 187] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 218] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 261] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 261] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 263] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 263] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:43 534] - ---- loginapp is running ----
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:43 534] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 698] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 782] - Components::findComponents: found logger, addr:192.168.2.246:50607
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 783] - Components::addComponent: reset orderLog, uid=7825!
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 783] - Components::addComponent[logger], uid=7825, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 787] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 807] - Components::findComponents: found logger, addr:192.168.2.246:50607
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 819] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 820] - Components::addComponent: reset orderLog, uid=7825!
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 820] - Components::addComponent[dbmgr], uid=7825, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:50 938] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:52 943] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:52 999] - Components::findComponents: found baseappmgr, addr:192.168.2.246:50602
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:52 999] - Components::addComponent[baseappmgr], uid=7825, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:53 000] - Components::findComponents: found baseappmgr, addr:192.168.2.246:50602
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:55 030] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:55 038] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:55 039] - Components::process(): Found all the components!
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:57 927] - Channel::handshake: websocket(192.168.2.246:50663/0/0/0) successfully!
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:57 937] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50663/0/0/0
+ WARNING   loginapp-1 7825 920002  [2020-11-15 19:31:57 937] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50663/0/0/0
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:57 940] - Loginapp::loginFailed: loginName=1 login failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+   DEBUG   loginapp-1 7825 920002  [2020-11-15 19:31:59 909] - Channel::handshake: websocket(192.168.2.246:50665/0/0/0) successfully!
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:59 912] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50665/0/0/0
+ WARNING   loginapp-1 7825 920002  [2020-11-15 19:31:59 913] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50665/0/0/0
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:31:59 913] - Loginapp::loginFailed: loginName=1 login failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp-1 7825 920002  [2020-11-15 19:32:00 112] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=1BA1F642F5F93854B5B11A457056BE7F.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:01 330] - HTTPCBHandler::bind: 192.168.2.246:21103
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:32:01 330] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.22 seconds
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:01 331] - Channel::handshake: websocket(192.168.2.246:50666/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:01 333] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50666/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:32:01 333] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50666/0/0/0
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:01 334] - Loginapp::loginFailed: loginName=1 login failed. failedcode=SERVER_ERR_SRV_STARTING, datas=initProgress: 0.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:01 853] - Loginapp::onBaseappInitProgress: progress=1.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:02 339] - Channel::handshake: websocket(192.168.2.246:50667/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:02 344] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50667/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:32:02 344] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50667/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:32:02 345] - onReuqestLogin() loginName=1, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:02 345] - PendingLoginMgr::add: 1, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:02 345] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=1, datas={'platform':'101'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:32:02 373] - onLoginCallbackFromDB() loginName=1, accountName=1, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:02 376] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=1, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:02 376] - PendingLoginMgr::remove: 1, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:14 426] - Channel::handshake: websocket(192.168.2.246:50708/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:14 487] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50708/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:32:14 487] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50708/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:32:14 497] - onReuqestLogin() loginName=2, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:14 498] - PendingLoginMgr::add: 2, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:32:14 498] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=2, datas={'platform':'101'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:32:14 573] - onLoginCallbackFromDB() loginName=2, accountName=2, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:14 576] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=2, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:32:14 576] - PendingLoginMgr::remove: 2, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:04 726] - Channel::handshake: websocket(192.168.2.246:50838/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:04 731] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50838/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:35:04 731] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50838/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:04 731] - onReuqestLogin() loginName=1, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:04 731] - PendingLoginMgr::add: 1, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:04 731] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=1, datas={'platform':'101'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:04 771] - onLoginCallbackFromDB() loginName=1, accountName=1, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:04 773] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=1, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:04 773] - PendingLoginMgr::remove: 1, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:16 295] - Channel::handshake: websocket(192.168.2.246:50873/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:16 341] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50873/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:35:16 341] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50873/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:16 341] - onReuqestLogin() loginName=2, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:16 341] - PendingLoginMgr::add: 2, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:16 341] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=2, datas={'platform':'101'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:16 373] - onLoginCallbackFromDB() loginName=2, accountName=2, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:16 376] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=2, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:16 376] - PendingLoginMgr::remove: 2, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:58 124] - Channel::handshake: websocket(192.168.2.246:50922/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:58 183] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.246:50922/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 19:35:58 183] - Loginapp::onHello: client is not encrypted, addr=192.168.2.246:50922/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:58 184] - onReuqestLogin() loginName=2, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:58 184] - PendingLoginMgr::add: 2, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 19:35:58 184] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=2, datas={'platform':'101'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 19:35:58 212] - onLoginCallbackFromDB() loginName=2, accountName=2, errorno=10
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:58 216] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=2, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 19:35:58 216] - PendingLoginMgr::remove: 2, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:12 070] - Channel::handshake: websocket(192.168.2.114:54264/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 20:13:12 299] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.114:54264/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 20:13:12 302] - Loginapp::onHello: client is not encrypted, addr=192.168.2.114:54264/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:13:12 315] - onReuqestLogin() loginName=053Dcgll2mHuZ545vEll232ElZ0Dcglm, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:12 315] - PendingLoginMgr::add: 053Dcgll2mHuZ545vEll232ElZ0Dcglm, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 20:13:12 315] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=053Dcgll2mHuZ545vEll232ElZ0Dcglm, datas={'platform':'104'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:13:13 439] - onLoginCallbackFromDB() loginName=053Dcgll2mHuZ545vEll232ElZ0Dcglm, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:13 441] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=053Dcgll2mHuZ545vEll232ElZ0Dcglm, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:13 441] - PendingLoginMgr::remove: 053Dcgll2mHuZ545vEll232ElZ0Dcglm, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:16 534] - Channel::handshake: websocket(192.168.2.156:53638/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 20:13:16 726] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.156:53638/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 20:13:16 727] - Loginapp::onHello: client is not encrypted, addr=192.168.2.156:53638/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:13:16 729] - onReuqestLogin() loginName=091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:16 730] - PendingLoginMgr::add: 091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 20:13:16 730] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, datas={'platform':'104'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:13:17 100] - onLoginCallbackFromDB() loginName=091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:17 101] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:13:17 101] - PendingLoginMgr::remove: 091mwQ0w3ckUjV2t780w34rQRM0mwQ0G, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:05 950] - Channel::handshake: websocket(192.168.2.156:53677/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 20:17:05 972] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.156:53677/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 20:17:05 973] - Loginapp::onHello: client is not encrypted, addr=192.168.2.156:53677/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:17:05 974] - onReuqestLogin() loginName=041MDi0w3CemjV2zcP0w34NQdp3MDi0h, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:05 974] - PendingLoginMgr::add: 041MDi0w3CemjV2zcP0w34NQdp3MDi0h, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 20:17:05 974] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=041MDi0w3CemjV2zcP0w34NQdp3MDi0h, datas={'platform':'104'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:17:06 378] - onLoginCallbackFromDB() loginName=041MDi0w3CemjV2zcP0w34NQdp3MDi0h, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:06 379] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=041MDi0w3CemjV2zcP0w34NQdp3MDi0h, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:06 379] - PendingLoginMgr::remove: 041MDi0w3CemjV2zcP0w34NQdp3MDi0h, size=0.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:48 825] - Channel::handshake: websocket(192.168.2.114:54302/0/0/0) successfully!
+    INFO   loginapp01 7825 920002  [2020-11-15 20:17:49 520] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.114:54302/0/0/0
+ WARNING   loginapp01 7825 920002  [2020-11-15 20:17:49 520] - Loginapp::onHello: client is not encrypted, addr=192.168.2.114:54302/0/0/0
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:17:49 523] - onReuqestLogin() loginName=033xJi0w3oimjV2rht2w3ttFhw1xJi0E, clientType=5
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:49 524] - PendingLoginMgr::add: 033xJi0w3oimjV2rht2w3ttFhw1xJi0E, size=1.
+    INFO   loginapp01 7825 920002  [2020-11-15 20:17:49 524] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=033xJi0w3oimjV2rht2w3ttFhw1xJi0E, datas={'platform':'104'}.
+  S_INFO   loginapp01 7825 920002  [2020-11-15 20:17:49 998] - onLoginCallbackFromDB() loginName=033xJi0w3oimjV2rht2w3ttFhw1xJi0E, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, errorno=0
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:49 999] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=033xJi0w3oimjV2rht2w3ttFhw1xJi0E, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 7825 920002  [2020-11-15 20:17:49 999] - PendingLoginMgr::remove: 033xJi0w3oimjV2rht2w3ttFhw1xJi0E, size=0.
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 105] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 114] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 114] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 114] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 125] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20013 )
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 126] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20013, SOMAXCONN=128.
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 130] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51719 )
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 130] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51719, SOMAXCONN=128.
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 130] - server-configs:
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 131] - 	internalAddr : 192.168.2.246:51719
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 131] - 	externalAddr : 192.168.2.246:20013
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:20 131] - 	componentID : 920002
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:21 839] - ---- loginapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: A87D1428E6DE7B1742DD55BD6E5BAE8C. Config: Debug X86. Built: 19:01:57 Aug  4 2020. AppID: 920002. UID: 17945. PID: 7144 ----
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:21 839] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:21 839] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:21 840] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 987] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 987] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 988] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 992] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 993] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 993] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:21 994] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:22 029] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:22 059] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:22 060] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 17945 920002  [2020-11-15 20:23:22 062] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:22 062] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:22 335] - ---- loginapp is running ----
+   DEBUG   loginapp-1 17945 920002  [2020-11-15 20:23:22 335] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 523] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 534] - Components::findComponents: found logger, addr:192.168.2.246:51713
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 534] - Components::addComponent: reset orderLog, uid=17945!
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 534] - Components::addComponent[logger], uid=17945, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 535] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 539] - Components::findComponents: found logger, addr:192.168.2.246:51713
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 542] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 542] - Components::addComponent: reset orderLog, uid=17945!
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 542] - Components::addComponent[dbmgr], uid=17945, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:29 644] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:31 662] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:31 702] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51714
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:31 702] - Components::addComponent[baseappmgr], uid=17945, componentID=510002, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:31 702] - Components::findComponents: found baseappmgr, addr:192.168.2.246:51714
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:33 729] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:33 741] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:33 743] - Components::process(): Found all the components!
+    INFO   loginapp-1 17945 920002  [2020-11-15 20:23:38 978] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=1BA1F642F5F93854B5B11A457056BE7F.
+    INFO   loginapp01 17945 920002  [2020-11-15 20:23:40 195] - HTTPCBHandler::bind: 192.168.2.246:21103
+ WARNING   loginapp01 17945 920002  [2020-11-15 20:23:40 196] - D:\kbengine-1.2.7\kbe\src\lib\network\channel.cpp:714: Profile processRecvMessages took 1.22 seconds
+    INFO   loginapp01 17945 920002  [2020-11-15 20:23:41 104] - Loginapp::onBaseappInitProgress: progress=1.
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:23:46 161] - Channel::handshake: websocket(192.168.2.156:53718/0/0/0) successfully!
+    INFO   loginapp01 17945 920002  [2020-11-15 20:23:46 360] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.156:53718/0/0/0
+ WARNING   loginapp01 17945 920002  [2020-11-15 20:23:46 361] - Loginapp::onHello: client is not encrypted, addr=192.168.2.156:53718/0/0/0
+  S_INFO   loginapp01 17945 920002  [2020-11-15 20:23:46 369] - onReuqestLogin() loginName=051lKIkl253WY54XPsml2fxtLI1lKIkv, clientType=5
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:23:46 370] - PendingLoginMgr::add: 051lKIkl253WY54XPsml2fxtLI1lKIkv, size=1.
+    INFO   loginapp01 17945 920002  [2020-11-15 20:23:46 370] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=051lKIkl253WY54XPsml2fxtLI1lKIkv, datas={'platform':'104'}.
+  S_INFO   loginapp01 17945 920002  [2020-11-15 20:23:47 183] - onLoginCallbackFromDB() loginName=051lKIkl253WY54XPsml2fxtLI1lKIkv, accountName=omRjA4jplmxcJ3n3Mo8ba2rlTub4, errorno=0
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:23:47 183] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=051lKIkl253WY54XPsml2fxtLI1lKIkv, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:23:47 184] - PendingLoginMgr::remove: 051lKIkl253WY54XPsml2fxtLI1lKIkv, size=0.
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:24:25 293] - Channel::handshake: websocket(192.168.2.114:54350/0/0/0) successfully!
+    INFO   loginapp01 17945 920002  [2020-11-15 20:24:25 636] - ServerApp::onHello: verInfo=1.2.7, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.2.114:54350/0/0/0
+ WARNING   loginapp01 17945 920002  [2020-11-15 20:24:25 636] - Loginapp::onHello: client is not encrypted, addr=192.168.2.114:54350/0/0/0
+  S_INFO   loginapp01 17945 920002  [2020-11-15 20:24:25 636] - onReuqestLogin() loginName=023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, clientType=5
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:24:25 636] - PendingLoginMgr::add: 023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, size=1.
+    INFO   loginapp01 17945 920002  [2020-11-15 20:24:25 636] - Loginapp::login: new client[CLIENT_TYPE_BROWSER], loginName=023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, datas={'platform':'104'}.
+  S_INFO   loginapp01 17945 920002  [2020-11-15 20:24:26 083] - onLoginCallbackFromDB() loginName=023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, accountName=omRjA4jFOaNvOxUvYSHhCEjbN_4U, errorno=0
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:24:26 084] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, addr=192.168.2.246:20015.
+   DEBUG   loginapp01 17945 920002  [2020-11-15 20:24:26 084] - PendingLoginMgr::remove: 023y8j0w3cFljV2Tqm2w3QDiMI1y8j0v, size=0.

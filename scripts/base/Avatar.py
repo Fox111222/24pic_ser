@@ -75,7 +75,26 @@ class Avatar(KBEngine.Proxy):
 			self._destroyTimer=0
 		DEBUG_MSG("Avatar::destroy called: id=%i" % (self.id))
 		self.destroy()
+
+	def destroySelf2(self):
+		"""
+		"""
 		
+		# 必须先销毁cell实体，才能销毁base
+		DEBUG_MSG("Avatar::destroySelf: id=%i" % (self.id))
+		if self.cell is not None:
+			DEBUG_MSG("Avatar::destroyCellEntity: id=%i" % (self.id))
+			self.destroyCellEntity()
+			return
+
+		KBEngine.globalData["Halls"].leaveRoom(self.id, self.roomKey)
+
+		# 销毁base
+		if(self._destroyTimer>0):
+			self.delTimer(self._destroyTimer)
+			self._destroyTimer=0
+		DEBUG_MSG("Avatar::destroy called: id=%i" % (self.id))
+		self.destroy()
 
 	def onTimer(self, id, userArg):
 		"""
@@ -113,7 +132,9 @@ class Avatar(KBEngine.Proxy):
 
 	def updateStaus(self):
 		if self.cell is not None:
+			DEBUG_MSG("self.cell.updateStaus()")
 			self.cell.updateStaus()
+
 	def onLogOnAttempt(self, ip, port, password):
 		"""
 		KBEngine method.
@@ -132,6 +153,7 @@ class Avatar(KBEngine.Proxy):
 		#self.roomKeyc=str(self.roomKey)
 		#self.roomKeyc="123456789"
 		DEBUG_MSG('Avatar::onGetCell roomKey=: %i' % self.roomKey)
+		
 		#DEBUG_MSG('Avatar::onGetCell roomKeyc=: %s' % str(int(''.join(str(item) for item in self.roomKeyc))))
 
 	def onLoseCell(self):
@@ -140,7 +162,10 @@ class Avatar(KBEngine.Proxy):
 		entity的cell部分实体丢失
 		"""
 		DEBUG_MSG("%s::onLoseCell: %i" % (self.className, self.id))
-		self.destroySelf()
+		#KBEngine.globalData["Halls"].leaveRoom(self.id, self.roomKey)  #从destroyself 移来-------------------------------------------------------------------------------------
+		#self.roomKey=0
+		self.destroySelf2()
+		#self.destroySelf()
 		# 如果self._destroyTimer大于0说明之前已经由base请求销毁，通常是客户端断线了
 		#if self._destroyTimer > 0:
 			#self.delTimer(self._destroyTimer)	
@@ -174,9 +199,23 @@ class Avatar(KBEngine.Proxy):
 		if self.cell is not None:
 			self.cell.onClientDeath()
 
+	#def leaverequest(self):
+		#self.client=None
+		#self.destroySelf()
+		
+		 
 	def joinRoom(self):
+		if self.cell is not None:
+			DEBUG_MSG("avatar already has cell ")
+			self.client.onclientMSG("当前房间还未退出,继续进入当前绑定的房间")
+			return		
 		self.enterRoom()
 	def createPrivateRoom(self):
+		DEBUG_MSG("avatar %i createPrivateRoom" % (self.id))
+		if self.cell is not None:
+			DEBUG_MSG("avatar already has cell ")
+			self.client.onclientMSG("当前房间还未退出,无法创建新房间，进入当前绑定的房间")
+			return
 		if self.cell is None:
 			# 玩家上线了或者重登陆了， 此处告诉大厅，玩家请求登陆到游戏地图中
 			KBEngine.globalData["Halls"].createPrivateRoom(self, self.cellData["position"], self.cellData["direction"])
@@ -184,6 +223,10 @@ class Avatar(KBEngine.Proxy):
 			self.updateStaus()
 	def joinPrivateRoom(self,roomkey):#参数是数字数组
 		#str1 = ','.join(str(i) for i in roomkey) #转成字符串
+		if self.cell is not None:
+			DEBUG_MSG("avatar already has cell ")
+			self.client.onclientMSG("当前房间还未退出,无法加入新房间，进入当前绑定的房间")
+			return
 		str1=int(''.join(str(item) for item in roomkey))
 		DEBUG_MSG("Halls::joinPrivateRoom roomkey= %i " % (str1))
 		if self.cell is None:
@@ -200,7 +243,6 @@ class Avatar(KBEngine.Proxy):
 			KBEngine.globalData["Halls"].enterRoom(self, self.cellData["position"], self.cellData["direction"], self.roomKey)
 		else:
 			self.updateStaus()
-
 
 	def onDestroyTimer(self):
 		DEBUG_MSG("Avatar::onDestroyTimer: %i" % (self.id))

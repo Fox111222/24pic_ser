@@ -265,7 +265,7 @@ class Room(KBEngine.Entity):
 		self.curSecond=30
 		#self.sendcards=[]
 		
-	def onsureact(self, eid , strs):
+	def onsureact(self,eid,strs):
 		DEBUG_MSG("onsureact id= %i %s " % (eid,strs))
 		entity=self.avatars[eid]
 		for id,lis in self.outcards.items():
@@ -329,8 +329,8 @@ class Room(KBEngine.Entity):
 		DEBUG_MSG('Room::onLeaverealy space[%d] entityID = %i.' %
 		          (self.spaceID, entityID))
 		if entityID in self.avatars:
-			self.leaveAvatarHP=self.avatars[entityID].HP
-			del self.avatars[entityID]
+			#self.leaveAvatarHP=self.avatars[entityID].HP
+			self.avatars[entityID].holds=[]
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
 			if seat.userId == entityID:
@@ -341,8 +341,13 @@ class Room(KBEngine.Entity):
 		#if len(self.avatars) == 1 and self.timeout >=0 and self.flee==0:
 		if(self.state=="playing"):
 			self.gameOver()
+			self.state=="idle"
 		if len(self.avatars) == 0:
 			self.destroy()
+		if entityID in self.avatars:
+			del self.avatars[entityID]
+		#KBEngine.globalData["Halls"].onAvatarLeaverealy(self.roomKey)
+		#KBEngine.globalData["Halls"].leaveRoom(entityID, self.roomKeyC)
 
 ######################################
 	def quick_chat(self,eid,idx):
@@ -503,7 +508,6 @@ class Room(KBEngine.Entity):
 				return
 		self.startGame()
 	#############
-
 	def addReadyPlayerCount(self, count, avatar):
 		#self.readyPlayerCount += count
 		for i in range(len(self.roomInfo.seats)):

@@ -57,7 +57,6 @@ class PrivateRoom(KBEngine.Entity):
 		#KBEngine.addSpaceGeometryMapping(self.spaceID, None, "changmap") 告诉客户端切换地图
 		DEBUG_MSG("privateRoom:KBEngine.addSpaceGeometryMapping")
 		##############################
-
 	def onDestroy(self):
 		"""
 		KBEngine method.
@@ -267,7 +266,7 @@ class PrivateRoom(KBEngine.Entity):
 		self.curSecond=30
 		#self.sendcards=[]
 		
-	def onsureact(self,eid):
+	def onsureact(self,eid,strs):
 		DEBUG_MSG("onsureact id= %i %s " % (eid,strs))
 		entity=self.avatars[eid]
 		for id,lis in self.outcards.items():
@@ -331,8 +330,8 @@ class PrivateRoom(KBEngine.Entity):
 		DEBUG_MSG('Room::onLeaverealy space[%d] entityID = %i.' %
 		          (self.spaceID, entityID))
 		if entityID in self.avatars:
-			self.leaveAvatarHP=self.avatars[entityID].HP
-			del self.avatars[entityID]
+			#self.leaveAvatarHP=self.avatars[entityID].HP
+			self.avatars[entityID].holds=[]
 		for i in range(len(self.roomInfo.seats)):
 			seat = self.roomInfo.seats[i]
 			if seat.userId == entityID:
@@ -342,8 +341,13 @@ class PrivateRoom(KBEngine.Entity):
 				break
 		if(self.state=="playing"):
 			self.gameOver()
+			self.state=="idle"
 		if len(self.avatars) == 0:
 			self.destroy()
+		if entityID in self.avatars:
+			#self.leaveAvatarHP=self.avatars[entityID].HP
+			del self.avatars[entityID]
+		#KBEngine.globalData["Halls"].onAvatarLeaverealy(self.roomKey)
 
 ######################################
 	def quick_chat(self,eid,idx):

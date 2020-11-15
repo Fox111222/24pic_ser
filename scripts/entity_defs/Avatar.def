@@ -144,16 +144,22 @@
 			<Arg>		ENTITY_ID		</Arg>
 			<Arg>		UNICODE		</Arg>
 		</onsyncsureact>
+		<onclientMSG>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</onclientMSG>		
 	</ClientMethods>
 
 	<BaseMethods>
 		<createCell>
 			<Arg>	ENTITYCALL </Arg>
 		</createCell>
-
 		<joinRoom>
 			<Exposed/>
 		</joinRoom>
+		<updateStaus>
+			<Exposed/>
+		</updateStaus>
 		<createPrivateRoom>
 			<Exposed/>
 		</createPrivateRoom>
@@ -176,6 +182,9 @@
 		</updateStaus>
 		<onClientDeath>
 		</onClientDeath>
+		<leaverequest>
+			<Exposed/>
+		</leaverequest>
 		<onsureact>
 			<Exposed/>
 			<Arg>	UNICODE 	</Arg>

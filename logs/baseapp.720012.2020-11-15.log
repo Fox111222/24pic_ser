@@ -1,0 +1,234 @@
+  INFO root [0x00002990] [2020-11-15 18:49:24,525] - 
+  INFO root [0x00002990] [2020-11-15 18:49:24,526] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002990] [2020-11-15 18:49:24,527] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00002990] [2020-11-15 18:49:24,527] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00002990] [2020-11-15 18:49:24,527] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00002990] [2020-11-15 18:49:24,532] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20015 )
+  INFO root [0x00002990] [2020-11-15 18:49:24,533] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20015, SOMAXCONN=128.
+  INFO root [0x00002990] [2020-11-15 18:49:24,536] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:49869 )
+  INFO root [0x00002990] [2020-11-15 18:49:24,537] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:49869, SOMAXCONN=128.
+  INFO root [0x00002990] [2020-11-15 18:49:24,537] - server-configs:
+  INFO root [0x00002990] [2020-11-15 18:49:24,537] - 	gameUpdateHertz : 30
+  INFO root [0x00002990] [2020-11-15 18:49:24,537] - 	entryScriptFile : kbemain
+  INFO root [0x00002990] [2020-11-15 18:49:24,538] - 	internalAddr : 192.168.2.246:49869
+  INFO root [0x00002990] [2020-11-15 18:49:24,538] - 	externalAddr : 192.168.2.246:20015
+  INFO root [0x00002990] [2020-11-15 18:49:24,538] - 	componentID : 720012
+  INFO root [0x00002990] [2020-11-15 18:49:24,771] - Components::findLogger: found logger, addr:192.168.2.246:49849
+  INFO root [0x00002990] [2020-11-15 18:49:24,771] - Components::addComponent: reset orderLog, uid=32168!
+  INFO root [0x00002990] [2020-11-15 18:49:24,772] - Components::addComponent[logger], uid=32168, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002990] [2020-11-15 18:49:24,777] - ---- baseapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84173EFF21DE506F3117154D4C51407C. Config: Debug X86. Built: 19:02:14 Aug  4 2020. AppID: 720012. UID: 32168. PID: 6756 ----
+  INFO root [0x00002990] [2020-11-15 18:49:24,777] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00002990] [2020-11-15 18:49:24,778] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002990] [2020-11-15 18:49:24,778] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,925] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,926] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,926] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,930] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,931] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,931] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,932] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002990] [2020-11-15 18:49:24,981] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002990] [2020-11-15 18:49:25,031] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00002990] [2020-11-15 18:49:25,032] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002990] [2020-11-15 18:49:25,194] - loaded script:Avatar(1).
+ DEBUG root [0x00002990] [2020-11-15 18:49:25,279] - loaded script:Halls(2).
+ DEBUG root [0x00002990] [2020-11-15 18:49:25,290] - loaded script:Room(3).
+ DEBUG root [0x00002990] [2020-11-15 18:49:25,325] - loaded script:PrivateRoom(4).
+  INFO root [0x00002990] [2020-11-15 18:49:25,325] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00002990] [2020-11-15 18:49:25,326] - TelnetServer server is running on port 40000
+  INFO root [0x00002990] [2020-11-15 18:49:25,674] - ---- baseapp is running ----
+ DEBUG root [0x00002990] [2020-11-15 18:49:25,674] - Components::process(): Request for the process of identity...
+  WARN root [0x00002990] [2020-11-15 18:49:31,941] - Forwarding logs to logger[192.168.2.246:49849/0/0/0]...
+ ERROR root [0x00002990] [2020-11-15 19:25:29,804] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002990] [2020-11-15 19:25:29,806] - The following logs sent to logger failed:
+  WARN root [0x00002990] [2020-11-15 19:25:29,807] - ==> [2020-11-15 19:25:29 804] TCPPacketReceiver::processPendingEvents(192.168.2.246:49849): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002990] [2020-11-15 19:25:29,807] - ==> [2020-11-15 19:25:29 805] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00002990] [2020-11-15 19:25:29,861] - TCPPacketReceiver::processPendingEvents(192.168.2.246:49851): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002990] [2020-11-15 19:25:29,862] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00002990] [2020-11-15 19:25:29,864] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00002990] [2020-11-15 19:25:29,865] - onBaseAppShutDown: state=0
+  INFO root [0x00002990] [2020-11-15 19:25:29,865] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00002990] [2020-11-15 19:25:29,865] - onBaseAppShutDown: state=1
+  INFO root [0x00002990] [2020-11-15 19:25:29,865] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00002990] [2020-11-15 19:25:29,866] - onBaseAppShutDown: state=2
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,879] - Halls::~Halls(): 1
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,879] - Room::~Room(): 3
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,880] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,880] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,880] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,881] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,881] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,881] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,881] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,881] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002990] [2020-11-15 19:25:29,905] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002990] [2020-11-15 19:25:29,905] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00000634] [2020-11-15 19:31:41,398] - 
+  INFO root [0x00000634] [2020-11-15 19:31:41,398] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000634] [2020-11-15 19:31:41,399] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00000634] [2020-11-15 19:31:41,399] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00000634] [2020-11-15 19:31:41,399] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00000634] [2020-11-15 19:31:41,404] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20015 )
+  INFO root [0x00000634] [2020-11-15 19:31:41,404] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20015, SOMAXCONN=128.
+  INFO root [0x00000634] [2020-11-15 19:31:41,409] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50605 )
+  INFO root [0x00000634] [2020-11-15 19:31:41,410] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50605, SOMAXCONN=128.
+  INFO root [0x00000634] [2020-11-15 19:31:41,410] - server-configs:
+  INFO root [0x00000634] [2020-11-15 19:31:41,410] - 	gameUpdateHertz : 30
+  INFO root [0x00000634] [2020-11-15 19:31:41,411] - 	entryScriptFile : kbemain
+  INFO root [0x00000634] [2020-11-15 19:31:41,411] - 	internalAddr : 192.168.2.246:50605
+  INFO root [0x00000634] [2020-11-15 19:31:41,411] - 	externalAddr : 192.168.2.246:20015
+  INFO root [0x00000634] [2020-11-15 19:31:41,411] - 	componentID : 720012
+  INFO root [0x00000634] [2020-11-15 19:31:43,042] - ---- baseapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84173EFF21DE506F3117154D4C51407C. Config: Debug X86. Built: 19:02:14 Aug  4 2020. AppID: 720012. UID: 7825. PID: 13488 ----
+  INFO root [0x00000634] [2020-11-15 19:31:43,042] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00000634] [2020-11-15 19:31:43,043] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000634] [2020-11-15 19:31:43,044] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,174] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,174] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,175] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,177] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,178] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,178] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,179] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,215] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000634] [2020-11-15 19:31:43,255] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00000634] [2020-11-15 19:31:43,256] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,289] - loaded script:Avatar(1).
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,299] - loaded script:Halls(2).
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,300] - loaded script:Room(3).
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,301] - loaded script:PrivateRoom(4).
+  INFO root [0x00000634] [2020-11-15 19:31:43,301] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000634] [2020-11-15 19:31:43,302] - TelnetServer server is running on port 40000
+  INFO root [0x00000634] [2020-11-15 19:31:43,552] - ---- baseapp is running ----
+ DEBUG root [0x00000634] [2020-11-15 19:31:43,553] - Components::process(): Request for the process of identity...
+  WARN root [0x00000634] [2020-11-15 19:31:49,705] - EntityApp::checkTickPeriod: tick took 18642% (18.64 seconds)!
+  INFO root [0x00000634] [2020-11-15 19:31:50,754] - Components::findComponents: find logger(1)...
+  WARN root [0x00000634] [2020-11-15 19:31:50,809] - Components::findComponents: msg.componentID 42002 != 720012.
+  INFO root [0x00000634] [2020-11-15 19:31:50,827] - Components::findComponents: found logger, addr:192.168.2.246:50607
+  INFO root [0x00000634] [2020-11-15 19:31:50,828] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [0x00000634] [2020-11-15 19:31:50,828] - Components::addComponent[logger], uid=7825, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000634] [2020-11-15 19:31:50,831] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00000634] [2020-11-15 19:31:50,946] - Components::findComponents: found logger, addr:192.168.2.246:50607
+  INFO root [0x00000634] [2020-11-15 19:31:50,953] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  INFO root [0x00000634] [2020-11-15 19:31:50,953] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [0x00000634] [2020-11-15 19:31:50,953] - Components::addComponent[dbmgr], uid=7825, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000634] [2020-11-15 19:31:50,954] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  WARN root [0x00000634] [2020-11-15 19:31:51,954] - EntityApp::checkTickPeriod: tick took 3739% (3.74 seconds)!
+  WARN root [0x00000634] [2020-11-15 19:31:51,955] - Forwarding logs to logger[192.168.2.246:50607/0/0/0]...
+ ERROR root [0x00000634] [2020-11-15 20:23:15,057] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00000634] [2020-11-15 20:23:15,062] - The following logs sent to logger failed:
+  WARN root [0x00000634] [2020-11-15 20:23:15,063] - ==> [2020-11-15 20:23:15 054] TCPPacketReceiver::processPendingEvents(192.168.2.246:50607): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000634] [2020-11-15 20:23:15,064] - ==> [2020-11-15 20:23:15 061] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00000634] [2020-11-15 20:23:15,124] - TCPPacketReceiver::processPendingEvents(192.168.2.246:50600): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000634] [2020-11-15 20:23:15,125] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00000634] [2020-11-15 20:23:15,131] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00000634] [2020-11-15 20:23:15,133] - onBaseAppShutDown: state=0
+  INFO root [0x00000634] [2020-11-15 20:23:15,133] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00000634] [2020-11-15 20:23:15,134] - onBaseAppShutDown: state=1
+  INFO root [0x00000634] [2020-11-15 20:23:15,134] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00000634] [2020-11-15 20:23:15,134] - onBaseAppShutDown: state=2
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,151] - Avatar::~Avatar(): 10011
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,151] - PrivateRoom::~PrivateRoom(): 10010
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,151] - Halls::~Halls(): 10001
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,152] - Room::~Room(): 10003
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,156] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,156] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,156] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,157] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,157] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,157] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,157] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,157] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000634] [2020-11-15 20:23:15,180] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000634] [2020-11-15 20:23:15,181] - ThreadPool::destroy(): starting size 2.
+  INFO root [0x00000708] [2020-11-15 20:23:20,063] - 
+  INFO root [0x00000708] [2020-11-15 20:23:20,065] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000708] [2020-11-15 20:23:20,072] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [0x00000708] [2020-11-15 20:23:20,072] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [0x00000708] [2020-11-15 20:23:20,072] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [0x00000708] [2020-11-15 20:23:20,078] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:20015 )
+  INFO root [0x00000708] [2020-11-15 20:23:20,078] - NetworkInterface::initialize(EXTERNAL): address 192.168.2.246:20015, SOMAXCONN=128.
+  INFO root [0x00000708] [2020-11-15 20:23:20,086] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51717 )
+  INFO root [0x00000708] [2020-11-15 20:23:20,088] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51717, SOMAXCONN=128.
+  INFO root [0x00000708] [2020-11-15 20:23:20,088] - server-configs:
+  INFO root [0x00000708] [2020-11-15 20:23:20,088] - 	gameUpdateHertz : 30
+  INFO root [0x00000708] [2020-11-15 20:23:20,090] - 	entryScriptFile : kbemain
+  INFO root [0x00000708] [2020-11-15 20:23:20,090] - 	internalAddr : 192.168.2.246:51717
+  INFO root [0x00000708] [2020-11-15 20:23:20,090] - 	externalAddr : 192.168.2.246:20015
+  INFO root [0x00000708] [2020-11-15 20:23:20,090] - 	componentID : 720012
+  INFO root [0x00000708] [2020-11-15 20:23:21,814] - ---- baseapp Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 84173EFF21DE506F3117154D4C51407C. Config: Debug X86. Built: 19:02:14 Aug  4 2020. AppID: 720012. UID: 17945. PID: 15424 ----
+  INFO root [0x00000708] [2020-11-15 20:23:21,815] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [0x00000708] [2020-11-15 20:23:21,816] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000708] [2020-11-15 20:23:21,817] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,955] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,955] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,955] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,958] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,959] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,959] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000708] [2020-11-15 20:23:21,960] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,007] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000708] [2020-11-15 20:23:22,038] - Script::install(): is successfully, Python=(3.4.2 (default, Aug  4 2020, 19:01:54) [MSC v.1925 32 bit (Intel)])!
+  INFO root [0x00000708] [2020-11-15 20:23:22,038] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,085] - loaded script:Avatar(1).
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,097] - loaded script:Halls(2).
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,100] - loaded script:Room(3).
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,101] - loaded script:PrivateRoom(4).
+  INFO root [0x00000708] [2020-11-15 20:23:22,102] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000708] [2020-11-15 20:23:22,102] - TelnetServer server is running on port 40000
+  INFO root [0x00000708] [2020-11-15 20:23:22,372] - ---- baseapp is running ----
+ DEBUG root [0x00000708] [2020-11-15 20:23:22,372] - Components::process(): Request for the process of identity...
+  WARN root [0x00000708] [2020-11-15 20:23:28,537] - EntityApp::checkTickPeriod: tick took 18681% (18.68 seconds)!
+  INFO root [0x00000708] [2020-11-15 20:23:29,572] - Components::findComponents: find logger(1)...
+  INFO root [0x00000708] [2020-11-15 20:23:29,648] - Components::findComponents: found logger, addr:192.168.2.246:51713
+  INFO root [0x00000708] [2020-11-15 20:23:29,649] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [0x00000708] [2020-11-15 20:23:29,649] - Components::addComponent[logger], uid=17945, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000708] [2020-11-15 20:23:29,650] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00000708] [2020-11-15 20:23:29,753] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  INFO root [0x00000708] [2020-11-15 20:23:29,753] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [0x00000708] [2020-11-15 20:23:29,753] - Components::addComponent[dbmgr], uid=17945, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000708] [2020-11-15 20:23:29,753] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  WARN root [0x00000708] [2020-11-15 20:23:30,753] - EntityApp::checkTickPeriod: tick took 3675% (3.67 seconds)!
+  WARN root [0x00000708] [2020-11-15 20:23:30,754] - Forwarding logs to logger[192.168.2.246:51713/0/0/0]...
+ ERROR root [0x00000708] [2020-11-15 20:25:12,726] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00000708] [2020-11-15 20:25:12,756] - The following logs sent to logger failed:
+  WARN root [0x00000708] [2020-11-15 20:25:12,758] - ==> [2020-11-15 20:25:12 723] TCPPacketReceiver::processPendingEvents(192.168.2.246:51713): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000708] [2020-11-15 20:25:12,758] - ==> [2020-11-15 20:25:12 727] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [0x00000708] [2020-11-15 20:25:12,821] - TCPPacketReceiver::processPendingEvents(192.168.2.246:51715): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000708] [2020-11-15 20:25:12,823] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [0x00000708] [2020-11-15 20:25:12,852] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00000708] [2020-11-15 20:25:12,874] - onBaseAppShutDown: state=0
+  INFO root [0x00000708] [2020-11-15 20:25:12,875] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00000708] [2020-11-15 20:25:12,875] - onBaseAppShutDown: state=1
+  INFO root [0x00000708] [2020-11-15 20:25:12,875] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00000708] [2020-11-15 20:25:12,875] - onBaseAppShutDown: state=2
+ ERROR root [0x00000708] [2020-11-15 20:25:12,896] - Avatar::onCellWriteToDBCompleted(10002): not found dbmgr!
+ ERROR root [0x00000708] [2020-11-15 20:25:12,900] - Entity::onDestroy: not found dbmgr!
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,902] - Avatar::~Avatar(): 10002
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,903] - Avatar::~Avatar(): 10004
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,903] - PrivateRoom::~PrivateRoom(): 10003
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,904] - Halls::~Halls(): 10001
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,906] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,908] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,908] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,908] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,909] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,909] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,909] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,910] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000708] [2020-11-15 20:25:12,929] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000708] [2020-11-15 20:25:12,929] - ThreadPool::destroy(): starting size 2.

@@ -1,0 +1,120 @@
+  INFO root [2020-11-15 18:49:15,300] - 
+  INFO root [2020-11-15 18:49:15,302] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 18:49:15,305] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 18:49:15,306] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 18:49:15,306] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 18:49:15,315] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:49865 )
+  INFO root [2020-11-15 18:49:15,316] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:49865, SOMAXCONN=5.
+  INFO root [2020-11-15 18:49:15,316] - server-configs:
+  INFO root [2020-11-15 18:49:15,316] - 	internalAddr : 192.168.2.246:49865
+  INFO root [2020-11-15 18:49:15,316] - 	componentID : 610002
+  INFO root [2020-11-15 18:49:15,386] - Components::findLogger: found logger, addr:192.168.2.246:49849
+  INFO root [2020-11-15 18:49:15,386] - Components::addComponent: reset orderLog, uid=32168!
+  INFO root [2020-11-15 18:49:15,387] - Components::addComponent[logger], uid=32168, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 18:49:15,393] - ---- cellappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 541DCC5D20E1D82D50391D5E0C094609. Config: Debug X86. Built: 19:01:32 Aug  4 2020. AppID: 610002. UID: 32168. PID: 9304 ----
+  INFO root [2020-11-15 18:49:15,394] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 18:49:15,394] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 18:49:15,394] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2020-11-15 18:49:15,774] - ---- cellappmgr is running ----
+ DEBUG root [2020-11-15 18:49:15,775] - Components::process(): Request for the process of identity...
+  WARN root [2020-11-15 18:49:21,997] - Forwarding logs to logger[192.168.2.246:49849/0/0/0]...
+ ERROR root [2020-11-15 19:25:29,805] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 19:25:29,807] - The following logs sent to logger failed:
+  WARN root [2020-11-15 19:25:29,807] - ==> [2020-11-15 19:25:29 804] TCPPacketReceiver::processPendingEvents(192.168.2.246:49849): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 19:25:29,807] - ==> [2020-11-15 19:25:29 806] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [2020-11-15 19:25:29,862] - TCPPacketReceiver::processPendingEvents(192.168.2.246:49851): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 19:25:29,864] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 19:25:29,870] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2020-11-15 19:25:29,870] - Shutdowner::onShutdown: shutting down
+  INFO root [2020-11-15 19:25:29,871] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2020-11-15 19:25:29,871] - ThreadPool::destroy(): starting size 2.
+  INFO root [2020-11-15 19:31:41,298] - 
+  INFO root [2020-11-15 19:31:41,298] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 19:31:41,299] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 19:31:41,299] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 19:31:41,299] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 19:31:41,302] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:50601 )
+  INFO root [2020-11-15 19:31:41,302] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:50601, SOMAXCONN=5.
+  INFO root [2020-11-15 19:31:41,302] - server-configs:
+  INFO root [2020-11-15 19:31:41,302] - 	internalAddr : 192.168.2.246:50601
+  INFO root [2020-11-15 19:31:41,302] - 	componentID : 610002
+  WARN root [2020-11-15 19:31:41,642] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20032, errorno=10048
+  INFO root [2020-11-15 19:31:41,646] - ---- cellappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 541DCC5D20E1D82D50391D5E0C094609. Config: Debug X86. Built: 19:01:32 Aug  4 2020. AppID: 610002. UID: 7825. PID: 3888 ----
+  INFO root [2020-11-15 19:31:41,646] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 19:31:41,647] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 19:31:41,647] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2020-11-15 19:31:41,965] - ---- cellappmgr is running ----
+ DEBUG root [2020-11-15 19:31:41,965] - Components::process(): Request for the process of identity...
+  WARN root [2020-11-15 19:31:45,402] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20330, errorno=10048
+  INFO root [2020-11-15 19:31:49,488] - Components::findComponents: find logger(1)...
+  INFO root [2020-11-15 19:31:49,515] - Components::findComponents: found logger, addr:192.168.2.246:50607
+  INFO root [2020-11-15 19:31:49,515] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [2020-11-15 19:31:49,515] - Components::addComponent[logger], uid=7825, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 19:31:49,516] - Components::findComponents: find dbmgr(2)...
+  INFO root [2020-11-15 19:31:49,620] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  INFO root [2020-11-15 19:31:49,620] - Components::addComponent: reset orderLog, uid=7825!
+  INFO root [2020-11-15 19:31:49,620] - Components::addComponent[dbmgr], uid=7825, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 19:31:49,620] - Components::findComponents: found dbmgr, addr:192.168.2.246:50600
+  WARN root [2020-11-15 19:31:50,621] - Forwarding logs to logger[192.168.2.246:50607/0/0/0]...
+ ERROR root [2020-11-15 20:23:15,059] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 20:23:15,069] - The following logs sent to logger failed:
+  WARN root [2020-11-15 20:23:15,071] - ==> [2020-11-15 20:23:15 053] TCPPacketReceiver::processPendingEvents(192.168.2.246:50607): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 20:23:15,071] - ==> [2020-11-15 20:23:15 064] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [2020-11-15 20:23:15,123] - TCPPacketReceiver::processPendingEvents(192.168.2.246:50600): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 20:23:15,125] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 20:23:15,130] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2020-11-15 20:23:15,131] - Shutdowner::onShutdown: shutting down
+  INFO root [2020-11-15 20:23:15,131] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2020-11-15 20:23:15,133] - ThreadPool::destroy(): starting size 2.
+  INFO root [2020-11-15 20:23:20,056] - 
+  INFO root [2020-11-15 20:23:20,057] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2020-11-15 20:23:20,059] - Resmgr::initialize: KBE_ROOT=D:/kbengine_24pic/
+  INFO root [2020-11-15 20:23:20,059] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine_24pic/kbe/res/;D:/kbengine_24pic/kbengine_stone_assets/;D:/kbengine_24pic/kbengine_stone_assets/scripts/;D:/kbengine_24pic/kbengine_stone_assets/res/
+  INFO root [2020-11-15 20:23:20,060] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine_24pic/kbe/bin/server/
+  INFO root [2020-11-15 20:23:20,068] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.2.246 ( 192.168.2.246:51716 )
+  INFO root [2020-11-15 20:23:20,068] - NetworkInterface::initialize(INTERNAL): address 192.168.2.246:51716, SOMAXCONN=5.
+  INFO root [2020-11-15 20:23:20,068] - server-configs:
+  INFO root [2020-11-15 20:23:20,068] - 	internalAddr : 192.168.2.246:51716
+  INFO root [2020-11-15 20:23:20,069] - 	componentID : 610002
+  INFO root [2020-11-15 20:23:21,573] - ---- cellappmgr Version: 1.2.7. ScriptVersion: 0.1.0. Protocol: 541DCC5D20E1D82D50391D5E0C094609. Config: Debug X86. Built: 19:01:32 Aug  4 2020. AppID: 610002. UID: 17945. PID: 10992 ----
+  INFO root [2020-11-15 20:23:21,574] - Server : Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz with 2097151kB RAM
+  INFO root [2020-11-15 20:23:21,574] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2020-11-15 20:23:21,575] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2020-11-15 20:23:21,848] - ---- cellappmgr is running ----
+ DEBUG root [2020-11-15 20:23:21,848] - Components::process(): Request for the process of identity...
+  INFO root [2020-11-15 20:23:29,056] - Components::findComponents: find logger(1)...
+  INFO root [2020-11-15 20:23:29,104] - Components::findComponents: found logger, addr:192.168.2.246:51713
+  INFO root [2020-11-15 20:23:29,104] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [2020-11-15 20:23:29,105] - Components::addComponent[logger], uid=17945, componentID=210002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 20:23:29,106] - Components::findComponents: find dbmgr(2)...
+  INFO root [2020-11-15 20:23:29,110] - Components::findComponents: found logger, addr:192.168.2.246:51713
+  INFO root [2020-11-15 20:23:29,112] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  INFO root [2020-11-15 20:23:29,112] - Components::addComponent: reset orderLog, uid=17945!
+  INFO root [2020-11-15 20:23:29,112] - Components::addComponent[dbmgr], uid=17945, componentID=42002, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2020-11-15 20:23:29,215] - Components::findComponents: found dbmgr, addr:192.168.2.246:51715
+  WARN root [2020-11-15 20:23:30,217] - Forwarding logs to logger[192.168.2.246:51713/0/0/0]...
+ ERROR root [2020-11-15 20:25:12,724] - Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 20:25:12,728] - The following logs sent to logger failed:
+  WARN root [2020-11-15 20:25:12,729] - ==> [2020-11-15 20:25:12 721] TCPPacketReceiver::processPendingEvents(192.168.2.246:51713): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 20:25:12,729] - ==> [2020-11-15 20:25:12 726] Components::removeComponentByChannel: logger : 210002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  WARN root [2020-11-15 20:25:12,819] - TCPPacketReceiver::processPendingEvents(192.168.2.246:51715): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2020-11-15 20:25:12,819] - Components::removeComponentByChannel: dbmgr : 42002, Abnormal exit! TCPPacketReceiver::processRecv(): errno=10054
+
+  INFO root [2020-11-15 20:25:12,856] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2020-11-15 20:25:12,879] - Shutdowner::onShutdown: shutting down
+  INFO root [2020-11-15 20:25:12,879] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2020-11-15 20:25:12,880] - ThreadPool::destroy(): starting size 2.

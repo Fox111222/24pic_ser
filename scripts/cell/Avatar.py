@@ -43,15 +43,26 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		room = self.getCurrRoom()
 		if room:
 			room.iptChat(self.id,strstr)
+	#########################
+	def leaverequest(self,exposed):
+		DEBUG_MSG("avatar leaverequest")
+		if exposed != self.id:
+			return
+		room = self.getCurrRoom()
+		if room:
+			room.onLeaverealy(self.id)
+		self.destroy()
+
 	########################
-	def onsureact(self, exposed,strs):
-		DEBUG_MSG("onsureact%i %s" % (self.id,strs))
+	def onsureact(self,exposed,res):
+		#DEBUG_MSG("onsureact%i %s" % (self.id, res))
 		if exposed != self.id:
 			return
 		room = self.getCurrRoom()
 		self.HP=self.HP+1;       #算成功一次
 		if room:
-			room.onsureact(self.id,strs)
+			myid=self.id
+			room.onsureact(myid,res)
 	def game_holds_push(self,holds):
 		self.holds = holds
 		if self.client:
@@ -112,7 +123,6 @@ class Avatar(KBEngine.Entity, EntityCommon):
 		"""
 		DEBUG_MSG("Avatar::onDestroy: %i." % self.id)
 		room = self.getCurrRoom()
-		
 		if room:
 			room.onLeaverealy(self.id)
 
